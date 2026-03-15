@@ -17,6 +17,7 @@ interface UnifiedEvent {
   rank: string;
   deckName: string;
   deckUrl: string | null;
+  tournamentUrl: string | null;
   source: "elo" | "melee" | "both";
 }
 
@@ -90,6 +91,7 @@ for (const event of eloEvents) {
       rank: meleeMatch.Rank > 0 ? `#${meleeMatch.Rank}` : "",
       deckName: meleeMatch.DecklistName && meleeMatch.DecklistName !== "Decklist" ? meleeMatch.DecklistName : "",
       deckUrl: deckUrl(meleeMatch),
+      tournamentUrl: `https://melee.gg/Tournament/View/${meleeMatch.TournamentId}`,
       source: "both",
     });
   } else {
@@ -101,6 +103,7 @@ for (const event of eloEvents) {
       rank: "",
       deckName: "",
       deckUrl: null,
+      tournamentUrl: event.code ? `https://mtgeloproject.net/events/${event.code}` : null,
       source: "elo",
     });
   }
@@ -117,6 +120,7 @@ for (const [key, r] of meleeByKey) {
     rank: r.Rank > 0 ? `#${r.Rank}` : "",
     deckName: r.DecklistName && r.DecklistName !== "Decklist" ? r.DecklistName : "",
     deckUrl: deckUrl(r),
+    tournamentUrl: `https://melee.gg/Tournament/View/${r.TournamentId}`,
     source: "melee",
   });
 }
@@ -129,7 +133,11 @@ unified.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     {unified.map((event) => (
       <li class="event">
         <div class="event-main">
-          <span class="event-name">{simplifyName(event.name)}, {formatDate(event.date)}</span>
+          {event.tournamentUrl ? (
+            <a href={event.tournamentUrl} target="_blank" rel="noopener noreferrer" class="event-name event-link">{simplifyName(event.name)}, {formatDate(event.date)}</a>
+          ) : (
+            <span class="event-name">{simplifyName(event.name)}, {formatDate(event.date)}</span>
+          )}
         </div>
         <div class="event-details">
           {event.record && <span><span class="label">Record</span> {event.record}</span>}
@@ -173,6 +181,16 @@ unified.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     font-family: var(--font-display);
     font-size: 1.05rem;
     line-height: 1.3;
+  }
+
+  .event-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .event-link:hover {
+    color: var(--color-accent);
   }
 
   .event-details {
