@@ -1,0 +1,197 @@
+:root {
+  --color-bg: #1a1a2e;
+  --color-surface: #222240;
+  --color-surface-hover: #2a2a50;
+  --color-text: #e0e0e0;
+  --color-text-muted: #9090a0;
+  --color-accent: #c9a84c;
+  --color-accent-hover: #dfc06a;
+  --color-link: #7eb8da;
+
+  --font-body: system-ui, -apple-system, sans-serif;
+  --font-heading: "Georgia", serif;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  --max-width: 1100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-md);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--color-accent);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-sm);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-xs) var(--space-md);
+}
+
+dt {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-md);
+  padding: var(--space-lg) 0;
+}
+
+.player-card {
+  display: block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-accent);
+  border-radius: 8px;
+  padding: var(--space-md);
+  transition: background 0.2s;
+}
+
+.player-card:hover {
+  background: var(--color-surface-hover);
+  text-decoration: none;
+}
+
+.player-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+}
+
+.player-card .location {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.player-card .handle {
+  color: var(--color-link);
+  font-size: 0.85rem;
+  margin-top: var(--space-xs);
+}
+
+.external-link {
+  display: inline-block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-accent);
+  border-radius: 6px;
+  padding: var(--space-sm) var(--space-md);
+  margin-right: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  transition: background 0.2s;
+}
+
+.external-link:hover {
+  background: var(--color-surface-hover);
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero .tagline {
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+  margin-bottom: var(--space-md);
+}
+
+.hero .stat {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-lg);
+}
+
+.cta {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.cta:hover {
+  background: var(--color-accent-hover);
+  text-decoration: none;
+}
+
+.player-profile section {
+  margin: var(--space-lg) 0;
+}
+
+.elo-summary dl {
+  max-width: 400px;
+}
+
+.rating-value {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.no-data {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: var(--space-lg);
+  color: var(--color-text-muted);
+}

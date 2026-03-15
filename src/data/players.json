@@ -1,0 +1,202 @@
+[
+  {
+    "id": "edgar-baumler",
+    "name": "Edgar Baumler",
+    "location": "Norway",
+    "country": "NO",
+    "mtgo": "EdgarB",
+    "mtga": null,
+    "meleegg": "EdgarB",
+    "mtgelo": "kyrvj5j9"
+  },
+  {
+    "id": "dawid-florczyk",
+    "name": "Dawid Florczyk",
+    "location": "Oslo, Norway",
+    "country": "NO",
+    "mtgo": "dawido",
+    "mtga": "dawido#68529",
+    "meleegg": "dawido",
+    "mtgelo": "i9wmim8f"
+  },
+  {
+    "id": "matej-zatlkaj",
+    "name": "Matej Zatlkaj",
+    "location": "Bratislava, Slovakia",
+    "country": "SK",
+    "mtgo": "Wampo, BigZ",
+    "mtga": "BigZ#94031",
+    "meleegg": "BigZ",
+    "mtgelo": "bh0bcjhr"
+  },
+  {
+    "id": "patrik-szmatana",
+    "name": "Patrik Szmatana",
+    "location": "Bratislava, Slovakia",
+    "country": "SK",
+    "mtgo": "rodixSK",
+    "mtga": "rodixSK#54159",
+    "meleegg": "rodixSK",
+    "mtgelo": "6waql16t"
+  },
+  {
+    "id": "immanuel-gerschenson",
+    "name": "Immanuel Gerschenson",
+    "location": "Germany/Austria",
+    "country": "AT",
+    "mtgo": "Gerschi",
+    "mtga": "Gerschi",
+    "meleegg": "Gerschi",
+    "mtgelo": "0s2kwrza"
+  },
+  {
+    "id": "matus-lamacka",
+    "name": "Mat\u00fa\u0161 Lama\u010dka",
+    "location": "Bratislava, Slovakia",
+    "country": "SK",
+    "mtgo": null,
+    "mtga": "Tharwain#00530",
+    "meleegg": null,
+    "mtgelo": "hfcqqrt3"
+  },
+  {
+    "id": "kacper-sznajder",
+    "name": "Kacper Sznajder",
+    "location": "Krak\u00f3w, Poland",
+    "country": "PL",
+    "mtgo": "nekropolisz",
+    "mtga": "nekropolisz#17815",
+    "meleegg": "ksznajder",
+    "mtgelo": "doq0e3ln"
+  },
+  {
+    "id": "hannes-brandstetter",
+    "name": "Hannes Brandstetter",
+    "location": "Amstetten, Austria",
+    "country": "AT",
+    "mtgo": "brandi96",
+    "mtga": "brandi96#00109",
+    "meleegg": "Brandi96",
+    "mtgelo": "1lfm7th7"
+  },
+  {
+    "id": "jakub-sznajder",
+    "name": "Jakub Sznajder",
+    "location": "Krak\u00f3w, Poland",
+    "country": "PL",
+    "mtgo": "Melicard",
+    "mtga": "Melicard#67137",
+    "meleegg": "Melicard",
+    "mtgelo": "rxcm2fn4"
+  },
+  {
+    "id": "alberto-galicia",
+    "name": "Alberto Galicia",
+    "location": "Barbastro, Spain",
+    "country": "ES",
+    "mtgo": "albert62",
+    "mtga": null,
+    "meleegg": "albert62",
+    "mtgelo": "vn1dn8dn"
+  },
+  {
+    "id": "thirawat-chaovarindr",
+    "name": "Thirawat Chaovarindr",
+    "location": "Bangkok, Thailand",
+    "country": "TH",
+    "mtgo": "Guyver1",
+    "mtga": "juomaru#57897",
+    "meleegg": "juomaru",
+    "mtgelo": "3l0vbst8"
+  },
+  {
+    "id": "joshua-bausch",
+    "name": "Joshua Bausch",
+    "location": "Frankfurt am Main, Germany",
+    "country": "DE",
+    "mtgo": "Valorj",
+    "mtga": "Valorj#02971",
+    "meleegg": "Valorj",
+    "mtgelo": "zlbf6rkz"
+  },
+  {
+    "id": "przemyslaw-olszewski",
+    "name": "Przemys\u0142aw Olszewski",
+    "location": "Warsaw, Poland",
+    "country": "PL",
+    "mtgo": "WrzoBuSeks",
+    "mtga": "WrzoBuSeks#40921",
+    "meleegg": "WrzoBuSeks",
+    "mtgelo": "dup2r92x"
+  },
+  {
+    "id": "alexander-rosdahl",
+    "name": "Alexander Rosdahl",
+    "location": "Malm\u00f6, Sweden",
+    "country": "SE",
+    "mtgo": "AlexanderRosdahl",
+    "mtga": "AlexanderRosdahl#16121",
+    "meleegg": "AlexanderRosdahl",
+    "mtgelo": "mhv694el"
+  },
+  {
+    "id": "winston-chamora",
+    "name": "Winston Chamora",
+    "location": "Surabaya, Indonesia",
+    "country": "ID",
+    "mtgo": "MTGHolic",
+    "mtga": "mtgholic#01143",
+    "meleegg": "MTGHolic",
+    "mtgelo": "7257flbo"
+  },
+  {
+    "id": "bartosz-wojciechowski",
+    "name": "Bartosz Wojciechowski",
+    "location": "Cracow, Poland",
+    "country": "PL",
+    "mtgo": "barczek",
+    "mtga": "barczek#59444",
+    "meleegg": "barczek",
+    "mtgelo": "0m7xm44e"
+  },
+  {
+    "id": "adrian-alvarez-vega",
+    "name": "Adri\u00e1n \u00c1lvarez Vega",
+    "location": "Madrid, Spain",
+    "country": "ES",
+    "mtgo": "Jenara19",
+    "mtga": "Jenara19#24582",
+    "meleegg": "Jenara19",
+    "mtgelo": "g932eb57"
+  },
+  {
+    "id": "krzysztof-nowicki",
+    "name": "Krzysztof Nowicki",
+    "location": "Cracow, Poland",
+    "country": "PL",
+    "mtgo": "Sikrana",
+    "mtga": "Sikrana#61978",
+    "meleegg": "Sikrana",
+    "mtgelo": "8tge072j"
+  },
+  {
+    "id": "oscar-jorstedt",
+    "name": "Oscar Mattias Jorstedt",
+    "location": "Gothenburg, Sweden",
+    "country": "SE",
+    "mtgo": "Matjo",
+    "mtga": "Matjo#27231",
+    "meleegg": "Matjo",
+    "mtgelo": "p1vxe78h"
+  },
+  {
+    "id": "andreas-nordahl",
+    "name": "Andreas Nordahl",
+    "location": "Oslo, Norway",
+    "country": "NO",
+    "mtgo": "nordahl",
+    "mtga": "nordahl#88204",
+    "meleegg": "andnorda",
+    "mtgelo": "4jtx5639"
+  }
+]

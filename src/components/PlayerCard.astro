@@ -1,0 +1,33 @@
+---
+interface Props {
+  player: {
+    id: string;
+    data: {
+      name: string;
+      location: string;
+      mtgo: string | null;
+      mtga: string | null;
+    };
+  };
+  rating?: number | null;
+}
+
+const { player, rating } = Astro.props;
+const handle = player.data.mtgo || player.data.mtga || "";
+---
+
+<a href={`/team/${player.id}/`} class="player-card">
+  <h3>{player.data.name}</h3>
+  <p class="location">{player.data.location}</p>
+  {handle && <p class="handle">{handle}</p>}
+  {rating && <p class="rating">Elo: {Math.round(rating)}</p>}
+</a>
+
+<style>
+  .rating {
+    color: var(--color-accent);
+    font-size: 0.85rem;
+    margin-top: var(--space-xs);
+    font-weight: 600;
+  }
+</style>

@@ -1,0 +1,15 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const players = await getCollection("players");
+---
+
+<Base title="Home">
+  <section class="hero">
+    <h1>On The Draw</h1>
+    <p class="tagline">Competitive Magic: The Gathering</p>
+    <p class="stat">{players.length} players across Europe and Asia</p>
+    <a href="/team/" class="cta">Meet the Team</a>
+  </section>
+</Base>

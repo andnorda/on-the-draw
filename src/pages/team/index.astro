@@ -1,0 +1,21 @@
+---
+import Base from "../../layouts/Base.astro";
+import PlayerCard from "../../components/PlayerCard.astro";
+import { getCollection } from "astro:content";
+import { fetchTeamRatings } from "../../lib/api/player-data";
+
+const players = await getCollection("players");
+const sorted = players.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const ratings = await fetchTeamRatings(
+  sorted.map((p) => ({ id: p.id, mtgelo: p.data.mtgelo })),
+);
+---
+
+<Base title="Team Roster">
+  <h1>Team Roster</h1>
+  <div class="player-grid">
+    {sorted.map((player) => (
+      <PlayerCard player={player} rating={ratings.get(player.id) ?? null} />
+    ))}
+  </div>
+</Base>

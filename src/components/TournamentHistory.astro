@@ -1,0 +1,205 @@
+---
+import type { MtgEloEvent } from "../lib/api/mtgelo";
+import type { MeleeResult } from "../lib/api/meleegg";
+
+interface Props {
+  eloEvents: MtgEloEvent[];
+  meleeResults: MeleeResult[];
+}
+
+const { eloEvents, meleeResults } = Astro.props;
+
+interface UnifiedEvent {
+  name: string;
+  date: string;
+  format: string;
+  record: string;
+  rank: string;
+  deckName: string;
+  deckUrl: string | null;
+  playerCount: string;
+  source: "elo" | "melee" | "both";
+  tournamentUrl: string | null;
+}
+
+// Index melee results by normalized name + month for matching
+function normalizeForMatch(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/\d{4}/g, "")
+    .replace(/[^a-z ]/g, "")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function monthKey(dateStr: string): string {
+  const d = new Date(dateStr);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function deckUrl(r: MeleeResult): string | null {
+  if (r.DecklistGuid) return `https://melee.gg/Decklist/View/${r.DecklistGuid}`;
+  if (r.DecklistId) return `https://melee.gg/Decklist/View/${r.DecklistId}`;
+  return null;
+}
+
+const meleeByKey = new Map<string, MeleeResult>();
+for (const r of meleeResults) {
+  const key = `${normalizeForMatch(r.TournamentName)}|${monthKey(r.TournamentStartDate)}`;
+  meleeByKey.set(key, r);
+}
+
+const usedMeleeKeys = new Set<string>();
+const unified: UnifiedEvent[] = [];
+
+// Process elo events and try to match with melee
+for (const event of eloEvents) {
+  const key = `${normalizeForMatch(event.name)}|${monthKey(event.date)}`;
+  const meleeMatch = meleeByKey.get(key);
+
+  if (meleeMatch) {
+    usedMeleeKeys.add(key);
+    unified.push({
+      name: event.name,
+      date: event.date,
+      format: meleeMatch.FormatDescription || meleeMatch.Format || event.format || "—",
+      record: meleeMatch.Record !== "-" ? meleeMatch.Record : "—",
+      rank: meleeMatch.Rank > 0 ? `#${meleeMatch.Rank}` : "—",
+      deckName: meleeMatch.DecklistName && meleeMatch.DecklistName !== "Decklist" ? meleeMatch.DecklistName : "—",
+      deckUrl: deckUrl(meleeMatch),
+      playerCount: meleeMatch.ParticipatingCount > 0 ? String(meleeMatch.ParticipatingCount) : "—",
+      source: "both",
+      tournamentUrl: `https://melee.gg/Tournament/View/${meleeMatch.TournamentId}`,
+    });
+  } else {
+    unified.push({
+      name: event.name,
+      date: event.date,
+      format: event.format || "—",
+      record: "—",
+      rank: "—",
+      deckName: "—",
+      deckUrl: null,
+      playerCount: "—",
+      source: "elo",
+      tournamentUrl: event.site || null,
+    });
+  }
+}
+
+// Add remaining melee results not matched to elo events
+for (const [key, r] of meleeByKey) {
+  if (usedMeleeKeys.has(key)) continue;
+  const date = r.TournamentStartDate.split("T")[0];
+  unified.push({
+    name: r.TournamentName,
+    date,
+    format: r.FormatDescription || r.Format || "—",
+    record: r.Record !== "-" ? r.Record : "—",
+    rank: r.Rank > 0 ? `#${r.Rank}` : "—",
+    deckName: r.DecklistName && r.DecklistName !== "Decklist" ? r.DecklistName : "—",
+    deckUrl: deckUrl(r),
+    playerCount: r.ParticipatingCount > 0 ? String(r.ParticipatingCount) : "—",
+    source: "melee",
+    tournamentUrl: `https://melee.gg/Tournament/View/${r.TournamentId}`,
+  });
+}
+
+// Sort by date descending (most recent first)
+unified.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const hasData = unified.length > 0;
+---
+
+{hasData ? (
+  <div class="tournament-table-wrap">
+    <table class="tournament-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Tournament</th>
+          <th>Format</th>
+          <th>Record</th>
+          <th>Rank</th>
+          <th>Deck</th>
+          <th>Players</th>
+        </tr>
+      </thead>
+      <tbody>
+        {unified.map((event) => (
+          <tr>
+            <td class="date">{event.date}</td>
+            <td>
+              {event.tournamentUrl ? (
+                <a href={event.tournamentUrl} target="_blank" rel="noopener noreferrer">
+                  {event.name}
+                </a>
+              ) : (
+                event.name
+              )}
+            </td>
+            <td>{event.format}</td>
+            <td>{event.record}</td>
+            <td>{event.rank}</td>
+            <td>
+              {event.deckUrl ? (
+                <a href={event.deckUrl} target="_blank" rel="noopener noreferrer">
+                  {event.deckName}
+                </a>
+              ) : (
+                event.deckName
+              )}
+            </td>
+            <td>{event.playerCount}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+) : (
+  <p class="no-data">No tournament history available.</p>
+)}
+
+<style>
+  .tournament-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tournament-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  .tournament-table th {
+    text-align: left;
+    color: var(--color-accent);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    padding: var(--space-sm) var(--space-sm);
+    border-bottom: 2px solid var(--color-accent);
+    white-space: nowrap;
+  }
+
+  .tournament-table td {
+    padding: var(--space-sm);
+    border-bottom: 1px solid var(--color-surface);
+    vertical-align: top;
+  }
+
+  .tournament-table tr:hover td {
+    background: var(--color-surface);
+  }
+
+  .tournament-table .date {
+    white-space: nowrap;
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+  }
+
+  .no-data {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+</style>

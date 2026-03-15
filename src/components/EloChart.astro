@@ -1,0 +1,142 @@
+---
+import type { MtgEloEvent, MtgEloMatches } from "../lib/api/mtgelo";
+
+interface Props {
+  events: MtgEloEvent[];
+  matches: MtgEloMatches;
+}
+
+const { events, matches } = Astro.props;
+
+// Build data points: one per event, using the last match's ending Elo
+const sortedEvents = [...events].sort(
+  (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
+);
+
+const dataPoints = sortedEvents
+  .map((event) => {
+    const eventMatches = matches[event.code];
+    if (!eventMatches || eventMatches.length === 0) return null;
+    const lastMatch = eventMatches[eventMatches.length - 1];
+    return {
+      date: event.date,
+      name: event.name,
+      rating: Math.round(lastMatch.own_elo.end * 100) / 100,
+    };
+  })
+  .filter((d): d is NonNullable<typeof d> => d !== null);
+
+if (dataPoints.length < 2) return;
+
+const ratings = dataPoints.map((d) => d.rating);
+const minRating = Math.min(...ratings);
+const maxRating = Math.max(...ratings);
+const padding = 20;
+const range = maxRating - minRating || 1;
+
+const width = 800;
+const height = 200;
+const plotWidth = width - padding * 2;
+const plotHeight = height - padding * 2;
+
+const stepX = dataPoints.length > 1 ? plotWidth / (dataPoints.length - 1) : 0;
+
+const points = dataPoints
+  .map((d, i) => {
+    const x = padding + i * stepX;
+    const y = padding + plotHeight - ((d.rating - minRating) / range) * plotHeight;
+    return `${x},${y}`;
+  })
+  .join(" ");
+
+const minLabel = Math.floor(minRating);
+const maxLabel = Math.ceil(maxRating);
+---
+
+<div class="elo-chart">
+  <svg viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="none">
+    <text x={padding - 4} y={padding + 4} class="chart-label" text-anchor="end">
+      {maxLabel}
+    </text>
+    <text
+      x={padding - 4}
+      y={height - padding + 4}
+      class="chart-label"
+      text-anchor="end"
+    >
+      {minLabel}
+    </text>
+
+    <line
+      x1={padding}
+      y1={padding}
+      x2={padding}
+      y2={height - padding}
+      class="chart-axis"
+    />
+    <line
+      x1={padding}
+      y1={height - padding}
+      x2={width - padding}
+      y2={height - padding}
+      class="chart-axis"
+    />
+
+    <polyline points={points} class="chart-line" />
+
+    {dataPoints.map((d, i) => {
+      const x = padding + i * stepX;
+      const y =
+        padding + plotHeight - ((d.rating - minRating) / range) * plotHeight;
+      return (
+        <circle cx={x} cy={y} r="3" class="chart-dot">
+          <title>
+            {d.name}: {d.rating} ({d.date})
+          </title>
+        </circle>
+      );
+    })}
+  </svg>
+</div>
+
+<style>
+  .elo-chart {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .elo-chart svg {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 1;
+  }
+
+  .chart-line {
+    fill: none;
+    stroke: var(--color-accent);
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .chart-dot {
+    fill: var(--color-accent);
+    cursor: help;
+  }
+
+  .chart-dot:hover {
+    fill: var(--color-accent-hover);
+    r: 5;
+  }
+
+  .chart-axis {
+    stroke: var(--color-surface);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .chart-label {
+    fill: var(--color-text-muted);
+    font-size: 11px;
+    font-family: var(--font-body);
+  }
+</style>

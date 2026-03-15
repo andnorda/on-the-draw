@@ -1,0 +1,123 @@
+---
+import Base from "../../layouts/Base.astro";
+import ExternalLink from "../../components/ExternalLink.astro";
+import EloChart from "../../components/EloChart.astro";
+import TournamentHistory from "../../components/TournamentHistory.astro";
+import { getCollection } from "astro:content";
+import { fetchPlayerData } from "../../lib/api/player-data";
+
+export async function getStaticPaths() {
+  const players = await getCollection("players");
+  return players.map((player) => ({
+    params: { id: player.id },
+    props: { player },
+  }));
+}
+
+const { player } = Astro.props;
+const { name, location, mtgo, mtga, meleegg, mtgelo } = player.data;
+
+const tournamentData = await fetchPlayerData(mtgelo, meleegg);
+const profile = tournamentData.elo.profile;
+---
+
+<Base title={name}>
+  <article class="player-profile">
+    <h1>{name}</h1>
+    <p class="location" style="color: var(--color-text-muted); margin-bottom: var(--space-lg);">
+      {location}
+    </p>
+
+    {profile && (
+      <section class="elo-summary">
+        <h2>Rating & Record</h2>
+        <dl>
+          <dt>Elo Rating</dt>
+          <dd class="rating-value">{Math.round(profile.current_rating)}</dd>
+
+          <dt>Overall Record</dt>
+          <dd>{profile.record[0]}–{profile.record[1]}–{profile.record[2]}</dd>
+
+          {profile.pro_record[0] != null && (
+            <>
+              <dt>Pro Record</dt>
+              <dd>{profile.pro_record[0]}–{profile.pro_record[1]}–{profile.pro_record[2]}</dd>
+            </>
+          )}
+
+          {profile.ranking && (
+            <>
+              <dt>Ranking</dt>
+              <dd>#{profile.ranking} (active: #{profile.active_ranking})</dd>
+            </>
+          )}
+
+          {profile.nakamura_number != null && (
+            <>
+              <dt>Nakamura Number</dt>
+              <dd>{profile.nakamura_number}</dd>
+            </>
+          )}
+        </dl>
+      </section>
+    )}
+
+    {tournamentData.elo.events.length > 1 && (
+      <section>
+        <h2>Rating History</h2>
+        <EloChart
+          events={tournamentData.elo.events}
+          matches={tournamentData.elo.matches}
+        />
+      </section>
+    )}
+
+    <section>
+      <h2>Tournament History</h2>
+      <TournamentHistory
+        eloEvents={tournamentData.elo.events}
+        meleeResults={tournamentData.melee}
+      />
+    </section>
+
+    <section>
+      <h2>Online Profiles</h2>
+      <dl>
+        {mtgo && (
+          <>
+            <dt>MTGO</dt>
+            <dd>{mtgo}</dd>
+          </>
+        )}
+        {mtga && (
+          <>
+            <dt>MTG Arena</dt>
+            <dd>{mtga}</dd>
+          </>
+        )}
+      </dl>
+      {!mtgo && !mtga && <p class="no-data">No online profiles listed.</p>}
+    </section>
+
+    <section>
+      <h2>External Profiles</h2>
+      {mtgelo && (
+        <ExternalLink
+          href={`https://mtgeloproject.net/profile/${mtgelo}`}
+          label="MTG Elo Project"
+        />
+      )}
+      {meleegg && (
+        <ExternalLink
+          href={`https://melee.gg/Profile/Index/${meleegg}`}
+          label="Melee.gg"
+        />
+      )}
+      {!mtgelo && !meleegg && (
+        <p class="no-data">No external tournament profiles linked yet.</p>
+      )}
+    </section>
+
+    <a href="/team/" class="back-link">&larr; Back to roster</a>
+  </article>
+</Base>
