@@ -1,0 +1,1217 @@
+{
+  "elo": {
+    "profile": {
+      "current_rating": 1576.67,
+      "record": [
+        24,
+        24,
+        1
+      ],
+      "pro_record": [
+        null,
+        null,
+        null
+      ],
+      "ranking": 33949,
+      "active_ranking": 10611,
+      "nakamura_number": 2,
+      "best_event": "arenachamp11"
+    },
+    "events": [
+      {
+        "code": "ssliv25",
+        "cut_before": "10",
+        "date": "2025-11-01",
+        "is_pro": false,
+        "name": "Spotlight Series Liverpool 2025",
+        "site": "https://melee.gg/Tournament/View/375305",
+        "type": "ss",
+        "format": "SPM standard"
+      },
+      {
+        "code": "rcant25-cy10",
+        "cut_before": "9.0",
+        "date": "2025-11-22",
+        "is_pro": false,
+        "name": "Regional Championship Antwerp 2025",
+        "site": "https://melee.gg/Tournament/View/347420",
+        "type": "rc",
+        "format": "modern"
+      },
+      {
+        "code": "rcant25-lim",
+        "cut_before": "",
+        "date": "2025-11-23",
+        "is_pro": false,
+        "name": "Ultimate Guard Open Antwerp 2025 (sealed)",
+        "site": "https://melee.gg/Tournament/View/383635",
+        "type": "rc_side",
+        "format": "TLA limited"
+      },
+      {
+        "code": "arenachamp10",
+        "cut_before": "",
+        "date": "2025-12-20",
+        "is_pro": false,
+        "name": "Arena Championship 10",
+        "site": "https://magic.gg/events/arena-championship-10",
+        "type": "ac",
+        "format": "MTGA timeless"
+      },
+      {
+        "code": "sslyo26",
+        "cut_before": "10",
+        "date": "2026-01-10",
+        "is_pro": false,
+        "name": "Spotlight Series Lyon 2026",
+        "site": "https://melee.gg/Tournament/View/392401",
+        "type": "ss",
+        "format": "TLA standard"
+      },
+      {
+        "code": "sslyo26-lcq",
+        "cut_before": "",
+        "date": "2026-01-11",
+        "is_pro": false,
+        "name": "Spotlight Series Lyon 2026 LCQ",
+        "site": "https://melee.gg/Tournament/View/394566",
+        "type": "lcq",
+        "format": "TLA limited"
+      },
+      {
+        "code": "arenachamp11",
+        "cut_before": "",
+        "date": "2026-02-21",
+        "is_pro": false,
+        "name": "Arena Championship 11",
+        "site": "https://magic.gg/events/arena-championship-11",
+        "type": "ac",
+        "format": "MTGA ECL standard"
+      }
+    ],
+    "matches": {
+      "ssliv25": [
+        {
+          "match_id": 3924361,
+          "round": "1",
+          "table": 35,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1500,
+            "end": 1481.93
+          },
+          "opp_data": {
+            "id": "zlevm5iz",
+            "opp": "Aseev, Nikita",
+            "start": 1496.16
+          }
+        },
+        {
+          "match_id": 3924840,
+          "round": "2",
+          "table": 222,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1481.93,
+            "end": 1500.02
+          },
+          "opp_data": {
+            "id": "k9qpe9yz",
+            "opp": "Vahland, Robin",
+            "start": 1486.95
+          }
+        },
+        {
+          "match_id": 3925000,
+          "round": "3",
+          "table": 92,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1500.02,
+            "end": 1518.71
+          },
+          "opp_data": {
+            "id": "yhzzne5d",
+            "opp": "Donaldson, Chris",
+            "start": 1537.93
+          }
+        },
+        {
+          "match_id": 3925287,
+          "round": "4",
+          "table": 89,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1518.71,
+            "end": 1535.82
+          },
+          "opp_data": {
+            "id": "seqoki70",
+            "opp": "Stuart, George",
+            "start": 1469.8
+          }
+        },
+        {
+          "match_id": 3925561,
+          "round": "5",
+          "table": 77,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1535.82,
+            "end": 1519.03
+          },
+          "opp_data": {
+            "id": "hcrlv8u8",
+            "opp": "Stok, Alex",
+            "start": 1602.41
+          }
+        },
+        {
+          "match_id": 3925880,
+          "round": "6",
+          "table": 124,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1519.03,
+            "end": 1505.62
+          },
+          "opp_data": {
+            "id": "1oiei3x5",
+            "opp": "Vinciguerra, Daniele",
+            "start": 1776.03
+          }
+        },
+        {
+          "match_id": 3926150,
+          "round": "7",
+          "table": 140,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1505.62,
+            "end": 1523.61
+          },
+          "opp_data": {
+            "id": "41hz3sof",
+            "opp": "Soltysik, Marcin",
+            "start": 1505.27
+          }
+        },
+        {
+          "match_id": 3926314,
+          "round": "8",
+          "table": 82,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1523.61,
+            "end": 1541.51
+          },
+          "opp_data": {
+            "id": "bn6er8i5",
+            "opp": "Hodjatoleslami, Neema",
+            "start": 1517.87
+          }
+        },
+        {
+          "match_id": 3926491,
+          "round": "9",
+          "table": 65,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1541.51,
+            "end": 1568.62
+          },
+          "opp_data": {
+            "id": "3tkaanb4",
+            "opp": "Gobern, Luis",
+            "start": 2091.89
+          }
+        },
+        {
+          "match_id": 3926637,
+          "round": "10",
+          "table": 43,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1568.62,
+            "end": 1590.87
+          },
+          "opp_data": {
+            "id": "tiupdx56",
+            "opp": "Russell, Thomas P",
+            "start": 1805.66
+          }
+        },
+        {
+          "match_id": 3926694,
+          "round": "11",
+          "table": 30,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1590.87,
+            "end": 1572.31
+          },
+          "opp_data": {
+            "id": "gxjtcref",
+            "opp": "Deacon, Neil",
+            "start": 1560.1
+          }
+        },
+        {
+          "match_id": 3926777,
+          "round": "12",
+          "table": 43,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1572.31,
+            "end": 1554.28
+          },
+          "opp_data": {
+            "id": "umo750qw",
+            "opp": "Duffy, Thomas",
+            "start": 1570.82
+          }
+        },
+        {
+          "match_id": 3926867,
+          "round": "13",
+          "table": 63,
+          "format": "standard",
+          "result": "Draw 0-0",
+          "own_elo": {
+            "start": 1554.28,
+            "end": 1560.63
+          },
+          "opp_data": {
+            "id": "4jtx5639",
+            "opp": "Nordahl, Andreas",
+            "start": 1918.11
+          }
+        },
+        {
+          "match_id": 3926929,
+          "round": "14",
+          "table": 55,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1560.63,
+            "end": 1542.25
+          },
+          "opp_data": {
+            "id": "s1i8h0vq",
+            "opp": "Bracks, Alexander",
+            "start": 1539.52
+          }
+        },
+        {
+          "match_id": 3927005,
+          "round": "15",
+          "table": 62,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1542.25,
+            "end": 1524.4
+          },
+          "opp_data": {
+            "id": "h3nvdhx9",
+            "opp": "Gomitoni, Giulio Tommaso",
+            "start": 1550.36
+          }
+        }
+      ],
+      "rcant25-cy10": [
+        {
+          "match_id": 3942592,
+          "round": "1",
+          "table": 192,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1524.4,
+            "end": 1510.01
+          },
+          "opp_data": {
+            "id": "vqzl25la",
+            "opp": "de Vos, Koen",
+            "start": 1725.3
+          }
+        },
+        {
+          "match_id": 3943531,
+          "round": "2",
+          "table": 531,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1510.01,
+            "end": 1527.14
+          },
+          "opp_data": {
+            "id": "a56rpowd",
+            "opp": "Yusty, Ivan",
+            "start": 1461.99
+          }
+        },
+        {
+          "match_id": 3943977,
+          "round": "3",
+          "table": 394,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1527.14,
+            "end": 1542.92
+          },
+          "opp_data": {
+            "id": "j8aisw6q",
+            "opp": "Rinaldi, Alessandro",
+            "start": 1405.26
+          }
+        },
+        {
+          "match_id": 3944332,
+          "round": "4",
+          "table": 168,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1542.92,
+            "end": 1562.88
+          },
+          "opp_data": {
+            "id": "skbj3e8d",
+            "opp": "Vitiello, Francesco",
+            "start": 1650.31
+          }
+        },
+        {
+          "match_id": 3944859,
+          "round": "5",
+          "table": 154,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1562.88,
+            "end": 1545.47
+          },
+          "opp_data": {
+            "id": "g91fpabz",
+            "opp": "Fernandez, Eder",
+            "start": 1595.45
+          }
+        },
+        {
+          "match_id": 3945308,
+          "round": "6",
+          "table": 138,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1545.47,
+            "end": 1526.63
+          },
+          "opp_data": {
+            "id": "xgjgdezb",
+            "opp": "Torres, Francisco",
+            "start": 1499.65
+          }
+        }
+      ],
+      "rcant25-lim": [
+        {
+          "match_id": 3946638,
+          "round": "1",
+          "table": 188,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1526.63,
+            "end": 1510.82
+          },
+          "opp_data": {
+            "id": "o0t9evg0",
+            "opp": "Oberbek, Przemyslaw",
+            "start": 1646.91
+          }
+        },
+        {
+          "match_id": 3946761,
+          "round": "2",
+          "table": 198,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1510.82,
+            "end": 1492.71
+          },
+          "opp_data": {
+            "id": "yqww41d8",
+            "opp": "nadav",
+            "start": 1504.84
+          }
+        },
+        {
+          "match_id": 3946909,
+          "round": "3",
+          "table": 234,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1492.71,
+            "end": 1509.43
+          },
+          "opp_data": {
+            "id": "jjr6f9ro",
+            "opp": "D'Arrigo, Luca",
+            "start": 1422.25
+          }
+        }
+      ],
+      "arenachamp10": [
+        {
+          "match_id": 3958502,
+          "round": "1",
+          "table": 33,
+          "format": "timeless",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1509.43,
+            "end": 1497.41
+          },
+          "opp_data": {
+            "id": "n0fuc2xk",
+            "opp": "Casatti, Vagner William",
+            "start": 1850.18
+          }
+        },
+        {
+          "match_id": 3958561,
+          "round": "2",
+          "table": 37,
+          "format": "timeless",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1497.41,
+            "end": 1515.9
+          },
+          "opp_data": {
+            "id": "07fdqba9",
+            "opp": "Korosis, Dimitrios",
+            "start": 1524.34
+          }
+        },
+        {
+          "match_id": 3958601,
+          "round": "3",
+          "table": 23,
+          "format": "timeless",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1515.9,
+            "end": 1499.94
+          },
+          "opp_data": {
+            "id": "qci72r7b",
+            "opp": "Dyer, Greg",
+            "start": 1628.52
+          }
+        },
+        {
+          "match_id": 3958679,
+          "round": "4",
+          "table": 47,
+          "format": "timeless",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1499.94,
+            "end": 1481.77
+          },
+          "opp_data": {
+            "id": "1lbwiw4u",
+            "opp": "Reese, Jon",
+            "start": 1490.62
+          }
+        }
+      ],
+      "sslyo26": [
+        {
+          "match_id": 3958995,
+          "round": "1",
+          "table": 211,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1481.77,
+            "end": 1503.69
+          },
+          "opp_data": {
+            "id": "mt6z0idf",
+            "opp": "Geffroy, Olivier",
+            "start": 1700.15
+          }
+        },
+        {
+          "match_id": 3959280,
+          "round": "2",
+          "table": 120,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1503.69,
+            "end": 1521.74
+          },
+          "opp_data": {
+            "id": "i32g2jy6",
+            "opp": "Magugliani, Emanuele",
+            "start": 1506.22
+          }
+        },
+        {
+          "match_id": 3959583,
+          "round": "3",
+          "table": 51,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1521.74,
+            "end": 1503.84
+          },
+          "opp_data": {
+            "id": "ysqbrgys",
+            "opp": "Penalba Solis, Fernando",
+            "start": 1526.96
+          }
+        },
+        {
+          "match_id": 3960013,
+          "round": "4",
+          "table": 110,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1503.84,
+            "end": 1485.55
+          },
+          "opp_data": {
+            "id": "3g7n5jkb",
+            "opp": "Gibert Font, Marc",
+            "start": 1488.42
+          }
+        },
+        {
+          "match_id": 3960400,
+          "round": "5",
+          "table": 129,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1485.55,
+            "end": 1503.93
+          },
+          "opp_data": {
+            "id": "5fz5avc5",
+            "opp": "Bourgeon, Leopold",
+            "start": 1506.08
+          }
+        },
+        {
+          "match_id": 3960733,
+          "round": "6",
+          "table": 110,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1503.93,
+            "end": 1521.46
+          },
+          "opp_data": {
+            "id": "ryk4srqr",
+            "opp": "Mattia, Cerea",
+            "start": 1478
+          }
+        },
+        {
+          "match_id": 3961023,
+          "round": "7",
+          "table": 77,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1521.46,
+            "end": 1542.86
+          },
+          "opp_data": {
+            "id": "7znpgmyh",
+            "opp": "Werkman, Pascal",
+            "start": 1710.5
+          }
+        },
+        {
+          "match_id": 3961304,
+          "round": "8",
+          "table": 68,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1542.86,
+            "end": 1529.74
+          },
+          "opp_data": {
+            "id": "oufdl0qj",
+            "opp": "Heurtier, Geoffroy",
+            "start": 1817.16
+          }
+        },
+        {
+          "match_id": 3961575,
+          "round": "9",
+          "table": 87,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1529.74,
+            "end": 1518.77
+          },
+          "opp_data": {
+            "id": "g5yih5v4",
+            "opp": "Inigo Tastet, Adrian",
+            "start": 1936.58
+          }
+        }
+      ],
+      "sslyo26-lcq": [
+        {
+          "match_id": 3966261,
+          "round": "1",
+          "table": 221,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1518.77,
+            "end": 1500.5
+          },
+          "opp_data": {
+            "id": "77iaj8kh",
+            "opp": "Brusinsky, Lennart",
+            "start": 1503.7
+          }
+        },
+        {
+          "match_id": 3966479,
+          "round": "2",
+          "table": 284,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1500.5,
+            "end": 1488.76
+          },
+          "opp_data": {
+            "id": "suh9j5zl",
+            "opp": "Goddard, Sean",
+            "start": 1858.97
+          }
+        },
+        {
+          "match_id": 3966699,
+          "round": "3",
+          "table": 350,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1488.76,
+            "end": 1506.3
+          },
+          "opp_data": {
+            "id": "hyhvq2g5",
+            "opp": "Octamine",
+            "start": 1463.51
+          }
+        },
+        {
+          "match_id": 3966814,
+          "round": "4",
+          "table": 315,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1506.3,
+            "end": 1523.89
+          },
+          "opp_data": {
+            "id": "lwzzcazt",
+            "opp": "Mortensen, Sindre",
+            "start": 1483.66
+          }
+        },
+        {
+          "match_id": 3966909,
+          "round": "5",
+          "table": 272,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1523.89,
+            "end": 1541.02
+          },
+          "opp_data": {
+            "id": "h44ja2gb",
+            "opp": "Arellano Moreno, Asier",
+            "start": 1475.96
+          }
+        },
+        {
+          "match_id": 3967005,
+          "round": "6",
+          "table": 244,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1541.02,
+            "end": 1558.19
+          },
+          "opp_data": {
+            "id": "tmps6t6h",
+            "opp": "CtrlMathDel",
+            "start": 1495.62
+          }
+        },
+        {
+          "match_id": 3967095,
+          "round": "7",
+          "table": 223,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1558.19,
+            "end": 1581.72
+          },
+          "opp_data": {
+            "id": "sds7i9fy",
+            "opp": "Fauquenoi, Noe",
+            "start": 1871.34
+          }
+        }
+      ],
+      "arenachamp11": [
+        {
+          "match_id": 3983235,
+          "round": "1",
+          "table": 38,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1581.72,
+            "end": 1597.49
+          },
+          "opp_data": {
+            "id": "t73td2zu",
+            "opp": "Aleksiuk, Jacob",
+            "start": 1458.88
+          }
+        },
+        {
+          "match_id": 3983271,
+          "round": "2",
+          "table": 15,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1597.49,
+            "end": 1582.97
+          },
+          "opp_data": {
+            "id": "ccan81oa",
+            "opp": "Murano, Haruka",
+            "start": 1790.48
+          }
+        },
+        {
+          "match_id": 3983332,
+          "round": "3",
+          "table": 17,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1582.97,
+            "end": 1574.89
+          },
+          "opp_data": {
+            "id": "smlqb2ut",
+            "opp": "Huschenbeth, Arne",
+            "start": 2194.95
+          }
+        },
+        {
+          "match_id": 3983422,
+          "round": "4",
+          "table": 48,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1574.89,
+            "end": 1595.69
+          },
+          "opp_data": {
+            "id": "zkmjomjk",
+            "opp": "Rose, Kyle",
+            "start": 1729.37
+          }
+        },
+        {
+          "match_id": 3983465,
+          "round": "5",
+          "table": 40,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1595.69,
+            "end": 1576.67
+          },
+          "opp_data": {
+            "id": "nghqajuu",
+            "opp": "Justlolaman",
+            "start": 1539.92
+          }
+        }
+      ]
+    }
+  },
+  "melee": [
+    {
+      "UserName": "dawido",
+      "TournamentId": 347420,
+      "TournamentName": "Ultimate Guard European Magic Series - Regional Championship - Antwerp 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-22T08:00:00Z",
+      "PlayerCap": 1300,
+      "ParticipatingCount": 1199,
+      "DecklistId": 0,
+      "DecklistName": "Boros Energy",
+      "Rank": 576,
+      "Format": null,
+      "Record": "3-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "33d46cf4-1c1a-4d93-9901-b39c0141abc0"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 341686,
+      "TournamentName": "Norgesmesterskapet (Standard) i Magic: the Gathering",
+      "OrganizationId": 16209,
+      "OrganizationName": "Oslo Magic Forening",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-08-09T07:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 74,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Cauldron",
+      "Rank": 7,
+      "Format": null,
+      "Record": "5-2-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "a6b681cc-9626-44f7-b9fd-b333017ac208"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 340655,
+      "TournamentName": "Last Chance Bye-Turnering",
+      "OrganizationId": 16209,
+      "OrganizationName": "Oslo Magic Forening",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-08-08T14:30:00Z",
+      "PlayerCap": 32,
+      "ParticipatingCount": 24,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Cauldron",
+      "Rank": 0,
+      "Format": null,
+      "Record": "-",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "4657cac8-5a29-46d1-92e0-b33300c339c4"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 375305,
+      "TournamentName": "Magic Spotlight Series - Liverpool 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-01T09:00:00Z",
+      "PlayerCap": 1000,
+      "ParticipatingCount": 584,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Cauldron",
+      "Rank": 131,
+      "Format": null,
+      "Record": "7-7-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "04edcd3b-fb57-4079-8617-b3870189e3da"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 380707,
+      "TournamentName": "European Unity League National Final - Norway",
+      "OrganizationId": 14879,
+      "OrganizationName": "Summoner's Pact",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-08T09:35:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 27,
+      "DecklistId": 0,
+      "DecklistName": "Esper Blink",
+      "Rank": 15,
+      "Format": null,
+      "Record": "4-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "8492a4b1-7471-4e08-a120-b38f0098ac35"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 383635,
+      "TournamentName": "[Sunday] Ultimate Guard Destination Qualifier: Sealed Deck",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-23T08:00:00Z",
+      "PlayerCap": 226,
+      "ParticipatingCount": 226,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 177,
+      "Format": null,
+      "Record": "1-2-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 388470,
+      "TournamentName": "The Gathering - Timeless Open: TLA #1",
+      "OrganizationId": 10486,
+      "OrganizationName": "TheGathering.gg",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-12-06T17:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 32,
+      "DecklistId": 0,
+      "DecklistName": "Mardu Energy (Lurrus)",
+      "Rank": 16,
+      "Format": null,
+      "Record": "2-1-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "01890a6d-0aed-4e6b-ac4b-b3ab0106d339"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 390023,
+      "TournamentName": "Arena Championship 10",
+      "OrganizationId": 588,
+      "OrganizationName": "Wizards of the Coast",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-12-20T16:45:00Z",
+      "PlayerCap": 113,
+      "ParticipatingCount": 109,
+      "DecklistId": 0,
+      "DecklistName": "Mardu Energy",
+      "Rank": 83,
+      "Format": null,
+      "Record": "1-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "46a4e59c-d317-4e1c-bc82-b3b400b22d20"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 392336,
+      "TournamentName": "Ultimate Guard European Magic Series - Regional Championship - Turin 2026",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-03-07T08:00:00Z",
+      "PlayerCap": 1500,
+      "ParticipatingCount": 1025,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Lessons",
+      "Rank": 663,
+      "Format": null,
+      "Record": "2-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "943b35de-3ee8-4fdc-977e-b4030162fcdc"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 392401,
+      "TournamentName": "[Lyon Sat 09:00] Magic Spotlight Series - Lyon 2026",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-01-10T08:00:00Z",
+      "PlayerCap": 1500,
+      "ParticipatingCount": 753,
+      "DecklistId": 0,
+      "DecklistName": "Golgari Graveyard",
+      "Rank": 232,
+      "Format": null,
+      "Record": "5-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "cfe75d4b-5a67-4e63-ad15-b3cd016d72e0"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 394566,
+      "TournamentName": "[Lyon Sun 09:00] Limited Championship Qualifier",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-01-11T08:00:00Z",
+      "PlayerCap": 512,
+      "ParticipatingCount": 310,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 33,
+      "Format": null,
+      "Record": "5-2-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 402685,
+      "TournamentName": "Arena Championship 11",
+      "OrganizationId": 588,
+      "OrganizationName": "Wizards of the Coast",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-02-21T13:45:00Z",
+      "PlayerCap": 123,
+      "ParticipatingCount": 119,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Lessons",
+      "Rank": 67,
+      "Format": null,
+      "Record": "2-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "3b1e225a-ec31-4cee-bc0e-b3f300e1afe6"
+    },
+    {
+      "UserName": "dawido",
+      "TournamentId": 409398,
+      "TournamentName": "[Turin Sun 09:00] Limited Championship Qualifier",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-03-08T08:00:00Z",
+      "PlayerCap": 512,
+      "ParticipatingCount": 436,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 41,
+      "Format": null,
+      "Record": "5-1-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    }
+  ]
+}

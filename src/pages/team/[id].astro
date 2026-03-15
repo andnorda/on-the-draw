@@ -4,7 +4,7 @@ import ExternalLink from "../../components/ExternalLink.astro";
 import EloChart from "../../components/EloChart.astro";
 import TournamentHistory from "../../components/TournamentHistory.astro";
 import { getCollection } from "astro:content";
-import { fetchPlayerData } from "../../lib/api/player-data";
+import { loadPlayerData } from "../../lib/api/cached-data";
 
 export async function getStaticPaths() {
   const players = await getCollection("players");
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 const { player } = Astro.props;
 const { name, location, mtgo, mtga, meleegg, mtgelo } = player.data;
 
-const tournamentData = await fetchPlayerData(mtgelo, meleegg);
+const tournamentData = loadPlayerData(player.id);
 const profile = tournamentData.elo.profile;
 ---
 

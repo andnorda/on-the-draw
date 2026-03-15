@@ -13,6 +13,7 @@ const players = defineCollection({
     mtga: z.string().nullable(),
     meleegg: z.string().nullable(),
     mtgelo: z.string().nullable(),
+    aliases: z.array(z.string()).optional(),
   }),
 });
 

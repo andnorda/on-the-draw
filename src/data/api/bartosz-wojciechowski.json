@@ -1,0 +1,936 @@
+{
+  "elo": {
+    "profile": {
+      "current_rating": 1548.69,
+      "record": [
+        12,
+        9,
+        0
+      ],
+      "pro_record": [
+        null,
+        null,
+        null
+      ],
+      "ranking": 48601,
+      "active_ranking": null,
+      "nakamura_number": 3,
+      "best_event": "gpbru10"
+    },
+    "events": [
+      {
+        "code": "gplis05",
+        "cut_before": "10.0",
+        "date": "2005-04-23",
+        "is_pro": false,
+        "name": "Grand Prix Lisbon 2005",
+        "site": "http://web.archive.org/web/20170412213229/http://magic.wizards.com/en/events/coverage/gplis05",
+        "type": "gp",
+        "format": "BOK limited"
+      },
+      {
+        "code": "gppra09",
+        "cut_before": "10.0",
+        "date": "2009-09-05",
+        "is_pro": false,
+        "name": "Grand Prix Prague 2009",
+        "site": "http://web.archive.org/web/20170412161225/http://magic.wizards.com/en/events/coverage/gppra09",
+        "type": "gp",
+        "format": "M10 limited"
+      },
+      {
+        "code": "gpbru10",
+        "cut_before": "10.0",
+        "date": "2010-03-27",
+        "is_pro": false,
+        "name": "Grand Prix Brussels 2010",
+        "site": "http://web.archive.org/web/20170412152521/http://magic.wizards.com/en/events/coverage/gpbru10",
+        "type": "gp",
+        "format": "WWK standard"
+      }
+    ],
+    "matches": {
+      "gplis05": [
+        {
+          "match_id": 299786,
+          "round": "B1",
+          "table": 236,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1500,
+            "end": 1518
+          },
+          "opp_data": {
+            "id": "5jihygv3",
+            "opp": "Alvarez, Mariano",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 300109,
+          "round": "B2",
+          "table": 53,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1518,
+            "end": 1500.39
+          },
+          "opp_data": {
+            "id": "0q9hckt5",
+            "opp": "Pinto, Goncalo",
+            "start": 1539.5
+          }
+        },
+        {
+          "match_id": 300762,
+          "round": "B3",
+          "table": 171,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1500.39,
+            "end": 1518.39
+          },
+          "opp_data": {
+            "id": "a0kv2wid",
+            "opp": "Moreira, Maximo",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 301217,
+          "round": "B4",
+          "table": 94,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1518.39,
+            "end": 1537.7
+          },
+          "opp_data": {
+            "id": "7lildxfb",
+            "opp": "Diaz, Alfonso",
+            "start": 1590.76
+          }
+        },
+        {
+          "match_id": 301711,
+          "round": "B5",
+          "table": 80,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1537.7,
+            "end": 1523.4
+          },
+          "opp_data": {
+            "id": "lr0aicc6",
+            "opp": "Gonzalez, Francisco [ESP]",
+            "start": 1743.39
+          }
+        },
+        {
+          "match_id": 302168,
+          "round": "B6",
+          "table": 84,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1523.4,
+            "end": 1505.22
+          },
+          "opp_data": {
+            "id": "yboh53r6",
+            "opp": "Maestro, Roberto",
+            "start": 1513.61
+          }
+        },
+        {
+          "match_id": 302583,
+          "round": "B7",
+          "table": 111,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1505.22,
+            "end": 1523.07
+          },
+          "opp_data": {
+            "id": "z5qpqky2",
+            "opp": "Granadeiro, Luis Migue",
+            "start": 1496.72
+          }
+        },
+        {
+          "match_id": 302879,
+          "round": "B8",
+          "table": 90,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1523.07,
+            "end": 1540.98
+          },
+          "opp_data": {
+            "id": "p6ap2lsg",
+            "opp": "Jose, Antonio",
+            "start": 1518.01
+          }
+        },
+        {
+          "match_id": 303115,
+          "round": "B9",
+          "table": 60,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1540.98,
+            "end": 1559.02
+          },
+          "opp_data": {
+            "id": "xmc50yzk",
+            "opp": "Manceras, Xabier",
+            "start": 1543.44
+          }
+        }
+      ],
+      "gppra09": [
+        {
+          "match_id": 568235,
+          "round": "A1",
+          "table": 28,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1559.02,
+            "end": 1574.76
+          },
+          "opp_data": {
+            "id": "anl3m3ll",
+            "opp": "Gorecki, Kamil",
+            "start": 1434.48
+          }
+        },
+        {
+          "match_id": 568857,
+          "round": "A2",
+          "table": 168,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1574.76,
+            "end": 1556.93
+          },
+          "opp_data": {
+            "id": "r0aqtlfl",
+            "opp": "Dudzic, Adam",
+            "start": 1584.14
+          }
+        },
+        {
+          "match_id": 569525,
+          "round": "A3",
+          "table": 203,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1556.93,
+            "end": 1572.91
+          },
+          "opp_data": {
+            "id": "xyhceqn7",
+            "opp": "Kovacs, Szilveszter",
+            "start": 1445.59
+          }
+        },
+        {
+          "match_id": 570181,
+          "round": "A4",
+          "table": 178,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1572.91,
+            "end": 1557.81
+          },
+          "opp_data": {
+            "id": "jgsn2rs3",
+            "opp": "Thomsen, Sascha",
+            "start": 1733.43
+          }
+        },
+        {
+          "match_id": 570926,
+          "round": "A5",
+          "table": 197,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1557.81,
+            "end": 1574.77
+          },
+          "opp_data": {
+            "id": "c05ubwgd",
+            "opp": "Glisic, Bojan",
+            "start": 1500.54
+          }
+        },
+        {
+          "match_id": 571575,
+          "round": "A6",
+          "table": 189,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1574.77,
+            "end": 1559.24
+          },
+          "opp_data": {
+            "id": "12dcj7u7",
+            "opp": "Komanicky, Vladimir",
+            "start": 1710.8
+          }
+        }
+      ],
+      "gpbru10": [
+        {
+          "match_id": 624722,
+          "round": "A1",
+          "table": 711,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1559.24,
+            "end": 1574.38
+          },
+          "opp_data": {
+            "id": "ar8niaos",
+            "opp": "Thierry, Nicolas",
+            "start": 1401.41
+          }
+        },
+        {
+          "match_id": 625274,
+          "round": "A2",
+          "table": 716,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1574.38,
+            "end": 1551.58
+          },
+          "opp_data": {
+            "id": "bo3v7n9o",
+            "opp": "Kelterbaum, Richard",
+            "start": 1304.97
+          }
+        },
+        {
+          "match_id": 626013,
+          "round": "A3",
+          "table": 770,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1551.58,
+            "end": 1568.59
+          },
+          "opp_data": {
+            "id": "sx2s0bis",
+            "opp": "Schepker, Henning F",
+            "start": 1497.16
+          }
+        },
+        {
+          "match_id": 626738,
+          "round": "A4",
+          "table": 779,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1568.59,
+            "end": 1586.51
+          },
+          "opp_data": {
+            "id": "cmpe62fm",
+            "opp": "Gyselinck, Jelle",
+            "start": 1564.12
+          }
+        },
+        {
+          "match_id": 627394,
+          "round": "A5",
+          "table": 662,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1586.51,
+            "end": 1567.6
+          },
+          "opp_data": {
+            "id": "x699lg6y",
+            "opp": "Borremans, Matthias",
+            "start": 1536.59
+          }
+        },
+        {
+          "match_id": 628161,
+          "round": "A6",
+          "table": 743,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1567.6,
+            "end": 1548.69
+          },
+          "opp_data": {
+            "id": "cwnk5lc0",
+            "opp": "Braspennincx, Koen",
+            "start": 1517.56
+          }
+        }
+      ]
+    }
+  },
+  "melee": [
+    {
+      "UserName": "barczek",
+      "TournamentId": 12280,
+      "TournamentName": "Grand Open Qualifier Warsaw",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2022-10-15T07:00:00Z",
+      "PlayerCap": 1000,
+      "ParticipatingCount": 160,
+      "DecklistId": 249764,
+      "DecklistName": "Mono-Green Devotion",
+      "Rank": 55,
+      "Format": "Pioneer",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 14914,
+      "TournamentName": "Grand Open Qualifier Prague",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2023-04-01T07:00:00Z",
+      "PlayerCap": 1100,
+      "ParticipatingCount": 1055,
+      "DecklistId": 286028,
+      "DecklistName": "Temur Rhinos",
+      "Rank": 395,
+      "Format": "Modern",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 15289,
+      "TournamentName": "Last Chance Qualifier Athens",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2023-06-09T06:00:00Z",
+      "PlayerCap": 5000,
+      "ParticipatingCount": 203,
+      "DecklistId": 302907,
+      "DecklistName": "Mono-Green Devotion",
+      "Rank": 44,
+      "Format": "Pioneer",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 16639,
+      "TournamentName": "Legacy European Championship Lille",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2023-09-30T07:00:00Z",
+      "PlayerCap": 5000,
+      "ParticipatingCount": 690,
+      "DecklistId": 329020,
+      "DecklistName": "Mono-Green Devotion",
+      "Rank": 249,
+      "Format": "Pioneer",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 28412,
+      "TournamentName": "Legacy European Championship Ghent",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-01-27T08:00:00Z",
+      "PlayerCap": 1500,
+      "ParticipatingCount": 948,
+      "DecklistId": 359604,
+      "DecklistName": "Golgari Yawgmoth",
+      "Rank": 829,
+      "Format": "Modern",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 55875,
+      "TournamentName": "Legacy European Championship Naples",
+      "OrganizationId": 2378,
+      "OrganizationName": "Legacy Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-05-25T07:00:00Z",
+      "PlayerCap": 1500,
+      "ParticipatingCount": 807,
+      "DecklistId": 400583,
+      "DecklistName": "Five-Color Legends",
+      "Rank": 597,
+      "Format": "Standard",
+      "Record": "2-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 69802,
+      "TournamentName": "BLACK - FRI - 11:30  AM -  MagicCon: Amsterdam 75k Modern Open",
+      "OrganizationId": 2587,
+      "OrganizationName": "Pastimes Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-06-28T09:30:00Z",
+      "PlayerCap": 500,
+      "ParticipatingCount": 516,
+      "DecklistId": 412968,
+      "DecklistName": "Four-Color Nadu",
+      "Rank": 86,
+      "Format": "Modern",
+      "Record": "5-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 84383,
+      "TournamentName": "BLACK - SAT - 12PM - Secret Lair Showdown Qualifier - Modern - Single Elimination",
+      "OrganizationId": 2587,
+      "OrganizationName": "Pastimes Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-06-29T10:00:00Z",
+      "PlayerCap": 256,
+      "ParticipatingCount": 148,
+      "DecklistId": 414044,
+      "DecklistName": "Four-Color Nadu",
+      "Rank": 131,
+      "Format": "Modern",
+      "Record": "0-1-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 84384,
+      "TournamentName": "BLACK - FRI - 12PM - Secret Lair Showdown Qualifier - Modern - Single Elimination",
+      "OrganizationId": 2587,
+      "OrganizationName": "Pastimes Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-06-27T19:00:00Z",
+      "PlayerCap": 256,
+      "ParticipatingCount": 97,
+      "DecklistId": 414357,
+      "DecklistName": "Four-Color Nadu",
+      "Rank": 0,
+      "Format": "Modern",
+      "Record": "-",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 203977,
+      "TournamentName": "Ultimate Guard European Magic Series – Regional Championship 2 - Prague 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-01-25T08:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 996,
+      "DecklistId": 470253,
+      "DecklistName": "Temur Breach",
+      "Rank": 832,
+      "Format": "Modern",
+      "Record": "1-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 234336,
+      "TournamentName": "Ultimate Guard Open - Prague",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-01-26T08:30:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 609,
+      "DecklistId": 471432,
+      "DecklistName": "Grinding Breach",
+      "Rank": 0,
+      "Format": "Modern",
+      "Record": "-",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 239255,
+      "TournamentName": "Ultimate Guard European Magic Series Regional Championship 3 - Bologna",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-04-26T07:00:00Z",
+      "PlayerCap": 1200,
+      "ParticipatingCount": 1091,
+      "DecklistId": 0,
+      "DecklistName": "Azorius Omniscience",
+      "Rank": 838,
+      "Format": "Standard",
+      "Record": "1-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "c82558c3-aa51-455c-a6fe-b2ca00a56c03"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 239247,
+      "TournamentName": "Spotlight Series Utrecht - Modern Main Event",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-03-15T08:00:00Z",
+      "PlayerCap": 2000,
+      "ParticipatingCount": 1590,
+      "DecklistId": 489716,
+      "DecklistName": "Temur Breach",
+      "Rank": 6,
+      "Format": "Modern",
+      "Record": "13-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 296789,
+      "TournamentName": "Ultimate Guard Standard Open - Bologna 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-04-27T07:40:00Z",
+      "PlayerCap": 864,
+      "ParticipatingCount": 589,
+      "DecklistId": 0,
+      "DecklistName": "Azorius Omniscience",
+      "Rank": 57,
+      "Format": null,
+      "Record": "6-2-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "538e67ff-ae4c-44e2-8507-b2cc006ce7a2"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 303784,
+      "TournamentName": "Pro Tour Magic: The Gathering—FINAL FANTASY in Las Vegas",
+      "OrganizationId": 588,
+      "OrganizationName": "Wizards of the Coast",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-06-20T16:00:00Z",
+      "PlayerCap": 400,
+      "ParticipatingCount": 331,
+      "DecklistId": 0,
+      "DecklistName": "Jund Roots",
+      "Rank": 199,
+      "Format": null,
+      "Record": "6-10-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "ecffcb0c-bb13-4295-9c6e-b3000126fe9f"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 329999,
+      "TournamentName": "2nd Chance PTQ (PT FIN)",
+      "OrganizationId": 588,
+      "OrganizationName": "Wizards of the Coast",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-06-22T16:30:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 155,
+      "DecklistId": 0,
+      "DecklistName": "Azorius Combo",
+      "Rank": 90,
+      "Format": null,
+      "Record": "1-1-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "2951d347-3f03-4ddd-bdaa-b304005de5f3"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 347420,
+      "TournamentName": "Ultimate Guard European Magic Series - Regional Championship - Antwerp 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-22T08:00:00Z",
+      "PlayerCap": 1300,
+      "ParticipatingCount": 1199,
+      "DecklistId": 0,
+      "DecklistName": "Golgari Yawgmoth",
+      "Rank": 470,
+      "Format": null,
+      "Record": "4-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "c4becc3b-9747-4e94-aedf-b39b0111502e"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 352026,
+      "TournamentName": "C'mon! Katowice",
+      "OrganizationId": 3343,
+      "OrganizationName": "C'mon Magic",
+      "EntryType": 0,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-09-13T07:30:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 127,
+      "DecklistId": 0,
+      "DecklistName": "Mono-Blue Glee Combo",
+      "Rank": 21,
+      "Format": null,
+      "Record": "5-2-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Entry Fee",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "bfc20f90-8b82-4bf8-bd21-b35600c7e246"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 352110,
+      "TournamentName": "C'mon! Katowice - Team Trios",
+      "OrganizationId": 3343,
+      "OrganizationName": "C'mon Magic",
+      "EntryType": 0,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-09-14T08:00:00Z",
+      "PlayerCap": 90,
+      "ParticipatingCount": 85,
+      "DecklistId": 0,
+      "DecklistName": "Azorius Familiars",
+      "Rank": 0,
+      "Format": null,
+      "Record": "-",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Entry Fee",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "42c26f2f-5cbd-4bbe-a43d-b35600c8b480"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 369939,
+      "TournamentName": "agusia try",
+      "OrganizationId": 2379,
+      "OrganizationName": "Haunted Screen: Scorekeeper Camp",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-10-02T22:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 8,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 5,
+      "Format": null,
+      "Record": "1-2-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 375305,
+      "TournamentName": "Magic Spotlight Series - Liverpool 2025",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-01T09:00:00Z",
+      "PlayerCap": 1000,
+      "ParticipatingCount": 584,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Cauldron",
+      "Rank": 242,
+      "Format": null,
+      "Record": "4-4-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "3aafea9d-2826-4702-9dfe-b3870168ea3d"
+    },
+    {
+      "UserName": "barczek",
+      "TournamentId": 392336,
+      "TournamentName": "Ultimate Guard European Magic Series - Regional Championship - Turin 2026",
+      "OrganizationId": 413,
+      "OrganizationName": "Fanfinity",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-03-07T08:00:00Z",
+      "PlayerCap": 1500,
+      "ParticipatingCount": 1025,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Lessons",
+      "Rank": 425,
+      "Format": null,
+      "Record": "3-4-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "200db278-b574-4c50-a5d5-b4050093e8f6"
+    }
+  ]
+}

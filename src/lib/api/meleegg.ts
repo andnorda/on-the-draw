@@ -43,22 +43,19 @@ interface StandingsResponse {
   recordsTotal: number;
 }
 
-/** Extract the last completed round ID from a tournament page. */
-async function fetchLastRoundId(
-  tournamentId: number,
-): Promise<string | null> {
+/** Extract completed round IDs from a tournament page, last round first. */
+async function fetchCompletedRoundIds(tournamentId: number): Promise<string[]> {
   const result = await safeTextFetch(
     `${BASE}/Tournament/View/${tournamentId}`,
     { headers: new Headers({ "User-Agent": "curl/8.0" }) },
   );
-  if (!result.data) return null;
+  if (!result.data) return [];
   const matches = [
     ...result.data.matchAll(
       /round-selector"[^>]*data-id="(\d+)"[^>]*data-is-completed="True"/g,
     ),
   ];
-  if (matches.length === 0) return null;
-  return matches[matches.length - 1][1];
+  return matches.map((m) => m[1]).reverse();
 }
 
 /** Search tournament standings for a player's decklist. */
@@ -117,13 +114,15 @@ async function enrichDecklists(
 
   await Promise.all(
     [...byTournament.entries()].map(async ([tournamentId, entries]) => {
-      const roundId = await fetchLastRoundId(tournamentId);
-      if (!roundId) return;
-      const decklist = await fetchDecklistFromStandings(roundId, username);
-      if (!decklist) return;
-      for (const entry of entries) {
-        entry.DecklistGuid = decklist.guid;
-        entry.DecklistName = decklist.name;
+      const roundIds = await fetchCompletedRoundIds(tournamentId);
+      for (const roundId of roundIds) {
+        const decklist = await fetchDecklistFromStandings(roundId, username);
+        if (!decklist) continue;
+        for (const entry of entries) {
+          entry.DecklistGuid = decklist.guid;
+          entry.DecklistName = decklist.name;
+        }
+        break;
       }
     }),
   );
@@ -137,7 +136,7 @@ export async function fetchMeleeResults(
     {
       method: "POST",
       headers: MELEE_HEADERS,
-      body: "{}",
+      body: JSON.stringify({ length: -1 }),
     },
   );
   if (!result.data) return [];

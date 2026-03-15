@@ -1,0 +1,3103 @@
+{
+  "elo": {
+    "profile": {
+      "current_rating": 1894.02,
+      "record": [
+        70,
+        45,
+        8
+      ],
+      "pro_record": [
+        null,
+        null,
+        null
+      ],
+      "ranking": 1119,
+      "active_ranking": 683,
+      "nakamura_number": 2,
+      "best_event": "rcsin25-cy10"
+    },
+    "events": [
+      {
+        "code": "gpsin13",
+        "cut_before": "10.0",
+        "date": "2013-01-12",
+        "is_pro": false,
+        "name": "Grand Prix Singapore 2013",
+        "site": "http://web.archive.org/web/20170412100928/http://magic.wizards.com/en/events/coverage/gpsin13",
+        "type": "gp",
+        "format": "RTR limited"
+      },
+      {
+        "code": "gpban13",
+        "cut_before": "10.0",
+        "date": "2013-06-22",
+        "is_pro": false,
+        "name": "Grand Prix Bangkok 2013",
+        "site": "http://web.archive.org/web/20170412091419/http://magic.wizards.com/en/eventcoverage/gpban13",
+        "type": "gp",
+        "format": "DGM limited"
+      },
+      {
+        "code": "seaind22",
+        "cut_before": "",
+        "date": "2022-08-27",
+        "is_pro": false,
+        "name": "SEA Championships Indonesia Open 2022",
+        "site": "https://melee.gg/Tournament/View/11579",
+        "type": "dest_rcq",
+        "format": "SNC standard"
+      },
+      {
+        "code": "rcsin22-cy1",
+        "cut_before": "",
+        "date": "2022-11-26",
+        "is_pro": false,
+        "name": "Regional Championship Singapore 2022",
+        "site": "https://melee.gg/Tournament/View/12857",
+        "type": "rc",
+        "format": "pioneer"
+      },
+      {
+        "code": "rcsin23-cy4",
+        "cut_before": "",
+        "date": "2023-11-04",
+        "is_pro": false,
+        "name": "Regional Championship Singapore 2023 Cycle 4",
+        "site": "https://melee.gg/Tournament/View/28150",
+        "type": "rc",
+        "format": "pioneer"
+      },
+      {
+        "code": "rcsin23-cy4-open",
+        "cut_before": "",
+        "date": "2023-11-05",
+        "is_pro": false,
+        "name": "MTG SEA Championships Singapore Open 2023 Cycle 4",
+        "site": "https://melee.gg/Tournament/View/28152",
+        "type": "rc_side",
+        "format": "modern"
+      },
+      {
+        "code": "rcban24-open",
+        "cut_before": "",
+        "date": "2024-03-09",
+        "is_pro": false,
+        "name": "MTG SEA Championships Thailand Open 2024",
+        "site": "https://melee.gg/Tournament/View/65229",
+        "type": "rc_side",
+        "format": "MKM standard"
+      },
+      {
+        "code": "rcban24-cy5",
+        "cut_before": "",
+        "date": "2024-03-09",
+        "is_pro": false,
+        "name": "Regional Championship Bangkok 2024",
+        "site": "https://melee.gg/Tournament/View/65228",
+        "type": "rc",
+        "format": "modern"
+      },
+      {
+        "code": "rcman24-cy6",
+        "cut_before": "",
+        "date": "2024-06-01",
+        "is_pro": false,
+        "name": "Regional Championship Manila 2024",
+        "site": "https://melee.gg/Tournament/View/94987",
+        "type": "rc",
+        "format": "OTJ standard"
+      },
+      {
+        "code": "rcsin24-cy7",
+        "cut_before": "",
+        "date": "2024-10-12",
+        "is_pro": false,
+        "name": "Regional Championship Singapore 2024",
+        "site": "https://melee.gg/Tournament/View/161645",
+        "type": "rc",
+        "format": "pioneer"
+      },
+      {
+        "code": "rcsin24-open",
+        "cut_before": "",
+        "date": "2024-10-12",
+        "is_pro": false,
+        "name": "MTG SEA Championships Singapore Open 2024",
+        "site": "https://melee.gg/Tournament/View/161642",
+        "type": "rc_side",
+        "format": "modern"
+      },
+      {
+        "code": "rcban25-cy8",
+        "cut_before": "",
+        "date": "2025-03-15",
+        "is_pro": false,
+        "name": "Regional Championship Bangkok 2025",
+        "site": "https://melee.gg/Tournament/View/260264",
+        "type": "rc",
+        "format": "modern"
+      },
+      {
+        "code": "rcban25-open",
+        "cut_before": "",
+        "date": "2025-03-15",
+        "is_pro": false,
+        "name": "MTG SEA Championships Thailand Open 2025",
+        "site": "https://melee.gg/Tournament/View/260267",
+        "type": "rc_side",
+        "format": "DFT standard"
+      },
+      {
+        "code": "rctok25-cup",
+        "cut_before": "",
+        "date": "2025-05-03",
+        "is_pro": false,
+        "name": "Japan Standard Cup Tokyo 2025",
+        "site": "https://melee.gg/Tournament/View/248754",
+        "type": "rc_side",
+        "format": "TDM standard"
+      },
+      {
+        "code": "sschi25",
+        "cut_before": "10",
+        "date": "2025-06-28",
+        "is_pro": false,
+        "name": "Spotlight Series Chiba 2025",
+        "site": "https://melee.gg/Tournament/View/295285",
+        "type": "ss",
+        "format": "FIN standard"
+      },
+      {
+        "code": "rcsin25-cy10",
+        "cut_before": "",
+        "date": "2025-11-01",
+        "is_pro": false,
+        "name": "Regional Championship Singapore 2025",
+        "site": "https://melee.gg/Tournament/View/375124",
+        "type": "rc",
+        "format": "modern"
+      }
+    ],
+    "matches": {
+      "gpsin13": [
+        {
+          "match_id": 1143555,
+          "round": "1",
+          "table": 37,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1500,
+            "end": 1482
+          },
+          "opp_data": {
+            "id": "i73572lq",
+            "opp": "Yap Jeffrey, Lee Wei",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 1144137,
+          "round": "2",
+          "table": 292,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1482,
+            "end": 1462.18
+          },
+          "opp_data": {
+            "id": "qfpyt1z8",
+            "opp": "Pang, MiaoShen",
+            "start": 1381.77
+          }
+        },
+        {
+          "match_id": 1144544,
+          "round": "3",
+          "table": 339,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1462.18,
+            "end": 1446.48
+          },
+          "opp_data": {
+            "id": "kjng3xuo",
+            "opp": "Asehan, Ceasar John",
+            "start": 1589.07
+          }
+        },
+        {
+          "match_id": 1144957,
+          "round": "4",
+          "table": 385,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1446.48,
+            "end": 1464.49
+          },
+          "opp_data": {
+            "id": "qmo2d6eo",
+            "opp": "Tang, Stanley",
+            "start": 1447.17
+          }
+        },
+        {
+          "match_id": 1145300,
+          "round": "5",
+          "table": 335,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1464.49,
+            "end": 1444.67
+          },
+          "opp_data": {
+            "id": "oqt0wmx8",
+            "opp": "Lim, Leslie",
+            "start": 1364.45
+          }
+        },
+        {
+          "match_id": 1145634,
+          "round": "6",
+          "table": 308,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1444.67,
+            "end": 1462.68
+          },
+          "opp_data": {
+            "id": "80n8zcb5",
+            "opp": "Lesmana, Abraham",
+            "start": 1445.02
+          }
+        },
+        {
+          "match_id": 1145889,
+          "round": "7",
+          "table": 252,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1462.68,
+            "end": 1480.75
+          },
+          "opp_data": {
+            "id": "b9wzbw8o",
+            "opp": "Hakim, Bob",
+            "start": 1466.27
+          }
+        },
+        {
+          "match_id": 1146119,
+          "round": "8",
+          "table": 213,
+          "format": "sealed",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1480.75,
+            "end": 1498.74
+          },
+          "opp_data": {
+            "id": "eqt1raes",
+            "opp": "Ong, Wei Shaun",
+            "start": 1480.34
+          }
+        },
+        {
+          "match_id": 1146336,
+          "round": "9",
+          "table": 190,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1498.74,
+            "end": 1480.85
+          },
+          "opp_data": {
+            "id": "5yujihtj",
+            "opp": "Goh, Daniel",
+            "start": 1504.79
+          }
+        }
+      ],
+      "gpban13": [
+        {
+          "match_id": 1273349,
+          "round": "1",
+          "table": 223,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1480.85,
+            "end": 1463.54
+          },
+          "opp_data": {
+            "id": "h80jsizl",
+            "opp": "Pornpisutthiworakul, Thinnakorn",
+            "start": 1518.96
+          }
+        }
+      ],
+      "seaind22": [
+        {
+          "match_id": 3534738,
+          "round": "1",
+          "table": 9,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1463.54,
+            "end": 1482.21
+          },
+          "opp_data": {
+            "id": "kpiva7gs",
+            "opp": "Hartanto, Liman",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 3534760,
+          "round": "2",
+          "table": 10,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1482.21,
+            "end": 1464.86
+          },
+          "opp_data": {
+            "id": "ev31jbd8",
+            "opp": "Sebastian, Jonathan",
+            "start": 1517.72
+          }
+        },
+        {
+          "match_id": 3534780,
+          "round": "3",
+          "table": 9,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1464.86,
+            "end": 1447.51
+          },
+          "opp_data": {
+            "id": "khxdnfee",
+            "opp": "Syawali, Bongga",
+            "start": 1500.55
+          }
+        },
+        {
+          "match_id": 3534810,
+          "round": "4",
+          "table": 18,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1447.51,
+            "end": 1466.16
+          },
+          "opp_data": {
+            "id": "0mzs58z7",
+            "opp": "Wahyudi, Arie",
+            "start": 1483.21
+          }
+        },
+        {
+          "match_id": 3534821,
+          "round": "5",
+          "table": 9,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1466.16,
+            "end": 1484.77
+          },
+          "opp_data": {
+            "id": "68chbet7",
+            "opp": "Prabowo, Bung Edy",
+            "start": 1499.5
+          }
+        },
+        {
+          "match_id": 3534835,
+          "round": "6",
+          "table": 7,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1484.77,
+            "end": 1503.44
+          },
+          "opp_data": {
+            "id": "knihzgfh",
+            "opp": "Halim, Mario",
+            "start": 1521.54
+          }
+        }
+      ],
+      "rcsin22-cy1": [
+        {
+          "match_id": 3558347,
+          "round": "1",
+          "table": 53,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1503.44,
+            "end": 1529.19
+          },
+          "opp_data": {
+            "id": "vwbo1eif",
+            "opp": "Krish, Rondy",
+            "start": 1958.12
+          }
+        },
+        {
+          "match_id": 3558396,
+          "round": "2",
+          "table": 25,
+          "format": "pioneer",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1529.19,
+            "end": 1514.54
+          },
+          "opp_data": {
+            "id": "fz0v8zby",
+            "opp": "Medvedev, Dmitry",
+            "start": 1715.01
+          }
+        },
+        {
+          "match_id": 3558476,
+          "round": "3",
+          "table": 29,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1514.54,
+            "end": 1532.94
+          },
+          "opp_data": {
+            "id": "v5msxp41",
+            "opp": "Sangudom, Sittinan",
+            "start": 1536.32
+          }
+        },
+        {
+          "match_id": 3558551,
+          "round": "4",
+          "table": 28,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1532.94,
+            "end": 1557.93
+          },
+          "opp_data": {
+            "id": "9pfx31jc",
+            "opp": "Lim, Zhong Yi",
+            "start": 1937.21
+          }
+        },
+        {
+          "match_id": 3558614,
+          "round": "5",
+          "table": 20,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1557.93,
+            "end": 1575.62
+          },
+          "opp_data": {
+            "id": "86c2266z",
+            "opp": "Maikhu, Suripat",
+            "start": 1541.2
+          }
+        },
+        {
+          "match_id": 3558670,
+          "round": "6",
+          "table": 9,
+          "format": "pioneer",
+          "result": "Lost 0-1",
+          "own_elo": {
+            "start": 1575.62,
+            "end": 1556.83
+          },
+          "opp_data": {
+            "id": "a8p7o7xe",
+            "opp": "Delmoro, Eton",
+            "start": 1532.35
+          }
+        },
+        {
+          "match_id": 3558743,
+          "round": "7",
+          "table": 23,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1556.83,
+            "end": 1578.52
+          },
+          "opp_data": {
+            "id": "awrwen4n",
+            "opp": "Lee, Rick Hup Beng",
+            "start": 1761.46
+          }
+        },
+        {
+          "match_id": 3558781,
+          "round": "8",
+          "table": 9,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1578.52,
+            "end": 1596.31
+          },
+          "opp_data": {
+            "id": "q6tq6wam",
+            "opp": "Dabalos, Marrion",
+            "start": 1567.33
+          }
+        }
+      ],
+      "rcsin23-cy4": [
+        {
+          "match_id": 3665915,
+          "round": "1",
+          "table": 15,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1596.31,
+            "end": 1614.08
+          },
+          "opp_data": {
+            "id": "gt41hhcv",
+            "opp": "Mahendran, Nikhilesh",
+            "start": 1583.57
+          }
+        },
+        {
+          "match_id": 3666002,
+          "round": "2",
+          "table": 19,
+          "format": "pioneer",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1614.08,
+            "end": 1617.6
+          },
+          "opp_data": {
+            "id": "3l0vbst8",
+            "opp": "Chaovarindr, Thirawat",
+            "start": 1809.83
+          }
+        },
+        {
+          "match_id": 3666089,
+          "round": "3",
+          "table": 24,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1617.6,
+            "end": 1634.88
+          },
+          "opp_data": {
+            "id": "a8p7o7xe",
+            "opp": "Delmoro, Eton",
+            "start": 1578.03
+          }
+        },
+        {
+          "match_id": 3666159,
+          "round": "4",
+          "table": 13,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1634.88,
+            "end": 1616.08
+          },
+          "opp_data": {
+            "id": "0moe7u8r",
+            "opp": "Abdollah, Azman",
+            "start": 1590.75
+          }
+        },
+        {
+          "match_id": 3666246,
+          "round": "5",
+          "table": 25,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1616.08,
+            "end": 1599.55
+          },
+          "opp_data": {
+            "id": "cziwrj6l",
+            "opp": "Poh, Liang Choong",
+            "start": 1696.72
+          }
+        },
+        {
+          "match_id": 3666326,
+          "round": "6",
+          "table": 40,
+          "format": "pioneer",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1599.55,
+            "end": 1617.95
+          },
+          "opp_data": {
+            "id": "k77qk0xy",
+            "opp": "Yii, Terh Kuen",
+            "start": 1621.43
+          }
+        },
+        {
+          "match_id": 3666372,
+          "round": "7",
+          "table": 30,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1617.95,
+            "end": 1600.21
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1632.5
+          }
+        },
+        {
+          "match_id": 3666431,
+          "round": "8",
+          "table": 36,
+          "format": "pioneer",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1600.21,
+            "end": 1599.61
+          },
+          "opp_data": {
+            "id": "rpslyjy8",
+            "opp": "Neo, Winsen",
+            "start": 1567.2
+          }
+        }
+      ],
+      "rcsin23-cy4-open": [
+        {
+          "match_id": 3666457,
+          "round": "1",
+          "table": 6,
+          "format": "modern",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1599.61,
+            "end": 1597.8
+          },
+          "opp_data": {
+            "id": "rt81jksl",
+            "opp": "Nadarajan, Ruben",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 3666570,
+          "round": "2",
+          "table": 39,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1597.8,
+            "end": 1580.1
+          },
+          "opp_data": {
+            "id": "6r32xt0n",
+            "opp": "Bolipata, Lance",
+            "start": 1614.37
+          }
+        },
+        {
+          "match_id": 3666672,
+          "round": "3",
+          "table": 61,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1580.1,
+            "end": 1560.39
+          },
+          "opp_data": {
+            "id": "zqlibdwn",
+            "opp": "Chen, Brendan",
+            "start": 1485.97
+          }
+        },
+        {
+          "match_id": 3666760,
+          "round": "4",
+          "table": 69,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1560.39,
+            "end": 1541.1
+          },
+          "opp_data": {
+            "id": "cnh4jzjm",
+            "opp": "Fong, Marcus",
+            "start": 1489.66
+          }
+        }
+      ],
+      "rcban24-open": [
+        {
+          "match_id": 3721208,
+          "round": "1",
+          "table": 12,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1541.1,
+            "end": 1525.07
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1649.45
+          }
+        },
+        {
+          "match_id": 3721283,
+          "round": "2",
+          "table": 38,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1525.07,
+            "end": 1541.62
+          },
+          "opp_data": {
+            "id": "y6rmgpy5",
+            "opp": "Jia Chuan, Tan",
+            "start": 1445.68
+          }
+        },
+        {
+          "match_id": 3721314,
+          "round": "3",
+          "table": 20,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1541.62,
+            "end": 1558.03
+          },
+          "opp_data": {
+            "id": "anc1ss17",
+            "opp": "Teoh, Calvin",
+            "start": 1454.05
+          }
+        },
+        {
+          "match_id": 3721356,
+          "round": "4",
+          "table": 13,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1558.03,
+            "end": 1540.41
+          },
+          "opp_data": {
+            "id": "hscc6zkr",
+            "opp": "Tan, Austin",
+            "start": 1579.15
+          }
+        },
+        {
+          "match_id": 3721410,
+          "round": "5",
+          "table": 19,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1540.41,
+            "end": 1521.75
+          },
+          "opp_data": {
+            "id": "eg0j0ev0",
+            "opp": "Corsieri Cano, Massimo",
+            "start": 1504.18
+          }
+        },
+        {
+          "match_id": 3721459,
+          "round": "6",
+          "table": 26,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1521.75,
+            "end": 1539.3
+          },
+          "opp_data": {
+            "id": "9jv18q7s",
+            "opp": "TirS",
+            "start": 1496.69
+          }
+        },
+        {
+          "match_id": 3721493,
+          "round": "7",
+          "table": 22,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1539.3,
+            "end": 1556.61
+          },
+          "opp_data": {
+            "id": "y0ggshcn",
+            "opp": "Mitchell, Andre",
+            "start": 1501.75
+          }
+        }
+      ],
+      "rcban24-cy5": [
+        {
+          "match_id": 3723224,
+          "round": "1",
+          "table": 11,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1556.61,
+            "end": 1540.82
+          },
+          "opp_data": {
+            "id": "y98sod8w",
+            "opp": "Lim, Lucas",
+            "start": 1678.03
+          }
+        },
+        {
+          "match_id": 3723383,
+          "round": "2",
+          "table": 81,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1540.82,
+            "end": 1558.11
+          },
+          "opp_data": {
+            "id": "k3m078d2",
+            "opp": "Soh, Kah Hou",
+            "start": 1502.32
+          }
+        },
+        {
+          "match_id": 3723431,
+          "round": "3",
+          "table": 41,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1558.11,
+            "end": 1575.94
+          },
+          "opp_data": {
+            "id": "2kpvixce",
+            "opp": "ferryanto, clemens",
+            "start": 1548.53
+          }
+        },
+        {
+          "match_id": 3723504,
+          "round": "4",
+          "table": 26,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1575.94,
+            "end": 1597.22
+          },
+          "opp_data": {
+            "id": "fl3lnze5",
+            "opp": "Lam, Daston",
+            "start": 1757.81
+          }
+        },
+        {
+          "match_id": 3723575,
+          "round": "5",
+          "table": 16,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1597.22,
+            "end": 1615.48
+          },
+          "opp_data": {
+            "id": "2fyr19md",
+            "opp": "Chutchev, Vova",
+            "start": 1611.39
+          }
+        },
+        {
+          "match_id": 3723638,
+          "round": "6",
+          "table": 10,
+          "format": "modern",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1615.48,
+            "end": 1621.41
+          },
+          "opp_data": {
+            "id": "awrwen4n",
+            "opp": "Lee, Rick Hup Beng",
+            "start": 1952.92
+          }
+        },
+        {
+          "match_id": 3723698,
+          "round": "7",
+          "table": 8,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1621.41,
+            "end": 1602.91
+          },
+          "opp_data": {
+            "id": "3hsmc61n",
+            "opp": "Techarattanakrai, Trichai",
+            "start": 1593.96
+          }
+        },
+        {
+          "match_id": 3723762,
+          "round": "8",
+          "table": 18,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1602.91,
+            "end": 1621.28
+          },
+          "opp_data": {
+            "id": "mtn6b46j",
+            "opp": "Yeh, Chao Lung",
+            "start": 1623.45
+          }
+        }
+      ],
+      "rcman24-cy6": [
+        {
+          "match_id": 3747413,
+          "round": "1",
+          "table": 27,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1621.28,
+            "end": 1640.6
+          },
+          "opp_data": {
+            "id": "frdcmupj",
+            "opp": "Garces, Craig Shaun",
+            "start": 1693.99
+          }
+        },
+        {
+          "match_id": 3747489,
+          "round": "2",
+          "table": 31,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1640.6,
+            "end": 1657.01
+          },
+          "opp_data": {
+            "id": "ylr79u4n",
+            "opp": "Supattarakulchai, Bodin",
+            "start": 1553.2
+          }
+        },
+        {
+          "match_id": 3747537,
+          "round": "3",
+          "table": 9,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1657.01,
+            "end": 1638.04
+          },
+          "opp_data": {
+            "id": "x5gnww0q",
+            "opp": "Ong, Zhi",
+            "start": 1603.42
+          }
+        },
+        {
+          "match_id": 3747625,
+          "round": "4",
+          "table": 28,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1638.04,
+            "end": 1658.05
+          },
+          "opp_data": {
+            "id": "8lk727ws",
+            "opp": "Pascual, Alfred Ceazar",
+            "start": 1748.95
+          }
+        },
+        {
+          "match_id": 3747676,
+          "round": "5",
+          "table": 15,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1658.05,
+            "end": 1637.85
+          },
+          "opp_data": {
+            "id": "6zk3agv5",
+            "opp": "Chia, Bing Yang",
+            "start": 1536.72
+          }
+        },
+        {
+          "match_id": 3747747,
+          "round": "6",
+          "table": 26,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1637.85,
+            "end": 1655.66
+          },
+          "opp_data": {
+            "id": "6ivx6enh",
+            "opp": "Achacoso, Paulo",
+            "start": 1627.56
+          }
+        },
+        {
+          "match_id": 3747785,
+          "round": "7",
+          "table": 12,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1655.66,
+            "end": 1638
+          },
+          "opp_data": {
+            "id": "vli4iyzn",
+            "opp": "Lim, Victoriano",
+            "start": 1674.36
+          }
+        },
+        {
+          "match_id": 3747839,
+          "round": "8",
+          "table": 19,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1638,
+            "end": 1618
+          },
+          "opp_data": {
+            "id": "espblnpu",
+            "opp": "sontiporn, tithipan",
+            "start": 1527.97
+          }
+        }
+      ],
+      "rcsin24-cy7": [
+        {
+          "match_id": 3779521,
+          "round": "1",
+          "table": 24,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1618,
+            "end": 1639.85
+          },
+          "opp_data": {
+            "id": "z0jh21e6",
+            "opp": "Yang, Joshua",
+            "start": 1832.38
+          }
+        },
+        {
+          "match_id": 3779564,
+          "round": "2",
+          "table": 9,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1639.85,
+            "end": 1619.73
+          },
+          "opp_data": {
+            "id": "n7acopgw",
+            "opp": "Player, Anonymous 20",
+            "start": 1522.7
+          }
+        },
+        {
+          "match_id": 3779638,
+          "round": "3",
+          "table": 26,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1619.73,
+            "end": 1634.9
+          },
+          "opp_data": {
+            "id": "mnbkhl0n",
+            "opp": "Yap, Zack",
+            "start": 1463.23
+          }
+        },
+        {
+          "match_id": 3779692,
+          "round": "4",
+          "table": 24,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1634.9,
+            "end": 1655.11
+          },
+          "opp_data": {
+            "id": "d1b9o8yn",
+            "opp": "Ong, Jeremy",
+            "start": 1756.9
+          }
+        },
+        {
+          "match_id": 3779726,
+          "round": "5",
+          "table": 6,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1655.11,
+            "end": 1635.82
+          },
+          "opp_data": {
+            "id": "drsnz58c",
+            "opp": "Lip, Quinton",
+            "start": 1584.44
+          }
+        },
+        {
+          "match_id": 3779791,
+          "round": "6",
+          "table": 22,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1635.82,
+            "end": 1620.5
+          },
+          "opp_data": {
+            "id": "fl3lnze5",
+            "opp": "Lam, Daston",
+            "start": 1783.72
+          }
+        },
+        {
+          "match_id": 3779835,
+          "round": "7",
+          "table": 23,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1620.5,
+            "end": 1640.82
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1748.17
+          }
+        }
+      ],
+      "rcsin24-open": [
+        {
+          "match_id": 3780588,
+          "round": "1",
+          "table": 34,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1640.82,
+            "end": 1661.68
+          },
+          "opp_data": {
+            "id": "fl3lnze5",
+            "opp": "Lam, Daston",
+            "start": 1799.04
+          }
+        },
+        {
+          "match_id": 3780627,
+          "round": "2",
+          "table": 5,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1661.68,
+            "end": 1677.05
+          },
+          "opp_data": {
+            "id": "rd7oz83y",
+            "opp": "Xu, Jing Hong",
+            "start": 1516.39
+          }
+        },
+        {
+          "match_id": 3780694,
+          "round": "3",
+          "table": 3,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1677.05,
+            "end": 1692.26
+          },
+          "opp_data": {
+            "id": "x9cvxxaj",
+            "opp": "Gooi, Chong Yen",
+            "start": 1522.93
+          }
+        },
+        {
+          "match_id": 3780761,
+          "round": "4",
+          "table": 2,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1692.26,
+            "end": 1671.92
+          },
+          "opp_data": {
+            "id": "37aml2u5",
+            "opp": "Zhen, Wei",
+            "start": 1563.45
+          }
+        },
+        {
+          "match_id": 3780836,
+          "round": "5",
+          "table": 11,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1671.92,
+            "end": 1692.44
+          },
+          "opp_data": {
+            "id": "fty1tbzy",
+            "opp": "Supapipat, Nattawin",
+            "start": 1810.6
+          }
+        },
+        {
+          "match_id": 3780891,
+          "round": "6",
+          "table": 7,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1692.44,
+            "end": 1711.53
+          },
+          "opp_data": {
+            "id": "cyhzj8op",
+            "opp": "See, Spencer",
+            "start": 1752.61
+          }
+        },
+        {
+          "match_id": 3780937,
+          "round": "7",
+          "table": 3,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1711.53,
+            "end": 1730.98
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1790.99
+          }
+        },
+        {
+          "match_id": 3780982,
+          "round": "8",
+          "table": 2,
+          "format": "modern",
+          "result": "ID",
+          "own_elo": {
+            "start": 1730.98,
+            "end": 1730.98
+          },
+          "opp_data": {
+            "id": "jhu0s2t6",
+            "opp": "Rivero, Roy Raymund",
+            "start": 1522.23
+          }
+        },
+        {
+          "match_id": 3781028,
+          "round": "Q",
+          "table": 4,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1730.98,
+            "end": 1713.39
+          },
+          "opp_data": {
+            "id": "ajh5fqtl",
+            "opp": "Oca, Ramon Allan",
+            "start": 1753.34
+          }
+        }
+      ],
+      "rcban25-cy8": [
+        {
+          "match_id": 3845533,
+          "round": "1",
+          "table": 31,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1713.39,
+            "end": 1726.64
+          },
+          "opp_data": {
+            "id": "v5msxp41",
+            "opp": "Sangudom, Sittinan",
+            "start": 1446.75
+          }
+        },
+        {
+          "match_id": 3845612,
+          "round": "2",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1726.64,
+            "end": 1703.72
+          },
+          "opp_data": {
+            "id": "gt41hhcv",
+            "opp": "Mahendran, Nikhilesh",
+            "start": 1450.26
+          }
+        },
+        {
+          "match_id": 3845715,
+          "round": "3",
+          "table": 53,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1703.72,
+            "end": 1718.59
+          },
+          "opp_data": {
+            "id": "ui0gt5tg",
+            "opp": "Carbajo Lopez, Daniel",
+            "start": 1530.37
+          }
+        },
+        {
+          "match_id": 3845771,
+          "round": "4",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1718.59,
+            "end": 1697
+          },
+          "opp_data": {
+            "id": "o9n5rlc7",
+            "opp": "Wen, Felix",
+            "start": 1518.86
+          }
+        },
+        {
+          "match_id": 3845858,
+          "round": "5",
+          "table": 40,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1697,
+            "end": 1714.59
+          },
+          "opp_data": {
+            "id": "5tcaiitb",
+            "opp": "Gan, Zhengxin",
+            "start": 1674.88
+          }
+        },
+        {
+          "match_id": 3845909,
+          "round": "6",
+          "table": 20,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1714.59,
+            "end": 1729.27
+          },
+          "opp_data": {
+            "id": "mycxvdz9",
+            "opp": "Sangco, Anthony Jacque",
+            "start": 1530.35
+          }
+        },
+        {
+          "match_id": 3845977,
+          "round": "7",
+          "table": 24,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1729.27,
+            "end": 1706.05
+          },
+          "opp_data": {
+            "id": "haxbvvez",
+            "opp": "Costales, Franz",
+            "start": 1434.62
+          }
+        },
+        {
+          "match_id": 3846038,
+          "round": "8",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1706.05,
+            "end": 1687.85
+          },
+          "opp_data": {
+            "id": "37aml2u5",
+            "opp": "Zhen, Wei",
+            "start": 1695.08
+          }
+        }
+      ],
+      "rcban25-open": [
+        {
+          "match_id": 3847267,
+          "round": "1",
+          "table": 27,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1687.85,
+            "end": 1667.81
+          },
+          "opp_data": {
+            "id": "w45el0rn",
+            "opp": "choo, clement",
+            "start": 1575.43
+          }
+        },
+        {
+          "match_id": 3847326,
+          "round": "2",
+          "table": 37,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1667.81,
+            "end": 1649.34
+          },
+          "opp_data": {
+            "id": "vsk6rh75",
+            "opp": "Po, John Jerson",
+            "start": 1642.14
+          }
+        },
+        {
+          "match_id": 3847387,
+          "round": "3",
+          "table": 49,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1649.34,
+            "end": 1665.74
+          },
+          "opp_data": {
+            "id": "vcawi5mo",
+            "opp": "Serafica, Marco Philip",
+            "start": 1561.46
+          }
+        },
+        {
+          "match_id": 3847416,
+          "round": "4",
+          "table": 29,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1665.74,
+            "end": 1682.12
+          },
+          "opp_data": {
+            "id": "ttvx0943",
+            "opp": "Santos, Ricky John",
+            "start": 1576.93
+          }
+        },
+        {
+          "match_id": 3847455,
+          "round": "5",
+          "table": 22,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1682.12,
+            "end": 1698.53
+          },
+          "opp_data": {
+            "id": "svz2ems7",
+            "opp": "Rouilly, Maxime",
+            "start": 1594.62
+          }
+        },
+        {
+          "match_id": 3847501,
+          "round": "6",
+          "table": 24,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1698.53,
+            "end": 1677.28
+          },
+          "opp_data": {
+            "id": "1ce5sh6f",
+            "opp": "Abrazado, Nikko",
+            "start": 1518.35
+          }
+        },
+        {
+          "match_id": 3847544,
+          "round": "7",
+          "table": 29,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1677.28,
+            "end": 1658.33
+          },
+          "opp_data": {
+            "id": "mtn6b46j",
+            "opp": "Yeh, Chao Lung",
+            "start": 1625.31
+          }
+        }
+      ],
+      "rctok25-cup": [
+        {
+          "match_id": 3876084,
+          "round": "1",
+          "table": 239,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1658.33,
+            "end": 1636.66
+          },
+          "opp_data": {
+            "id": "34old637",
+            "opp": "Suda, Yoshihiro",
+            "start": 1454.14
+          }
+        },
+        {
+          "match_id": 3876311,
+          "round": "2",
+          "table": 306,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1636.66,
+            "end": 1616.31
+          },
+          "opp_data": {
+            "id": "35kdk6s8",
+            "opp": "Yamashita, Yutaro",
+            "start": 1507
+          }
+        },
+        {
+          "match_id": 3876511,
+          "round": "3",
+          "table": 347,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1616.31,
+            "end": 1631.64
+          },
+          "opp_data": {
+            "id": "f7tdgdvu",
+            "opp": "TOKUNAGA, TAKAYUKI",
+            "start": 1468.94
+          }
+        },
+        {
+          "match_id": 3876650,
+          "round": "4",
+          "table": 332,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1631.64,
+            "end": 1651.85
+          },
+          "opp_data": {
+            "id": "1q46f23u",
+            "opp": "Sakano, Rei",
+            "start": 1753.68
+          }
+        },
+        {
+          "match_id": 3876739,
+          "round": "5",
+          "table": 278,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1651.85,
+            "end": 1666.29
+          },
+          "opp_data": {
+            "id": "nc19wkux",
+            "opp": "Kouno, Tetsuya",
+            "start": 1453.91
+          }
+        },
+        {
+          "match_id": 3876857,
+          "round": "6",
+          "table": 272,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1666.29,
+            "end": 1646.89
+          },
+          "opp_data": {
+            "id": "ovd6ju3y",
+            "opp": "Tamai, Yuno",
+            "start": 1589.64
+          }
+        },
+        {
+          "match_id": 3876951,
+          "round": "7",
+          "table": 261,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1646.89,
+            "end": 1665.1
+          },
+          "opp_data": {
+            "id": "cg80uumg",
+            "opp": "Shimizu, Ryouta",
+            "start": 1658.02
+          }
+        }
+      ],
+      "sschi25": [
+        {
+          "match_id": 3894200,
+          "round": "1",
+          "table": 280,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1665.1,
+            "end": 1680.11
+          },
+          "opp_data": {
+            "id": "ftq81zlh",
+            "opp": "Kato, Koki",
+            "start": 1500
+          }
+        },
+        {
+          "match_id": 3895164,
+          "round": "2",
+          "table": 128,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1680.11,
+            "end": 1695.79
+          },
+          "opp_data": {
+            "id": "bsjjrg75",
+            "opp": "Itou, Masayoshi",
+            "start": 1552.19
+          }
+        },
+        {
+          "match_id": 3896362,
+          "round": "3",
+          "table": 236,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1695.79,
+            "end": 1713.49
+          },
+          "opp_data": {
+            "id": "5szltnwa",
+            "opp": "Sintoni, Filippo",
+            "start": 1679.58
+          }
+        },
+        {
+          "match_id": 3897318,
+          "round": "4",
+          "table": 130,
+          "format": "standard",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1713.49,
+            "end": 1718.29
+          },
+          "opp_data": {
+            "id": "2zcb1h1n",
+            "opp": "Chang, Cheng Yu",
+            "start": 1983.13
+          }
+        },
+        {
+          "match_id": 3898276,
+          "round": "5",
+          "table": 70,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1718.29,
+            "end": 1733.62
+          },
+          "opp_data": {
+            "id": "ofzlzsdt",
+            "opp": "Ooizumi, Shoma",
+            "start": 1570.63
+          }
+        },
+        {
+          "match_id": 3899187,
+          "round": "6",
+          "table": 35,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1733.62,
+            "end": 1712.73
+          },
+          "opp_data": {
+            "id": "g80twzxe",
+            "opp": "Nakahira, Yoshiharu",
+            "start": 1573.83
+          }
+        },
+        {
+          "match_id": 3900098,
+          "round": "7",
+          "table": 125,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1712.73,
+            "end": 1728.06
+          },
+          "opp_data": {
+            "id": "4nwc82i7",
+            "opp": "Tsao, Wen-Hung",
+            "start": 1565.53
+          }
+        },
+        {
+          "match_id": 3900736,
+          "round": "8",
+          "table": 70,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1728.06,
+            "end": 1713.28
+          },
+          "opp_data": {
+            "id": "vhsiasqx",
+            "opp": "Chang, Samuel",
+            "start": 1906.38
+          }
+        },
+        {
+          "match_id": 3901373,
+          "round": "9",
+          "table": 153,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1713.28,
+            "end": 1728.56
+          },
+          "opp_data": {
+            "id": "e558dl7x",
+            "opp": "Sugiyama, Hiroaki",
+            "start": 1563.03
+          }
+        },
+        {
+          "match_id": 3901763,
+          "round": "10",
+          "table": 97,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1728.56,
+            "end": 1748.07
+          },
+          "opp_data": {
+            "id": "bo5t0etz",
+            "opp": "Yokokawa, Yuta",
+            "start": 1811.5
+          }
+        },
+        {
+          "match_id": 3901979,
+          "round": "11",
+          "table": 61,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1748.07,
+            "end": 1765.97
+          },
+          "opp_data": {
+            "id": "x04uk53g",
+            "opp": "Takahashi, Taro",
+            "start": 1742.65
+          }
+        },
+        {
+          "match_id": 3902200,
+          "round": "12",
+          "table": 37,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1765.97,
+            "end": 1781.47
+          },
+          "opp_data": {
+            "id": "t1oha8by",
+            "opp": "Yoshino, Junpei",
+            "start": 1627.89
+          }
+        },
+        {
+          "match_id": 3902401,
+          "round": "13",
+          "table": 21,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1781.47,
+            "end": 1798.11
+          },
+          "opp_data": {
+            "id": "iossrs0u",
+            "opp": "Sierra Hermosa, Juan Miguel",
+            "start": 1706.8
+          }
+        },
+        {
+          "match_id": 3902580,
+          "round": "14",
+          "table": 12,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1798.11,
+            "end": 1780.51
+          },
+          "opp_data": {
+            "id": "gd5utjp4",
+            "opp": "Matsumoto, Keiichiro",
+            "start": 1820
+          }
+        },
+        {
+          "match_id": 3902750,
+          "round": "15",
+          "table": 33,
+          "format": "standard",
+          "result": "ID",
+          "own_elo": {
+            "start": 1780.51,
+            "end": 1780.51
+          },
+          "opp_data": {
+            "id": "opqtf5c9",
+            "opp": "YAHATA, MASASHI",
+            "start": 1646.01
+          }
+        }
+      ],
+      "rcsin25-cy10": [
+        {
+          "match_id": 3928655,
+          "round": "1",
+          "table": 3,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1780.51,
+            "end": 1792.25
+          },
+          "opp_data": {
+            "id": "qnt9adw9",
+            "opp": "Le, Ryan",
+            "start": 1422.53
+          }
+        },
+        {
+          "match_id": 3928769,
+          "round": "2",
+          "table": 30,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1792.25,
+            "end": 1808.01
+          },
+          "opp_data": {
+            "id": "frzhildf",
+            "opp": "Lim, Jonathan",
+            "start": 1668.87
+          }
+        },
+        {
+          "match_id": 3928826,
+          "round": "3",
+          "table": 3,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1808.01,
+            "end": 1787.91
+          },
+          "opp_data": {
+            "id": "eaycep2s",
+            "opp": "Pineda, Johnne Benedict",
+            "start": 1692.59
+          }
+        },
+        {
+          "match_id": 3928937,
+          "round": "4",
+          "table": 32,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1787.91,
+            "end": 1800.19
+          },
+          "opp_data": {
+            "id": "lh26hj9o",
+            "opp": "Wahid, Izad",
+            "start": 1463.12
+          }
+        },
+        {
+          "match_id": 3929001,
+          "round": "5",
+          "table": 19,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1800.19,
+            "end": 1816.67
+          },
+          "opp_data": {
+            "id": "28hvdl3u",
+            "opp": "Tan, Wei Siong",
+            "start": 1716.35
+          }
+        },
+        {
+          "match_id": 3929059,
+          "round": "6",
+          "table": 6,
+          "format": "modern",
+          "result": "Draw 1-1",
+          "own_elo": {
+            "start": 1816.67,
+            "end": 1815.93
+          },
+          "opp_data": {
+            "id": "frdz3lsw",
+            "opp": "Wong, Eugene",
+            "start": 1776.19
+          }
+        },
+        {
+          "match_id": 3929123,
+          "round": "7",
+          "table": 9,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1815.93,
+            "end": 1831.6
+          },
+          "opp_data": {
+            "id": "9l5rjfat",
+            "opp": "Arepin, Artyom",
+            "start": 1687.31
+          }
+        },
+        {
+          "match_id": 3929173,
+          "round": "8",
+          "table": 5,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1831.6,
+            "end": 1845.56
+          },
+          "opp_data": {
+            "id": "7p0qjh83",
+            "opp": "B, Tanguy",
+            "start": 1606.61
+          }
+        },
+        {
+          "match_id": 3929219,
+          "round": "Q",
+          "table": 1,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1845.56,
+            "end": 1860.44
+          },
+          "opp_data": {
+            "id": "x01hman0",
+            "opp": "Padilla, Sergio",
+            "start": 1672.65
+          }
+        },
+        {
+          "match_id": 3929223,
+          "round": "S",
+          "table": 1,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1860.44,
+            "end": 1874.91
+          },
+          "opp_data": {
+            "id": "kbnqolg0",
+            "opp": "Teo, Gavin",
+            "start": 1664.68
+          }
+        },
+        {
+          "match_id": 3929225,
+          "round": "F",
+          "table": 1,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1874.91,
+            "end": 1894.02
+          },
+          "opp_data": {
+            "id": "awrwen4n",
+            "opp": "Lee, Rick Hup Beng",
+            "start": 1935.55
+          }
+        }
+      ]
+    }
+  },
+  "melee": [
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 1677,
+      "TournamentName": "Q3 MTGA Ogre Open",
+      "OrganizationId": 470,
+      "OrganizationName": "Ogre",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-06-06T13:30:00Z",
+      "PlayerCap": 32,
+      "ParticipatingCount": 11,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 1,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 910,
+      "TournamentName": "Red Bull Untapped International Qualifier II",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-07-11T07:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1310,
+      "DecklistId": 31621,
+      "DecklistName": "Mono-Green Aggro",
+      "Rank": 490,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 912,
+      "TournamentName": "Red Bull Untapped International Qualifier III",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-07-18T07:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1091,
+      "DecklistId": 35027,
+      "DecklistName": "Bant Festival",
+      "Rank": 693,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 2361,
+      "TournamentName": "Red Bull Untapped International Qualifier IV",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-08-08T11:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1123,
+      "DecklistId": 42475,
+      "DecklistName": "Sultai Ultimatum",
+      "Rank": 159,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 3775,
+      "TournamentName": "Week of Wings Entry Event Monday Flight 2",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-10-19T10:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 164,
+      "DecklistId": 58622,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 6,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 3859,
+      "TournamentName": "Week of Wings Qualifier",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-10-24T10:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1011,
+      "DecklistId": 63727,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 36,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 3859,
+      "TournamentName": "Week of Wings Qualifier",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-10-24T10:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1011,
+      "DecklistId": 63727,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 36,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 3767,
+      "TournamentName": "CFB Clash Qualifier 3",
+      "OrganizationId": 674,
+      "OrganizationName": "Channelfireball",
+      "EntryType": 0,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-10-31T00:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 217,
+      "DecklistId": 65707,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 71,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Entry Fee",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 3857,
+      "TournamentName": "CFB Clash Qualifier 4 - Flight 2",
+      "OrganizationId": 674,
+      "OrganizationName": "Channelfireball",
+      "EntryType": 0,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-11-14T19:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 187,
+      "DecklistId": 70960,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 22,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Entry Fee",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 4215,
+      "TournamentName": "CFB Clash Qualifier 4 Day 2",
+      "OrganizationId": 674,
+      "OrganizationName": "Channelfireball",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-11-15T17:00:00Z",
+      "PlayerCap": 128,
+      "ParticipatingCount": 231,
+      "DecklistId": 71217,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 226,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 4609,
+      "TournamentName": "6LACKLOTUS TOURNAMENT",
+      "OrganizationId": 660,
+      "OrganizationName": "6lacklotus",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2020-12-27T15:00:00Z",
+      "PlayerCap": 33,
+      "ParticipatingCount": 27,
+      "DecklistId": 88392,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 3,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 4729,
+      "TournamentName": "SCG Tour Online - Satellite #5",
+      "OrganizationId": 530,
+      "OrganizationName": "Star City Games",
+      "EntryType": 0,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-01-09T10:00:00Z",
+      "PlayerCap": 1000,
+      "ParticipatingCount": 85,
+      "DecklistId": 91793,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 41,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Entry Fee",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5052,
+      "TournamentName": "Draagoons FNM @home 1",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-02-05T12:00:00Z",
+      "PlayerCap": 16,
+      "ParticipatingCount": 14,
+      "DecklistId": 96477,
+      "DecklistName": "Izzet Control",
+      "Rank": 1,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5181,
+      "TournamentName": "Draagoons FNM @home 2",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-02-12T12:05:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 10,
+      "DecklistId": 99389,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 1,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5286,
+      "TournamentName": "Draagoons FNM @home 3",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-02-19T12:05:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 11,
+      "DecklistId": 102716,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 7,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5384,
+      "TournamentName": "Draagoons FNM @home 4",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-02-26T12:05:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 12,
+      "DecklistId": 106136,
+      "DecklistName": "Naya Fury",
+      "Rank": 5,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5483,
+      "TournamentName": "Draagoons FNM @home 5",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-03-05T12:05:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 7,
+      "DecklistId": 108007,
+      "DecklistName": "Gruul Adventures",
+      "Rank": 2,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5746,
+      "TournamentName": "Draagoons FNM @home 7",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-03-19T12:05:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 8,
+      "DecklistId": 114853,
+      "DecklistName": "Mono-White Aggro ❄️",
+      "Rank": 3,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 5770,
+      "TournamentName": "Draagoons FNM @home 8",
+      "OrganizationId": 417,
+      "OrganizationName": "Draagoons Hobby Shop",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-03-26T12:00:00Z",
+      "PlayerCap": 18,
+      "ParticipatingCount": 7,
+      "DecklistId": 118891,
+      "DecklistName": "Mono-White Aggro ❄️",
+      "Rank": 4,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 7938,
+      "TournamentName": "Red Bull Untapped 2021 International Stop II [Eastern Time]",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-10-23T13:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 1172,
+      "DecklistId": 176643,
+      "DecklistName": "Mono-Green Aggro ❄",
+      "Rank": 328,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 7939,
+      "TournamentName": "Red Bull Untapped 2021 International Stop III [Japan Time]",
+      "OrganizationId": 374,
+      "OrganizationName": "Red Bull Untapped",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 0,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2021-10-30T00:00:00Z",
+      "PlayerCap": 4999,
+      "ParticipatingCount": 761,
+      "DecklistId": 179741,
+      "DecklistName": "Golgari Midrange",
+      "Rank": 66,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Open Registration",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 11579,
+      "TournamentName": "MTG SEA Championships Indonesia Open",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2022-08-28T02:00:00Z",
+      "PlayerCap": 256,
+      "ParticipatingCount": 43,
+      "DecklistId": 240078,
+      "DecklistName": "Jeskai Hinata",
+      "Rank": 9,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 12857,
+      "TournamentName": "MTG SEA Championship Final Cycle 1",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2022-11-26T01:00:00Z",
+      "PlayerCap": 203,
+      "ParticipatingCount": 153,
+      "DecklistId": 259016,
+      "DecklistName": "Rakdos Midrange",
+      "Rank": 11,
+      "Format": "Pioneer",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 28150,
+      "TournamentName": "MTG SEA Championship Final Season 2 Round 1",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2023-11-04T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 167,
+      "DecklistId": 337523,
+      "DecklistName": "Rakdos Midrange",
+      "Rank": 80,
+      "Format": "Pioneer",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 28152,
+      "TournamentName": "MTG SEA Championships Singapore Open Season 2 Round 2",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2023-11-05T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 161,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 154,
+      "Format": "Modern",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 65228,
+      "TournamentName": "MTG SEA Championship Final Season 2 Round 2",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-03-09T02:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 178,
+      "DecklistId": 375165,
+      "DecklistName": "Domain Rhinos",
+      "Rank": 23,
+      "Format": "Modern",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 65229,
+      "TournamentName": "MTG SEA Championships Thailand Open Season 2 Round 3",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-03-10T02:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 98,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 33,
+      "Format": "Standard",
+      "Record": "0-0-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 94987,
+      "TournamentName": "MTG SEA Championship Final Season 2 Round 3",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-06-01T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 144,
+      "DecklistId": 403098,
+      "DecklistName": "Golgari Midrange",
+      "Rank": 51,
+      "Format": "Standard",
+      "Record": "4-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 161645,
+      "TournamentName": "MTG SEA Championship Final Season 3 Round 1",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-10-12T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 115,
+      "DecklistId": 442195,
+      "DecklistName": "Rakdos Aggro",
+      "Rank": 40,
+      "Format": "Pioneer",
+      "Record": "4-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Pioneer",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 161642,
+      "TournamentName": "MTG SEA Championships Singapore Open Season 3 Round 2",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2024-10-13T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 138,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 6,
+      "Format": "Modern",
+      "Record": "6-2-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 260264,
+      "TournamentName": "MTG SEA Championship Final Season 3 Round 2",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-03-15T02:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 161,
+      "DecklistId": 489157,
+      "DecklistName": "Boros Energy",
+      "Rank": 71,
+      "Format": "Modern",
+      "Record": "4-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Modern",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 260267,
+      "TournamentName": "MTG SEA Championships Thailand Open Season 3 Round 3",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-03-16T02:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 99,
+      "DecklistId": 491941,
+      "DecklistName": "Mono-Red Aggro",
+      "Rank": 64,
+      "Format": "Standard",
+      "Record": "3-4-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": "Standard",
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 248754,
+      "TournamentName": "ジャパンスタンダードカップ：『タルキール：龍嵐録』Japan Standard Cup: “Tarkir: Dragonstorm”",
+      "OrganizationId": 678,
+      "OrganizationName": "BIG MAGIC",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-05-04T00:15:00Z",
+      "PlayerCap": 576,
+      "ParticipatingCount": 320,
+      "DecklistId": 0,
+      "DecklistName": "Izzet Aggro",
+      "Rank": 128,
+      "Format": null,
+      "Record": "4-3-0",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "63b9a6d9-56e3-43c9-bf13-b2d10042ed28"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 295285,
+      "TournamentName": "マジック・スポットライト ：FINAL FANTASY　Magic Spotlight: FINAL FANTASY",
+      "OrganizationId": 678,
+      "OrganizationName": "BIG MAGIC",
+      "EntryType": 1,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-06-27T23:50:00Z",
+      "PlayerCap": 2400,
+      "ParticipatingCount": 2248,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 112,
+      "Format": null,
+      "Record": "10-3-2",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Code Only",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 375124,
+      "TournamentName": "MTG SEA Championship Final 2025-26 Round 1",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-11-01T01:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 174,
+      "DecklistId": 0,
+      "DecklistName": "Jeskai Blink",
+      "Rank": 1,
+      "Format": null,
+      "Record": "9-1-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "39508504-ec77-4270-afc2-b3870083da2c"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 389078,
+      "TournamentName": "Manatraders Year-End $15000 Tournament",
+      "OrganizationId": 17495,
+      "OrganizationName": "Manatraders_Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2025-12-13T15:05:00Z",
+      "PlayerCap": 450,
+      "ParticipatingCount": 323,
+      "DecklistId": 0,
+      "DecklistName": "Boros Aggro",
+      "Rank": 0,
+      "Format": null,
+      "Record": "-",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "159413b1-2c73-45e2-9daf-b3b200236cb8"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 408810,
+      "TournamentName": "MTG SEA Championship Final 2025-26 Round 2",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-03-14T02:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 150,
+      "DecklistId": 0,
+      "DecklistName": "Temur Prowess",
+      "Rank": 10,
+      "Format": null,
+      "Record": "6-1-1",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended",
+      "DecklistGuid": "517c8264-ed28-4b8d-9f23-b40a0109d7e9"
+    },
+    {
+      "UserName": "MTGHolic",
+      "TournamentId": 408816,
+      "TournamentName": "MTG SEA Championships Thailand Open 2025-26 Round 3",
+      "OrganizationId": 2508,
+      "OrganizationName": "Oracle Events",
+      "EntryType": 3,
+      "Game": "MagicTheGathering",
+      "RegistrationType": 1,
+      "TournamentStatus": 4,
+      "TournamentStartDate": "2026-03-15T05:00:00Z",
+      "PlayerCap": 200,
+      "ParticipatingCount": 103,
+      "DecklistId": 0,
+      "DecklistName": "Decklist",
+      "Rank": 1,
+      "Format": null,
+      "Record": "8-0-2",
+      "GameDescription": "Magic: The Gathering",
+      "FormatDescription": null,
+      "EntryTypeDescription": "Free",
+      "RegistrationTypeDescription": "Invite Only",
+      "TournamentStatusDescription": "Ended"
+    }
+  ]
+}
