@@ -35,6 +35,9 @@ const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
         ) : (
           Math.round(profile.current_rating)
         )}
+        <span class="rating-source">
+          via <a href="https://mtgeloproject.net" target="_blank" rel="noopener noreferrer">Elo Project</a>
+        </span>
       </p>
     )}
 
@@ -45,7 +48,7 @@ const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
       />
     </section>
 
-    <a href="/" class="back">&larr; Back</a>
+    <a href={import.meta.env.BASE_URL} class="back">&larr; Back</a>
   </article>
 </Base>
 
@@ -86,6 +89,24 @@ const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
     color: var(--color-text-muted);
     margin-right: 0.3rem;
     font-weight: 400;
+  }
+
+  .rating-source {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    font-weight: 400;
+    margin-left: 0.4rem;
+  }
+
+  .rating-source a {
+    color: var(--color-text-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.15s;
+  }
+
+  .rating-source a:hover {
+    color: var(--color-text);
   }
 
   .tournaments {

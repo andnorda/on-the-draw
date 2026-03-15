@@ -15,7 +15,7 @@ const summaries = loadTeamSummaries(sorted.map((p) => ({ id: p.id })));
       const handle = player.data.mtgo || player.data.mtga || null;
       return (
         <li>
-          <a href={`/team/${player.id}/`} class="roster-row">
+          <a href={`${import.meta.env.BASE_URL}team/${player.id}/`} class="roster-row">
             <span class="top-line">
               <span class="name">{player.data.name}</span>
               {handle && <span class="handle">{handle}</span>}
