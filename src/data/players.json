@@ -161,16 +161,6 @@
     "aliases": ["Bartek Wojciechowski"]
   },
   {
-    "id": "adrian-alvarez-vega",
-    "name": "Adri\u00e1n \u00c1lvarez Vega",
-    "location": "Madrid, Spain",
-    "country": "ES",
-    "mtgo": "Jenara19",
-    "mtga": "Jenara19#24582",
-    "meleegg": "Jenara19",
-    "mtgelo": "g932eb57"
-  },
-  {
     "id": "krzysztof-nowicki",
     "name": "Krzysztof Nowicki",
     "location": "Cracow, Poland",
@@ -199,5 +189,15 @@
     "mtga": "nordahl#88204",
     "meleegg": "andnorda",
     "mtgelo": "4jtx5639"
+  },
+  {
+    "id": "manuel-danninger",
+    "name": "Manuel Danninger",
+    "location": "Linz, Austria",
+    "country": "AT",
+    "mtgo": "Manuel_Danninger",
+    "mtga": "ManuelDanninger#33467",
+    "meleegg": "Manuel_Danninger",
+    "mtgelo": "cndvmow3"
   }
 ]
