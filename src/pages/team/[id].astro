@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import TournamentHistory from "../../components/TournamentHistory.astro";
 import { getCollection } from "astro:content";
-import { loadPlayerData } from "../../lib/api/cached-data";
+import { loadPlayerData, computePremierStats } from "../../lib/api/cached-data";
 
 export async function getStaticPaths() {
   const players = await getCollection("players");
@@ -17,6 +17,8 @@ const { name, location, mtgelo } = player.data;
 
 const tournamentData = loadPlayerData(player.id);
 const profile = tournamentData.elo.profile;
+const stats = computePremierStats(tournamentData);
+const hasStats = stats.gpTop8s > 0 || stats.ptTop8s > 0 || stats.rcTop8s > 0 || stats.ssTop8s > 0;
 const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
 ---
 
@@ -39,6 +41,35 @@ const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
           via <a href="https://mtgeloproject.net" target="_blank" rel="noopener noreferrer">Elo Project</a>
         </span>
       </p>
+    )}
+
+    {hasStats && (
+      <dl class="premier-stats">
+        {stats.ptTop8s > 0 && (
+          <div class="stat">
+            <dt>PT Top 8s</dt>
+            <dd>{stats.ptTop8s}{stats.ptWins > 0 && <span class="wins">({stats.ptWins} {stats.ptWins === 1 ? "win" : "wins"})</span>}</dd>
+          </div>
+        )}
+        {stats.gpTop8s > 0 && (
+          <div class="stat">
+            <dt>GP Top 8s</dt>
+            <dd>{stats.gpTop8s}{stats.gpWins > 0 && <span class="wins">({stats.gpWins} {stats.gpWins === 1 ? "win" : "wins"})</span>}</dd>
+          </div>
+        )}
+        {stats.rcTop8s > 0 && (
+          <div class="stat">
+            <dt>RC Top 8s</dt>
+            <dd>{stats.rcTop8s}{stats.rcWins > 0 && <span class="wins">({stats.rcWins} {stats.rcWins === 1 ? "win" : "wins"})</span>}</dd>
+          </div>
+        )}
+        {stats.ssTop8s > 0 && (
+          <div class="stat">
+            <dt>SS Top 8s</dt>
+            <dd>{stats.ssTop8s}{stats.ssWins > 0 && <span class="wins">({stats.ssWins} {stats.ssWins === 1 ? "win" : "wins"})</span>}</dd>
+          </div>
+        )}
+      </dl>
     )}
 
     <section class="tournaments">
@@ -107,6 +138,31 @@ const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
 
   .rating-source a:hover {
     color: var(--color-text);
+  }
+
+  .premier-stats {
+    display: flex;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+  }
+
+  .stat dt {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .stat dd {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .wins {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+    margin-left: 0.3rem;
   }
 
   .tournaments {

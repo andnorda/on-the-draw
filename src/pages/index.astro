@@ -20,6 +20,9 @@ const summaries = loadTeamSummaries(sorted.map((p) => ({ id: p.id })));
               <span class="name">{player.data.name}</span>
               {handle && <span class="handle">{handle}</span>}
             </span>
+            {summary?.title && (
+              <span class="title">{summary.title}</span>
+            )}
             <span class="bottom-line">
               {summary?.rating && (
                 <span class="elo"><span class="label">Elo:</span> {Math.round(summary.rating)}</span>
@@ -91,6 +94,12 @@ const summaries = loadTeamSummaries(sorted.map((p) => ({ id: p.id })));
   .handle {
     color: var(--color-text-muted);
     font-size: 0.85rem;
+  }
+
+  .title {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-style: italic;
   }
 
   .bottom-line {
