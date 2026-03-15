@@ -17,9 +17,33 @@ interface UnifiedEvent {
   rank: string;
   deckName: string;
   deckUrl: string | null;
-  playerCount: string;
   source: "elo" | "melee" | "both";
-  tournamentUrl: string | null;
+}
+
+function simplifyName(name: string): string {
+  let s = name;
+  // Strip bracketed prefixes like "[Lyon Sat 09:00]"
+  s = s.replace(/^\[.*?\]\s*/i, "");
+  // Strip "Ultimate Guard " prefix
+  s = s.replace(/^Ultimate Guard\s+/i, "");
+  // Strip "European Magic Series " prefix
+  s = s.replace(/^European Magic Series\s*-?\s*/i, "");
+  // Simplify "Regional Championship N - City" → "Regional Championship City"
+  s = s.replace(/Regional Championship\s*\d*\s*-\s*/i, "Regional Championship ");
+  // Strip "Magic Spotlight Series - " prefix
+  s = s.replace(/^Magic Spotlight Series\s*-\s*/i, "");
+  // Strip "Standard Open - " prefix
+  s = s.replace(/^Standard Open\s*-\s*/i, "Open ");
+  // Strip trailing year (e.g. " 2025", " 2026")
+  s = s.replace(/\s+\d{4}$/, "");
+  // Clean up double spaces
+  s = s.replace(/\s+/g, " ").trim();
+  return s;
+}
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d.toLocaleDateString("en-US", { month: "short", year: "numeric" });
 }
 
 // Index melee results by normalized name + month for matching
@@ -52,7 +76,6 @@ for (const r of meleeResults) {
 const usedMeleeKeys = new Set<string>();
 const unified: UnifiedEvent[] = [];
 
-// Process elo events and try to match with melee
 for (const event of eloEvents) {
   const key = `${normalizeForMatch(event.name)}|${monthKey(event.date)}`;
   const meleeMatch = meleeByKey.get(key);
@@ -62,140 +85,117 @@ for (const event of eloEvents) {
     unified.push({
       name: event.name,
       date: event.date,
-      format: meleeMatch.FormatDescription || meleeMatch.Format || event.format || "—",
-      record: meleeMatch.Record !== "-" ? meleeMatch.Record : "—",
-      rank: meleeMatch.Rank > 0 ? `#${meleeMatch.Rank}` : "—",
-      deckName: meleeMatch.DecklistName && meleeMatch.DecklistName !== "Decklist" ? meleeMatch.DecklistName : "—",
+      format: meleeMatch.FormatDescription || meleeMatch.Format || event.format || "",
+      record: meleeMatch.Record !== "-" ? meleeMatch.Record : "",
+      rank: meleeMatch.Rank > 0 ? `#${meleeMatch.Rank}` : "",
+      deckName: meleeMatch.DecklistName && meleeMatch.DecklistName !== "Decklist" ? meleeMatch.DecklistName : "",
       deckUrl: deckUrl(meleeMatch),
-      playerCount: meleeMatch.ParticipatingCount > 0 ? String(meleeMatch.ParticipatingCount) : "—",
       source: "both",
-      tournamentUrl: `https://melee.gg/Tournament/View/${meleeMatch.TournamentId}`,
     });
   } else {
     unified.push({
       name: event.name,
       date: event.date,
-      format: event.format || "—",
-      record: "—",
-      rank: "—",
-      deckName: "—",
+      format: event.format || "",
+      record: "",
+      rank: "",
+      deckName: "",
       deckUrl: null,
-      playerCount: "—",
       source: "elo",
-      tournamentUrl: event.site || null,
     });
   }
 }
 
-// Add remaining melee results not matched to elo events
 for (const [key, r] of meleeByKey) {
   if (usedMeleeKeys.has(key)) continue;
   const date = r.TournamentStartDate.split("T")[0];
   unified.push({
     name: r.TournamentName,
     date,
-    format: r.FormatDescription || r.Format || "—",
-    record: r.Record !== "-" ? r.Record : "—",
-    rank: r.Rank > 0 ? `#${r.Rank}` : "—",
-    deckName: r.DecklistName && r.DecklistName !== "Decklist" ? r.DecklistName : "—",
+    format: r.FormatDescription || r.Format || "",
+    record: r.Record !== "-" ? r.Record : "",
+    rank: r.Rank > 0 ? `#${r.Rank}` : "",
+    deckName: r.DecklistName && r.DecklistName !== "Decklist" ? r.DecklistName : "",
     deckUrl: deckUrl(r),
-    playerCount: r.ParticipatingCount > 0 ? String(r.ParticipatingCount) : "—",
     source: "melee",
-    tournamentUrl: `https://melee.gg/Tournament/View/${r.TournamentId}`,
   });
 }
 
-// Sort by date descending (most recent first)
 unified.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-const hasData = unified.length > 0;
 ---
 
-{hasData ? (
-  <div class="tournament-table-wrap">
-    <table class="tournament-table">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Tournament</th>
-          <th>Format</th>
-          <th>Record</th>
-          <th>Rank</th>
-          <th>Deck</th>
-          <th>Players</th>
-        </tr>
-      </thead>
-      <tbody>
-        {unified.map((event) => (
-          <tr>
-            <td class="date">{event.date}</td>
-            <td>
-              {event.tournamentUrl ? (
-                <a href={event.tournamentUrl} target="_blank" rel="noopener noreferrer">
-                  {event.name}
-                </a>
-              ) : (
-                event.name
-              )}
-            </td>
-            <td>{event.format}</td>
-            <td>{event.record}</td>
-            <td>{event.rank}</td>
-            <td>
-              {event.deckUrl ? (
-                <a href={event.deckUrl} target="_blank" rel="noopener noreferrer">
-                  {event.deckName}
-                </a>
-              ) : (
-                event.deckName
-              )}
-            </td>
-            <td>{event.playerCount}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+{unified.length > 0 ? (
+  <ul class="history">
+    {unified.map((event) => (
+      <li class="event">
+        <div class="event-main">
+          <span class="event-name">{simplifyName(event.name)}, {formatDate(event.date)}</span>
+        </div>
+        <div class="event-details">
+          {event.record && <span><span class="label">Record</span> {event.record}</span>}
+          {event.rank && <span><span class="label">Finish</span> {event.rank}</span>}
+          {event.deckName && (
+            event.deckUrl ? (
+              <span><span class="label">Deck</span> <a href={event.deckUrl} target="_blank" rel="noopener noreferrer" class="deck-link">{event.deckName}</a></span>
+            ) : (
+              <span><span class="label">Deck</span> {event.deckName}</span>
+            )
+          )}
+        </div>
+      </li>
+    ))}
+  </ul>
 ) : (
   <p class="no-data">No tournament history available.</p>
 )}
 
 <style>
-  .tournament-table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  .history {
+    list-style: none;
+    padding: 0;
   }
 
-  .tournament-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+  .event {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--color-rule);
   }
 
-  .tournament-table th {
-    text-align: left;
-    color: var(--color-accent);
-    font-family: var(--font-heading);
-    font-weight: 600;
-    padding: var(--space-sm) var(--space-sm);
-    border-bottom: 2px solid var(--color-accent);
-    white-space: nowrap;
+  .event:first-child {
+    border-top: 1px solid var(--color-rule);
   }
 
-  .tournament-table td {
-    padding: var(--space-sm);
-    border-bottom: 1px solid var(--color-surface);
-    vertical-align: top;
+  .event-main {
+    display: flex;
+    align-items: baseline;
   }
 
-  .tournament-table tr:hover td {
-    background: var(--color-surface);
+  .event-name {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    line-height: 1.3;
   }
 
-  .tournament-table .date {
-    white-space: nowrap;
+  .event-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem var(--space-md);
+    font-size: 0.8rem;
     color: var(--color-text-muted);
-    font-size: 0.85rem;
+    margin-top: 0.15rem;
+  }
+
+  .label {
+    opacity: 0.55;
+    margin-right: 0.15rem;
+  }
+
+  .deck-link {
+    color: var(--color-accent);
+    transition: opacity 0.15s;
+  }
+
+  .deck-link:hover {
+    opacity: 0.7;
   }
 
   .no-data {

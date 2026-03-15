@@ -1,15 +1,116 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import { loadTeamSummaries } from "../lib/api/cached-data";
 
 const players = await getCollection("players");
+const sorted = players.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const summaries = loadTeamSummaries(sorted.map((p) => ({ id: p.id })));
 ---
 
 <Base title="Home">
-  <section class="hero">
-    <h1>On The Draw</h1>
-    <p class="tagline">Competitive Magic: The Gathering</p>
-    <p class="stat">{players.length} players across Europe and Asia</p>
-    <a href="/team/" class="cta">Meet the Team</a>
-  </section>
+  <ul class="roster">
+    {sorted.map((player) => {
+      const summary = summaries.get(player.id);
+      const handle = player.data.mtgo || player.data.mtga || null;
+      return (
+        <li>
+          <a href={`/team/${player.id}/`} class="roster-row">
+            <span class="top-line">
+              <span class="name">{player.data.name}</span>
+              {handle && <span class="handle">{handle}</span>}
+            </span>
+            <span class="bottom-line">
+              {summary?.rating && (
+                <span class="elo"><span class="label">Elo:</span> {Math.round(summary.rating)}</span>
+              )}
+              {summary?.lastDeck && (
+                <span class="deck"><span class="label">Last seen playing</span> {summary.lastDeck}</span>
+              )}
+            </span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
 </Base>
+
+<style>
+  .roster {
+    list-style: none;
+    padding: var(--space-md) 0;
+  }
+
+  .roster li {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .roster li:first-child {
+    border-top: 1px solid var(--color-rule);
+  }
+
+  @media (min-width: 640px) {
+    .roster {
+      columns: 2;
+      column-gap: var(--space-xl);
+    }
+
+    .roster li:first-child {
+      border-top: none;
+    }
+
+    .roster li {
+      break-inside: avoid;
+    }
+  }
+
+  .roster-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.7rem 0;
+    transition: color 0.15s;
+  }
+
+  .roster-row:hover {
+    color: var(--color-accent);
+  }
+
+  .top-line {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+  }
+
+  .name {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .handle {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+  }
+
+  .bottom-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-md);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+
+  .label {
+    opacity: 0.55;
+  }
+
+  .elo {
+    font-weight: 500;
+    color: var(--color-accent);
+  }
+
+  .deck {
+    color: var(--color-text-muted);
+  }
+</style>

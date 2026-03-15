@@ -1,7 +1,5 @@
 ---
 import Base from "../../layouts/Base.astro";
-import ExternalLink from "../../components/ExternalLink.astro";
-import EloChart from "../../components/EloChart.astro";
 import TournamentHistory from "../../components/TournamentHistory.astro";
 import { getCollection } from "astro:content";
 import { loadPlayerData } from "../../lib/api/cached-data";
@@ -15,109 +13,93 @@ export async function getStaticPaths() {
 }
 
 const { player } = Astro.props;
-const { name, location, mtgo, mtga, meleegg, mtgelo } = player.data;
+const { name, location, mtgelo } = player.data;
 
 const tournamentData = loadPlayerData(player.id);
 const profile = tournamentData.elo.profile;
+const eloUrl = mtgelo ? `https://mtgeloproject.net/profile/${mtgelo}` : null;
 ---
 
 <Base title={name}>
-  <article class="player-profile">
+  <article class="player">
     <h1>{name}</h1>
-    <p class="location" style="color: var(--color-text-muted); margin-bottom: var(--space-lg);">
-      {location}
-    </p>
+    <p class="location">{location}</p>
 
     {profile && (
-      <section class="elo-summary">
-        <h2>Rating & Record</h2>
-        <dl>
-          <dt>Elo Rating</dt>
-          <dd class="rating-value">{Math.round(profile.current_rating)}</dd>
-
-          <dt>Overall Record</dt>
-          <dd>{profile.record[0]}–{profile.record[1]}–{profile.record[2]}</dd>
-
-          {profile.pro_record[0] != null && (
-            <>
-              <dt>Pro Record</dt>
-              <dd>{profile.pro_record[0]}–{profile.pro_record[1]}–{profile.pro_record[2]}</dd>
-            </>
-          )}
-
-          {profile.ranking && (
-            <>
-              <dt>Ranking</dt>
-              <dd>#{profile.ranking} (active: #{profile.active_ranking})</dd>
-            </>
-          )}
-
-          {profile.nakamura_number != null && (
-            <>
-              <dt>Nakamura Number</dt>
-              <dd>{profile.nakamura_number}</dd>
-            </>
-          )}
-        </dl>
-      </section>
+      <p class="rating">
+        <span class="rating-label">Elo:</span>
+        {eloUrl ? (
+          <a href={eloUrl} target="_blank" rel="noopener noreferrer">
+            {Math.round(profile.current_rating)}
+          </a>
+        ) : (
+          Math.round(profile.current_rating)
+        )}
+      </p>
     )}
 
-    {tournamentData.elo.events.length > 1 && (
-      <section>
-        <h2>Rating History</h2>
-        <EloChart
-          events={tournamentData.elo.events}
-          matches={tournamentData.elo.matches}
-        />
-      </section>
-    )}
-
-    <section>
-      <h2>Tournament History</h2>
+    <section class="tournaments">
       <TournamentHistory
         eloEvents={tournamentData.elo.events}
         meleeResults={tournamentData.melee}
       />
     </section>
 
-    <section>
-      <h2>Online Profiles</h2>
-      <dl>
-        {mtgo && (
-          <>
-            <dt>MTGO</dt>
-            <dd>{mtgo}</dd>
-          </>
-        )}
-        {mtga && (
-          <>
-            <dt>MTG Arena</dt>
-            <dd>{mtga}</dd>
-          </>
-        )}
-      </dl>
-      {!mtgo && !mtga && <p class="no-data">No online profiles listed.</p>}
-    </section>
-
-    <section>
-      <h2>External Profiles</h2>
-      {mtgelo && (
-        <ExternalLink
-          href={`https://mtgeloproject.net/profile/${mtgelo}`}
-          label="MTG Elo Project"
-        />
-      )}
-      {meleegg && (
-        <ExternalLink
-          href={`https://melee.gg/Profile/Index/${meleegg}`}
-          label="Melee.gg"
-        />
-      )}
-      {!mtgelo && !meleegg && (
-        <p class="no-data">No external tournament profiles linked yet.</p>
-      )}
-    </section>
-
-    <a href="/team/" class="back-link">&larr; Back to roster</a>
+    <a href="/" class="back">&larr; Back</a>
   </article>
 </Base>
+
+<style>
+  .player {
+    padding: var(--space-sm) 0 var(--space-xl);
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .location {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .rating {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: var(--space-xl);
+    line-height: 1;
+  }
+
+  .rating a {
+    color: var(--color-accent);
+    transition: opacity 0.15s;
+  }
+
+  .rating a:hover {
+    opacity: 0.7;
+  }
+
+  .rating-label {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-right: 0.3rem;
+    font-weight: 400;
+  }
+
+  .tournaments {
+    margin-bottom: var(--space-xl);
+  }
+
+  .back {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    transition: color 0.15s;
+  }
+
+  .back:hover {
+    color: var(--color-text);
+  }
+</style>
