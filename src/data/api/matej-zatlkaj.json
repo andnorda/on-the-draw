@@ -1,10 +1,10 @@
 {
   "elo": {
     "profile": {
-      "current_rating": 1794.8,
+      "current_rating": 1791.23,
       "record": [
-        515,
-        366,
+        519,
+        369,
         12
       ],
       "pro_record": [
@@ -12,8 +12,8 @@
         170,
         5
       ],
-      "ranking": 3535,
-      "active_ranking": 1781,
+      "ranking": 3682,
+      "active_ranking": 1859,
       "nakamura_number": 1,
       "best_event": "ptbng"
     },
@@ -877,6 +877,16 @@
         "site": "https://melee.gg/Tournament/View/375305",
         "type": "ss",
         "format": "SPM standard"
+      },
+      {
+        "code": "rctur26-cy11-lcq",
+        "cut_before": "",
+        "date": "2026-03-08",
+        "is_pro": false,
+        "name": "Regional Championship Turin 2026 LCQ",
+        "site": "https://melee.gg/Tournament/View/409398",
+        "type": "lcq",
+        "format": "ECL limited"
       }
     ],
     "matches": {
@@ -2048,7 +2058,7 @@
       ],
       "gpbir04": [
         {
-          "match_id": 238964,
+          "match_id": 236106,
           "round": "1",
           "table": 5,
           "format": "sealed",
@@ -2064,7 +2074,7 @@
           }
         },
         {
-          "match_id": 239263,
+          "match_id": 236405,
           "round": "2",
           "table": 88,
           "format": "sealed",
@@ -2080,7 +2090,7 @@
           }
         },
         {
-          "match_id": 239522,
+          "match_id": 236664,
           "round": "3",
           "table": 99,
           "format": "sealed",
@@ -2096,7 +2106,7 @@
           }
         },
         {
-          "match_id": 239854,
+          "match_id": 236996,
           "round": "4",
           "table": 180,
           "format": "sealed",
@@ -2112,7 +2122,7 @@
           }
         },
         {
-          "match_id": 240080,
+          "match_id": 237222,
           "round": "5",
           "table": 152,
           "format": "sealed",
@@ -2128,7 +2138,7 @@
           }
         },
         {
-          "match_id": 240271,
+          "match_id": 237413,
           "round": "6",
           "table": 115,
           "format": "sealed",
@@ -2144,7 +2154,7 @@
           }
         },
         {
-          "match_id": 240447,
+          "match_id": 237589,
           "round": "7",
           "table": 91,
           "format": "sealed",
@@ -2532,7 +2542,7 @@
           "opp_data": {
             "id": "1u4xz7d6",
             "opp": "Sampford, James",
-            "start": 1542.91
+            "start": 1542.88
           }
         },
         {
@@ -2596,7 +2606,7 @@
           "opp_data": {
             "id": "jmib9u86",
             "opp": "Moreau, Francois",
-            "start": 1766.49
+            "start": 1766.53
           }
         },
         {
@@ -2623,7 +2633,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1720.45,
-            "end": 1739.54
+            "end": 1739.55
           },
           "opp_data": {
             "id": "wfe0k9vj",
@@ -2638,13 +2648,13 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1739.54,
-            "end": 1721.31
+            "start": 1739.55,
+            "end": 1721.32
           },
           "opp_data": {
             "id": "v8zmwit2",
             "opp": "Urban, Stefan",
-            "start": 1726.89
+            "start": 1726.97
           }
         }
       ],
@@ -2656,7 +2666,7 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1721.31,
+            "start": 1721.32,
             "end": 1735.66
           },
           "opp_data": {
@@ -2721,7 +2731,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1748.25,
-            "end": 1764.25
+            "end": 1764.26
           },
           "opp_data": {
             "id": "768i0gfu",
@@ -2736,7 +2746,7 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1764.25,
+            "start": 1764.26,
             "end": 1745.88
           },
           "opp_data": {
@@ -2803,12 +2813,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1721.54,
-            "end": 1745.69
+            "end": 1745.68
           },
           "opp_data": {
             "id": "j9poqwto",
             "opp": "Sonne, Jonathan",
-            "start": 2073
+            "start": 2072.41
           }
         },
         {
@@ -2818,13 +2828,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1745.69,
-            "end": 1761.71
+            "start": 1745.68,
+            "end": 1761.7
           },
           "opp_data": {
             "id": "rdmlycr0",
             "opp": "Domingo, Gonzalo",
-            "start": 1636.6
+            "start": 1636.64
           }
         },
         {
@@ -2834,13 +2844,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1761.71,
-            "end": 1749.58
+            "start": 1761.7,
+            "end": 1749.57
           },
           "opp_data": {
             "id": "mblqncwu",
             "opp": "Goron, Julien",
-            "start": 2095.73
+            "start": 2095.81
           }
         },
         {
@@ -2850,8 +2860,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1749.58,
-            "end": 1730.91
+            "start": 1749.57,
+            "end": 1730.9
           },
           "opp_data": {
             "id": "ttfjw39t",
@@ -2866,13 +2876,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1730.91,
-            "end": 1716.66
+            "start": 1730.9,
+            "end": 1716.65
           },
           "opp_data": {
             "id": "mwxobroq",
             "opp": "Harvey, Eugene",
-            "start": 1939.38
+            "start": 1939.42
           }
         }
       ],
@@ -2884,8 +2894,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1716.66,
-            "end": 1731.41
+            "start": 1716.65,
+            "end": 1731.4
           },
           "opp_data": {
             "id": "14ta0in4",
@@ -2900,13 +2910,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1731.41,
-            "end": 1747.45
+            "start": 1731.4,
+            "end": 1747.44
           },
           "opp_data": {
             "id": "xqiy4jn5",
             "opp": "Rizner, Andrej",
-            "start": 1623.65
+            "start": 1623.64
           }
         },
         {
@@ -2916,8 +2926,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1747.45,
-            "end": 1761.78
+            "start": 1747.44,
+            "end": 1761.77
           },
           "opp_data": {
             "id": "7q4lzxti",
@@ -2932,13 +2942,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1761.78,
+            "start": 1761.77,
             "end": 1779.95
           },
           "opp_data": {
             "id": "caijk9az",
             "opp": "Panara, Bruno",
-            "start": 1771.6
+            "start": 1771.7
           }
         },
         {
@@ -2970,7 +2980,7 @@
           "opp_data": {
             "id": "vbkwy39s",
             "opp": "Kocsis, Gabor",
-            "start": 1718.44
+            "start": 1718.45
           }
         },
         {
@@ -2986,7 +2996,7 @@
           "opp_data": {
             "id": "jiw4oprc",
             "opp": "Norgaard, Lasse",
-            "start": 1774.56
+            "start": 1774.57
           }
         },
         {
@@ -3002,7 +3012,7 @@
           "opp_data": {
             "id": "2buxg8fv",
             "opp": "Kerem, Hannes",
-            "start": 1556.08
+            "start": 1556.09
           }
         },
         {
@@ -3018,7 +3028,7 @@
           "opp_data": {
             "id": "hugg1v3w",
             "opp": "Koska, Adam",
-            "start": 1744.75
+            "start": 1744.76
           }
         },
         {
@@ -3050,7 +3060,7 @@
           "opp_data": {
             "id": "u70pplzu",
             "opp": "Pereira, Christiano",
-            "start": 1824.81
+            "start": 1824.82
           }
         },
         {
@@ -3082,7 +3092,7 @@
           "opp_data": {
             "id": "nh5z927c",
             "opp": "Birner, Armin",
-            "start": 2012.24
+            "start": 2012.26
           }
         }
       ],
@@ -3127,7 +3137,7 @@
           "result": "Won 0-0",
           "own_elo": {
             "start": 1801.75,
-            "end": 1814.27
+            "end": 1814.26
           },
           "opp_data": {
             "id": "a5bq1o3a",
@@ -3142,13 +3152,13 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1814.27,
-            "end": 1827.81
+            "start": 1814.26,
+            "end": 1827.8
           },
           "opp_data": {
             "id": "9t6dnscw",
             "opp": "Valis, Filip",
-            "start": 1564.64
+            "start": 1564.65
           }
         },
         {
@@ -3158,8 +3168,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1827.81,
-            "end": 1804.75
+            "start": 1827.8,
+            "end": 1804.74
           },
           "opp_data": {
             "id": "3sat9f3r",
@@ -3174,7 +3184,7 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1804.75,
+            "start": 1804.74,
             "end": 1820.56
           },
           "opp_data": {
@@ -3196,7 +3206,7 @@
           "opp_data": {
             "id": "3m2v9pq5",
             "opp": "Nakamura, Shuhei",
-            "start": 2003.48
+            "start": 2003.49
           }
         },
         {
@@ -3276,7 +3286,7 @@
           "opp_data": {
             "id": "5cgq550t",
             "opp": "Tanaka, Hisaya",
-            "start": 1787.06
+            "start": 1787.08
           }
         },
         {
@@ -3292,7 +3302,7 @@
           "opp_data": {
             "id": "bbyzg6l7",
             "opp": "Martin, Quentin",
-            "start": 1852.7
+            "start": 1852.71
           }
         },
         {
@@ -3308,7 +3318,7 @@
           "opp_data": {
             "id": "3m2v9pq5",
             "opp": "Nakamura, Shuhei",
-            "start": 2025.04
+            "start": 2025.05
           }
         },
         {
@@ -3324,7 +3334,7 @@
           "opp_data": {
             "id": "ti10ri5g",
             "opp": "Sadeghpour, Johan",
-            "start": 1944.31
+            "start": 1944.33
           }
         }
       ],
@@ -3449,12 +3459,12 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1927.39,
-            "end": 1908.59
+            "end": 1908.6
           },
           "opp_data": {
             "id": "q9u2g9wj",
             "opp": "Gregoir, Christophe",
-            "start": 1883.69
+            "start": 1883.71
           }
         },
         {
@@ -3464,7 +3474,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1908.59,
+            "start": 1908.6,
             "end": 1920.01
           },
           "opp_data": {
@@ -3486,7 +3496,7 @@
           "opp_data": {
             "id": "dvxlt9pm",
             "opp": "Muhlbock, Marc",
-            "start": 1487.38
+            "start": 1487.39
           }
         },
         {
@@ -3502,7 +3512,7 @@
           "opp_data": {
             "id": "z2ph3ssn",
             "opp": "Kogler, Stefan",
-            "start": 1567.17
+            "start": 1567.18
           }
         },
         {
@@ -3552,7 +3562,7 @@
           "opp_data": {
             "id": "behtcytj",
             "opp": "Pils, Florian",
-            "start": 1864.53
+            "start": 1864.54
           }
         },
         {
@@ -3568,7 +3578,7 @@
           "opp_data": {
             "id": "14bbh8fs",
             "opp": "Porojan, Raul",
-            "start": 1881.99
+            "start": 1882
           }
         },
         {
@@ -3579,12 +3589,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1972.06,
-            "end": 1992.08
+            "end": 1992.09
           },
           "opp_data": {
             "id": "5w7tqk2z",
             "opp": "Carvalho, Marcio",
-            "start": 2083.67
+            "start": 2083.69
           }
         },
         {
@@ -3594,7 +3604,7 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1992.08,
+            "start": 1992.09,
             "end": 2003.74
           },
           "opp_data": {
@@ -3616,7 +3626,7 @@
           "opp_data": {
             "id": "hhow5bub",
             "opp": "Besso, David",
-            "start": 1854.66
+            "start": 1854.67
           }
         },
         {
@@ -3664,7 +3674,7 @@
           "opp_data": {
             "id": "yr9zrewl",
             "opp": "Calafell, Joel",
-            "start": 1890.11
+            "start": 1890.12
           }
         },
         {
@@ -3712,7 +3722,7 @@
           "opp_data": {
             "id": "srrj3cie",
             "opp": "Marti, Enric",
-            "start": 1711.15
+            "start": 1711.16
           }
         }
       ],
@@ -3780,7 +3790,7 @@
           "opp_data": {
             "id": "47mqcqth",
             "opp": "Jacob, Michael",
-            "start": 1827.02
+            "start": 1827.01
           }
         },
         {
@@ -3812,7 +3822,7 @@
           "opp_data": {
             "id": "j8ew1pf4",
             "opp": "van den Oever, Roy",
-            "start": 1606.66
+            "start": 1606.67
           }
         },
         {
@@ -3844,7 +3854,7 @@
           "opp_data": {
             "id": "46e4f4vz",
             "opp": "Kratter, Filippo",
-            "start": 1792.95
+            "start": 1792.96
           }
         },
         {
@@ -3860,7 +3870,7 @@
           "opp_data": {
             "id": "oul159pu",
             "opp": "Cammilluzzi, Marco",
-            "start": 1852.97
+            "start": 1852.98
           }
         },
         {
@@ -3876,7 +3886,7 @@
           "opp_data": {
             "id": "vlxbgtf5",
             "opp": "Sabbadini, Massimo",
-            "start": 1737.43
+            "start": 1737.42
           }
         },
         {
@@ -3892,7 +3902,7 @@
           "opp_data": {
             "id": "r9gl4ltr",
             "opp": "Lanese, Ivan",
-            "start": 1760.4
+            "start": 1760.39
           }
         },
         {
@@ -3903,7 +3913,7 @@
           "result": "Draw 1-1",
           "own_elo": {
             "start": 1975.64,
-            "end": 1968.38
+            "end": 1968.39
           },
           "opp_data": {
             "id": "8ve19rnl",
@@ -3918,8 +3928,8 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1968.38,
-            "end": 1949.95
+            "start": 1968.39,
+            "end": 1949.96
           },
           "opp_data": {
             "id": "ef6cwyk8",
@@ -3934,7 +3944,7 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1949.95,
+            "start": 1949.96,
             "end": 1961.18
           },
           "opp_data": {
@@ -4001,7 +4011,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1925.77,
-            "end": 1901.99
+            "end": 1902
           },
           "opp_data": {
             "id": "qudfbnum",
@@ -4018,7 +4028,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1901.99,
+            "start": 1902,
             "end": 1916.72
           },
           "opp_data": {
@@ -4088,7 +4098,7 @@
           "opp_data": {
             "id": "nm38t49u",
             "opp": "Dictus, Mark",
-            "start": 1771.88
+            "start": 1771.92
           }
         },
         {
@@ -4104,7 +4114,7 @@
           "opp_data": {
             "id": "w35ffw8m",
             "opp": "Winter, Sascha",
-            "start": 1680.13
+            "start": 1680.14
           }
         },
         {
@@ -4120,7 +4130,7 @@
           "opp_data": {
             "id": "42c3b3zz",
             "opp": "Summersberger, Helmut",
-            "start": 2000.09
+            "start": 2000.11
           }
         },
         {
@@ -4131,7 +4141,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1933.64,
-            "end": 1909.19
+            "end": 1909.2
           },
           "opp_data": {
             "id": "1kfwdgof",
@@ -4146,7 +4156,7 @@
           "format": "extended",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1909.19,
+            "start": 1909.2,
             "end": 1922.97
           },
           "opp_data": {
@@ -4195,7 +4205,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1948.99,
-            "end": 1966.77
+            "end": 1966.78
           },
           "opp_data": {
             "id": "1pyrio97",
@@ -4210,13 +4220,13 @@
           "format": "extended",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1966.77,
-            "end": 1982.77
+            "start": 1966.78,
+            "end": 1982.78
           },
           "opp_data": {
             "id": "u06lvdy0",
             "opp": "Krutil, Daniel",
-            "start": 1856.61
+            "start": 1856.62
           }
         },
         {
@@ -4226,13 +4236,13 @@
           "format": "extended",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1982.77,
+            "start": 1982.78,
             "end": 1983.46
           },
           "opp_data": {
             "id": "2bcfjkpo",
             "opp": "Eigner, Nikolaus",
-            "start": 2020.24
+            "start": 2020.28
           }
         },
         {
@@ -4243,12 +4253,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1983.46,
-            "end": 1999.83
+            "end": 1999.84
           },
           "opp_data": {
             "id": "spowhryl",
             "opp": "Warmenhoven, Ruud",
-            "start": 1894.25
+            "start": 1894.26
           }
         },
         {
@@ -4258,8 +4268,8 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1999.83,
-            "end": 2019.9
+            "start": 1999.84,
+            "end": 2019.91
           },
           "opp_data": {
             "id": "ef6cwyk8",
@@ -4274,7 +4284,7 @@
           "format": "extended",
           "result": "Won 3-2",
           "own_elo": {
-            "start": 2019.9,
+            "start": 2019.91,
             "end": 2031.95
           },
           "opp_data": {
@@ -4296,7 +4306,7 @@
           "opp_data": {
             "id": "cjf0ru2a",
             "opp": "Thaler, Sebastian",
-            "start": 1992.3
+            "start": 1992.31
           }
         },
         {
@@ -4346,7 +4356,7 @@
           "opp_data": {
             "id": "i8l9962d",
             "opp": "Randle, Jonathan",
-            "start": 1770.11
+            "start": 1770.12
           }
         },
         {
@@ -4410,7 +4420,7 @@
           "opp_data": {
             "id": "lecrjva0",
             "opp": "de Jong, Hugo",
-            "start": 1680.7
+            "start": 1680.71
           }
         },
         {
@@ -4474,7 +4484,7 @@
           "opp_data": {
             "id": "6cp2vhkz",
             "opp": "Watanabe, Yuuya",
-            "start": 1995.85
+            "start": 1995.86
           }
         },
         {
@@ -4490,7 +4500,7 @@
           "opp_data": {
             "id": "esocbna4",
             "opp": "De Rosa, Antonino",
-            "start": 1849.01
+            "start": 1849.02
           }
         },
         {
@@ -4501,12 +4511,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 2036.5,
-            "end": 2050.6
+            "end": 2050.59
           },
           "opp_data": {
             "id": "4k0m0z7y",
             "opp": "Sim, Chapman",
-            "start": 1819.34
+            "start": 1818.53
           }
         },
         {
@@ -4516,13 +4526,13 @@
           "format": "extended",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 2050.6,
-            "end": 2027.9
+            "start": 2050.59,
+            "end": 2027.89
           },
           "opp_data": {
             "id": "z3vqinoo",
             "opp": "Murray, Stephen",
-            "start": 1787.07
+            "start": 1787.08
           }
         },
         {
@@ -4532,13 +4542,13 @@
           "format": "extended",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2027.9,
-            "end": 2005.83
+            "start": 2027.89,
+            "end": 2005.82
           },
           "opp_data": {
             "id": "vqgze140",
             "opp": "Fortier, Remi",
-            "start": 1800.64
+            "start": 1800.65
           }
         },
         {
@@ -4548,8 +4558,8 @@
           "format": "extended",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 2005.83,
-            "end": 1999.44
+            "start": 2005.82,
+            "end": 1999.43
           },
           "opp_data": {
             "id": "prjlhtt4",
@@ -4564,13 +4574,13 @@
           "format": "extended",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1999.44,
-            "end": 1973.8
+            "start": 1999.43,
+            "end": 1973.79
           },
           "opp_data": {
             "id": "kxvviyzb",
             "opp": "Telarov, Aleksa",
-            "start": 1552.47
+            "start": 1552.46
           }
         },
         {
@@ -4580,8 +4590,8 @@
           "format": "extended",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1973.8,
-            "end": 1948.79
+            "start": 1973.79,
+            "end": 1948.78
           },
           "opp_data": {
             "id": "if9sn91y",
@@ -4598,8 +4608,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1948.79,
-            "end": 1959.12
+            "start": 1948.78,
+            "end": 1959.11
           },
           "opp_data": {
             "id": "cwvlw3le",
@@ -4614,13 +4624,13 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1959.12,
-            "end": 1972.42
+            "start": 1959.11,
+            "end": 1972.41
           },
           "opp_data": {
             "id": "954nigbt",
             "opp": "de Rooij, Danny",
-            "start": 1695.48
+            "start": 1695.51
           }
         },
         {
@@ -4630,8 +4640,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1972.42,
-            "end": 1948.11
+            "start": 1972.41,
+            "end": 1948.1
           },
           "opp_data": {
             "id": "uclqp6zc",
@@ -4646,8 +4656,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1948.11,
-            "end": 1959.56
+            "start": 1948.1,
+            "end": 1959.55
           },
           "opp_data": {
             "id": "2xt0svri",
@@ -4662,7 +4672,7 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1959.56,
+            "start": 1959.55,
             "end": 1971.38
           },
           "opp_data": {
@@ -4679,7 +4689,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1971.38,
-            "end": 1985.01
+            "end": 1985
           },
           "opp_data": {
             "id": "883biezp",
@@ -4694,8 +4704,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1985.01,
-            "end": 1999.29
+            "start": 1985,
+            "end": 1999.28
           },
           "opp_data": {
             "id": "8ztkx8ei",
@@ -4710,13 +4720,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1999.29,
-            "end": 1978.38
+            "start": 1999.28,
+            "end": 1978.37
           },
           "opp_data": {
             "id": "10j8cpdr",
             "opp": "Kohl, Reinhold",
-            "start": 1838.65
+            "start": 1838.66
           }
         },
         {
@@ -4726,13 +4736,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1978.38,
-            "end": 1957.93
+            "start": 1978.37,
+            "end": 1957.92
           },
           "opp_data": {
             "id": "wz81n1m7",
             "opp": "Snijdewind, Ruben",
-            "start": 1842.91
+            "start": 1843.04
           }
         },
         {
@@ -4742,13 +4752,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1957.93,
-            "end": 1972.16
+            "start": 1957.92,
+            "end": 1972.15
           },
           "opp_data": {
             "id": "954nigbt",
             "opp": "de Rooij, Danny",
-            "start": 1748.44
+            "start": 1748.46
           }
         },
         {
@@ -4758,7 +4768,7 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1972.16,
+            "start": 1972.15,
             "end": 1984.73
           },
           "opp_data": {
@@ -4775,7 +4785,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1984.73,
-            "end": 1961.46
+            "end": 1961.45
           },
           "opp_data": {
             "id": "yrlt46dr",
@@ -4792,8 +4802,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1961.46,
-            "end": 1938.76
+            "start": 1961.45,
+            "end": 1938.75
           },
           "opp_data": {
             "id": "04txwnpv",
@@ -4808,7 +4818,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1938.76,
+            "start": 1938.75,
             "end": 1952.25
           },
           "opp_data": {
@@ -4830,7 +4840,7 @@
           "opp_data": {
             "id": "veog9l2f",
             "opp": "Snepvangers, Bram",
-            "start": 1765.31
+            "start": 1765.32
           }
         },
         {
@@ -4880,7 +4890,7 @@
           "opp_data": {
             "id": "uxcmw9k0",
             "opp": "Canonici, Jean Baptiste",
-            "start": 1449.89
+            "start": 1449.9
           }
         },
         {
@@ -4896,7 +4906,7 @@
           "opp_data": {
             "id": "ozjf0qhv",
             "opp": "Hebky, Michal",
-            "start": 1906.33
+            "start": 1906.34
           }
         },
         {
@@ -4978,7 +4988,7 @@
           "opp_data": {
             "id": "mnaqa2qi",
             "opp": "Birklid, Steven",
-            "start": 1716.41
+            "start": 1716.39
           }
         },
         {
@@ -5021,7 +5031,7 @@
           "result": "Lost 0-0",
           "own_elo": {
             "start": 1848.66,
-            "end": 1828.84
+            "end": 1828.83
           },
           "opp_data": {
             "id": "bbyzg6l7",
@@ -5038,7 +5048,7 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1828.84,
+            "start": 1828.83,
             "end": 1811.63
           },
           "opp_data": {
@@ -5087,12 +5097,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1799.58,
-            "end": 1783.81
+            "end": 1783.8
           },
           "opp_data": {
             "id": "pjs1q47l",
             "opp": "Brackmann, Aaron",
-            "start": 1922.25
+            "start": 1922.26
           }
         },
         {
@@ -5102,7 +5112,7 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1783.81,
+            "start": 1783.8,
             "end": 1801.22
           },
           "opp_data": {
@@ -5169,7 +5179,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1812.9,
-            "end": 1790.29
+            "end": 1790.28
           },
           "opp_data": {
             "id": "g6aa3mip",
@@ -5184,7 +5194,7 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1790.29,
+            "start": 1790.28,
             "end": 1768.86
           },
           "opp_data": {
@@ -5224,7 +5234,7 @@
           "opp_data": {
             "id": "mef1asf6",
             "opp": "Bohny, Nico",
-            "start": 1865.35
+            "start": 1865.36
           }
         },
         {
@@ -5315,7 +5325,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1776.3,
-            "end": 1758.69
+            "end": 1758.68
           },
           "opp_data": {
             "id": "k0hyz2tz",
@@ -5330,7 +5340,7 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1758.69,
+            "start": 1758.68,
             "end": 1740.27
           },
           "opp_data": {
@@ -5368,7 +5378,7 @@
           "opp_data": {
             "id": "cq7ji612",
             "opp": "Ottati, Domingo",
-            "start": 1774.71
+            "start": 1774.73
           }
         },
         {
@@ -5395,7 +5405,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1751.13,
-            "end": 1766.4
+            "end": 1766.39
           },
           "opp_data": {
             "id": "016pnynn",
@@ -5412,7 +5422,7 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1766.4,
+            "start": 1766.39,
             "end": 1781.5
           },
           "opp_data": {
@@ -5461,7 +5471,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1777.21,
-            "end": 1791.59
+            "end": 1791.58
           },
           "opp_data": {
             "id": "z3uphu1n",
@@ -5476,7 +5486,7 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1791.59,
+            "start": 1791.58,
             "end": 1806.27
           },
           "opp_data": {
@@ -5498,7 +5508,7 @@
           "opp_data": {
             "id": "bhhrkezz",
             "opp": "Kunzler, Matthias",
-            "start": 1833.38
+            "start": 1833.39
           }
         },
         {
@@ -5514,7 +5524,7 @@
           "opp_data": {
             "id": "k2upn8ws",
             "opp": "Greiers, Maris",
-            "start": 1737.1
+            "start": 1737.23
           }
         },
         {
@@ -5530,7 +5540,7 @@
           "opp_data": {
             "id": "bl3yhg3l",
             "opp": "Kondrk, Marcel",
-            "start": 1662.43
+            "start": 1662.42
           }
         },
         {
@@ -5594,7 +5604,7 @@
           "opp_data": {
             "id": "kqvpqk03",
             "opp": "Jimenez Palmero, Alfredo",
-            "start": 1712.29
+            "start": 1712.3
           }
         }
       ],
@@ -5676,7 +5686,7 @@
           "opp_data": {
             "id": "pnek08xd",
             "opp": "Jackson, Jeremy",
-            "start": 1517.42
+            "start": 1517.43
           }
         },
         {
@@ -5692,7 +5702,7 @@
           "opp_data": {
             "id": "py4zsava",
             "opp": "Takahashi, Yuta",
-            "start": 1949.3
+            "start": 1949.31
           }
         },
         {
@@ -5703,7 +5713,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1873.68,
-            "end": 1891.28
+            "end": 1891.29
           },
           "opp_data": {
             "id": "9xfqp8vt",
@@ -5718,7 +5728,7 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1891.28,
+            "start": 1891.29,
             "end": 1911.71
           },
           "opp_data": {
@@ -5783,12 +5793,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1898.64,
-            "end": 1914.57
+            "end": 1914.58
           },
           "opp_data": {
             "id": "vr6bll52",
             "opp": "Romao, Carlos",
-            "start": 1784.82
+            "start": 1784.83
           }
         },
         {
@@ -5798,7 +5808,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1914.57,
+            "start": 1914.58,
             "end": 1928.11
           },
           "opp_data": {
@@ -5852,7 +5862,7 @@
           "opp_data": {
             "id": "96bb0quu",
             "opp": "Felske, David",
-            "start": 1797.82
+            "start": 1797.83
           }
         }
       ],
@@ -5886,7 +5896,7 @@
           "opp_data": {
             "id": "ifac9dcx",
             "opp": "Song, Huachao",
-            "start": 1759.44
+            "start": 1759.43
           }
         },
         {
@@ -5902,7 +5912,7 @@
           "opp_data": {
             "id": "zxhxt8nk",
             "opp": "Budde, Kai",
-            "start": 1791.61
+            "start": 1791.68
           }
         },
         {
@@ -5913,7 +5923,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1976.83,
-            "end": 1993.79
+            "end": 1993.8
           },
           "opp_data": {
             "id": "behtcytj",
@@ -5928,7 +5938,7 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1993.79,
+            "start": 1993.8,
             "end": 1977.88
           },
           "opp_data": {
@@ -5950,7 +5960,7 @@
           "opp_data": {
             "id": "k0hyz2tz",
             "opp": "Elfgren, Bertil",
-            "start": 1874.68
+            "start": 1874.69
           }
         },
         {
@@ -5993,12 +6003,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1909.87,
-            "end": 1883.08
+            "end": 1883.09
           },
           "opp_data": {
             "id": "hjsk1fpn",
             "opp": "Vefa, Yusuf Kemal",
-            "start": 1383.75
+            "start": 1383.76
           }
         },
         {
@@ -6008,7 +6018,7 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1883.08,
+            "start": 1883.09,
             "end": 1898
           },
           "opp_data": {
@@ -6041,12 +6051,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1913.22,
-            "end": 1894.68
+            "end": 1894.69
           },
           "opp_data": {
             "id": "py4zsava",
             "opp": "Takahashi, Yuta",
-            "start": 1883.82
+            "start": 1883.83
           }
         },
         {
@@ -6056,7 +6066,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1894.68,
+            "start": 1894.69,
             "end": 1912.69
           },
           "opp_data": {
@@ -6073,7 +6083,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1912.69,
-            "end": 1888.46
+            "end": 1888.47
           },
           "opp_data": {
             "id": "ou6nztq3",
@@ -6088,7 +6098,7 @@
           "format": "extended",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1888.46,
+            "start": 1888.47,
             "end": 1904.24
           },
           "opp_data": {
@@ -6155,7 +6165,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1906.41,
-            "end": 1917.1
+            "end": 1917.11
           },
           "opp_data": {
             "id": "q1665sx3",
@@ -6170,7 +6180,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1917.1,
+            "start": 1917.11,
             "end": 1931.74
           },
           "opp_data": {
@@ -6219,7 +6229,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1962.31,
-            "end": 1974.12
+            "end": 1974.13
           },
           "opp_data": {
             "id": "dljn5yos",
@@ -6234,7 +6244,7 @@
           "format": "extended",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1974.12,
+            "start": 1974.13,
             "end": 1950.49
           },
           "opp_data": {
@@ -6299,7 +6309,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1918.62,
-            "end": 1930.56
+            "end": 1930.57
           },
           "opp_data": {
             "id": "5xs5okqp",
@@ -6314,13 +6324,13 @@
           "format": "extended",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1930.56,
-            "end": 1949.93
+            "start": 1930.57,
+            "end": 1949.94
           },
           "opp_data": {
             "id": "8j86tye6",
             "opp": "Scott-Vargas, Luis",
-            "start": 2005.8
+            "start": 2005.81
           }
         },
         {
@@ -6330,7 +6340,7 @@
           "format": "extended",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1949.93,
+            "start": 1949.94,
             "end": 1967.39
           },
           "opp_data": {
@@ -6354,7 +6364,7 @@
           "opp_data": {
             "id": "r3q3o8lj",
             "opp": "Ferrari Spampinato, Gonzalo",
-            "start": 1746.21
+            "start": 1746.22
           }
         },
         {
@@ -6365,7 +6375,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1981.42,
-            "end": 1992.2
+            "end": 1992.21
           },
           "opp_data": {
             "id": "mlrh5r5m",
@@ -6380,13 +6390,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1992.2,
+            "start": 1992.21,
             "end": 2003.42
           },
           "opp_data": {
             "id": "3k6hxmi2",
             "opp": "Mize, Logan",
-            "start": 1600.93
+            "start": 1600.92
           }
         },
         {
@@ -6397,7 +6407,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 2003.42,
-            "end": 2014.53
+            "end": 2014.54
           },
           "opp_data": {
             "id": "3np6efo4",
@@ -6412,7 +6422,7 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2014.53,
+            "start": 2014.54,
             "end": 1993.56
           },
           "opp_data": {
@@ -6450,7 +6460,7 @@
           "opp_data": {
             "id": "vgh3o807",
             "opp": "Herberholz, Mark",
-            "start": 1774.9
+            "start": 1774.91
           }
         },
         {
@@ -6461,7 +6471,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1983.58,
-            "end": 1998.21
+            "end": 1998.22
           },
           "opp_data": {
             "id": "z3vqinoo",
@@ -6476,7 +6486,7 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1998.21,
+            "start": 1998.22,
             "end": 1974.56
           },
           "opp_data": {
@@ -6514,7 +6524,7 @@
           "opp_data": {
             "id": "iusox8yv",
             "opp": "Phillips, Cedric",
-            "start": 1837.82
+            "start": 1837.83
           }
         },
         {
@@ -6525,7 +6535,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1935.53,
-            "end": 1910.88
+            "end": 1910.89
           },
           "opp_data": {
             "id": "x9mlo7o7",
@@ -6540,7 +6550,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1910.88,
+            "start": 1910.89,
             "end": 1923.75
           },
           "opp_data": {
@@ -6600,7 +6610,7 @@
       ],
       "gpbru10": [
         {
-          "match_id": 626976,
+          "match_id": 625524,
           "round": "B4",
           "table": 35,
           "format": "standard",
@@ -6616,7 +6626,7 @@
           }
         },
         {
-          "match_id": 627769,
+          "match_id": 626317,
           "round": "B5",
           "table": 101,
           "format": "standard",
@@ -6632,7 +6642,7 @@
           }
         },
         {
-          "match_id": 628424,
+          "match_id": 626972,
           "round": "B6",
           "table": 114,
           "format": "standard",
@@ -6648,7 +6658,7 @@
           }
         },
         {
-          "match_id": 628921,
+          "match_id": 627469,
           "round": "B7",
           "table": 63,
           "format": "standard",
@@ -6660,11 +6670,11 @@
           "opp_data": {
             "id": "mm3qiac9",
             "opp": "Schlappa, Florian",
-            "start": 1495.16
+            "start": 1495.17
           }
         },
         {
-          "match_id": 629342,
+          "match_id": 627890,
           "round": "B8",
           "table": 39,
           "format": "standard",
@@ -6676,11 +6686,11 @@
           "opp_data": {
             "id": "s8k86x6h",
             "opp": "Kopec, Mateusz",
-            "start": 1787.42
+            "start": 1787.43
           }
         },
         {
-          "match_id": 629709,
+          "match_id": 628257,
           "round": "B9",
           "table": 51,
           "format": "standard",
@@ -6692,11 +6702,11 @@
           "opp_data": {
             "id": "x8jdn5th",
             "opp": "Van der Auwera, Bert",
-            "start": 1553.41
+            "start": 1553.42
           }
         },
         {
-          "match_id": 629906,
+          "match_id": 628454,
           "round": "10",
           "table": 91,
           "format": "standard",
@@ -6712,7 +6722,7 @@
           }
         },
         {
-          "match_id": 629964,
+          "match_id": 628512,
           "round": "11",
           "table": 46,
           "format": "standard",
@@ -6728,7 +6738,7 @@
           }
         },
         {
-          "match_id": 630033,
+          "match_id": 628581,
           "round": "12",
           "table": 15,
           "format": "standard",
@@ -6744,7 +6754,7 @@
           }
         },
         {
-          "match_id": 630125,
+          "match_id": 628673,
           "round": "13",
           "table": 7,
           "format": "standard",
@@ -6760,7 +6770,7 @@
           }
         },
         {
-          "match_id": 630247,
+          "match_id": 628795,
           "round": "14",
           "table": 34,
           "format": "standard",
@@ -6772,11 +6782,11 @@
           "opp_data": {
             "id": "p8kplk6z",
             "opp": "Gorzgen, Fabian",
-            "start": 1583.84
+            "start": 1583.85
           }
         },
         {
-          "match_id": 630328,
+          "match_id": 628876,
           "round": "15",
           "table": 25,
           "format": "standard",
@@ -6792,19 +6802,19 @@
           }
         },
         {
-          "match_id": 630398,
+          "match_id": 628946,
           "round": "16",
           "table": 10,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
             "start": 1972.74,
-            "end": 1989.01
+            "end": 1989.02
           },
           "opp_data": {
             "id": "oxv6zse1",
             "opp": "Juza, Martin",
-            "start": 1877.93
+            "start": 1877.92
           }
         }
       ],
@@ -6816,13 +6826,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1989.01,
+            "start": 1989.02,
             "end": 2005.75
           },
           "opp_data": {
             "id": "3oapa5kw",
             "opp": "Barbou, Leonard",
-            "start": 1919.74
+            "start": 1919.75
           }
         },
         {
@@ -6870,7 +6880,7 @@
           "opp_data": {
             "id": "x4f39run",
             "opp": "Angeli, Alessio",
-            "start": 1722.76
+            "start": 1722.77
           }
         },
         {
@@ -6931,7 +6941,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1933.56,
-            "end": 1907.6
+            "end": 1907.61
           },
           "opp_data": {
             "id": "l2oaubrz",
@@ -6946,8 +6956,8 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1907.6,
-            "end": 1882.3
+            "start": 1907.61,
+            "end": 1882.31
           },
           "opp_data": {
             "id": "dl5lnbb4",
@@ -6962,7 +6972,7 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1882.3,
+            "start": 1882.31,
             "end": 1863.27
           },
           "opp_data": {
@@ -6995,12 +7005,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1837.89,
-            "end": 1819.91
+            "end": 1819.92
           },
           "opp_data": {
             "id": "hugg1v3w",
             "opp": "Koska, Adam",
-            "start": 1839.47
+            "start": 1839.48
           }
         }
       ],
@@ -7012,13 +7022,13 @@
           "format": "extended",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1819.91,
+            "start": 1819.92,
             "end": 1800.79
           },
           "opp_data": {
             "id": "akq5t76h",
             "opp": "Rubin, Benjamin",
-            "start": 1757.99
+            "start": 1757.98
           }
         },
         {
@@ -7034,7 +7044,7 @@
           "opp_data": {
             "id": "pyqzo65i",
             "opp": "Pedrakowski, Tomasz",
-            "start": 1679.31
+            "start": 1679.32
           }
         },
         {
@@ -7130,35 +7140,35 @@
           "opp_data": {
             "id": "2nh4a9qg",
             "opp": "Osawa, Takuya",
-            "start": 1792.57
+            "start": 1792.58
           }
         }
       ],
       "gpboc10": [
         {
-          "match_id": 699947,
+          "match_id": 701047,
           "round": "B4",
           "table": 519,
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
             "start": 1801.29,
-            "end": 1817.25
+            "end": 1817.26
           },
           "opp_data": {
             "id": "luiqj4a1",
             "opp": "Hemmer, Philipp",
-            "start": 1689.25
+            "start": 1689.26
           }
         },
         {
-          "match_id": 700668,
+          "match_id": 701768,
           "round": "B5",
           "table": 536,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1817.25,
+            "start": 1817.26,
             "end": 1802.01
           },
           "opp_data": {
@@ -7168,7 +7178,7 @@
           }
         },
         {
-          "match_id": 701331,
+          "match_id": 702431,
           "round": "B6",
           "table": 594,
           "format": "sealed",
@@ -7184,7 +7194,7 @@
           }
         },
         {
-          "match_id": 701886,
+          "match_id": 702986,
           "round": "B7",
           "table": 668,
           "format": "sealed",
@@ -7257,7 +7267,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1744.94,
-            "end": 1721.95
+            "end": 1721.96
           },
           "opp_data": {
             "id": "x3d3d4f1",
@@ -7272,7 +7282,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1721.95,
+            "start": 1721.96,
             "end": 1741.82
           },
           "opp_data": {
@@ -7406,7 +7416,7 @@
           "opp_data": {
             "id": "z86z8qv1",
             "opp": "Fujita, Tsuyoshi",
-            "start": 1597.97
+            "start": 1597.98
           }
         },
         {
@@ -7438,7 +7448,7 @@
           "opp_data": {
             "id": "h8udpl95",
             "opp": "Kong, Chong Teng",
-            "start": 1626.17
+            "start": 1626.18
           }
         },
         {
@@ -7465,12 +7475,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1709.14,
-            "end": 1726.97
+            "end": 1726.98
           },
           "opp_data": {
             "id": "55n9c6z4",
             "opp": "Raney, Tom",
-            "start": 1699.97
+            "start": 1699.96
           }
         },
         {
@@ -7480,13 +7490,13 @@
           "format": "extended",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1726.97,
+            "start": 1726.98,
             "end": 1743.39
           },
           "opp_data": {
             "id": "j8ew1pf4",
             "opp": "van den Oever, Roy",
-            "start": 1639.86
+            "start": 1639.87
           }
         }
       ],
@@ -7504,7 +7514,7 @@
           "opp_data": {
             "id": "rbfnurpp",
             "opp": "Ruel, Olivier",
-            "start": 1814.08
+            "start": 1814.09
           }
         },
         {
@@ -7584,7 +7594,7 @@
           "opp_data": {
             "id": "2y6067gz",
             "opp": "Ma, Thomas",
-            "start": 1584.08
+            "start": 1584.09
           }
         },
         {
@@ -7622,7 +7632,7 @@
       ],
       "gppra11": [
         {
-          "match_id": 776402,
+          "match_id": 777421,
           "round": "A4",
           "table": 553,
           "format": "sealed",
@@ -7638,7 +7648,7 @@
           }
         },
         {
-          "match_id": 776950,
+          "match_id": 777969,
           "round": "A5",
           "table": 532,
           "format": "sealed",
@@ -7654,7 +7664,7 @@
           }
         },
         {
-          "match_id": 777479,
+          "match_id": 778498,
           "round": "A6",
           "table": 559,
           "format": "sealed",
@@ -7670,14 +7680,14 @@
           }
         },
         {
-          "match_id": 777962,
+          "match_id": 778981,
           "round": "A7",
           "table": 606,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1712.32,
-            "end": 1691.51
+            "end": 1691.52
           },
           "opp_data": {
             "id": "p9kbt2l8",
@@ -7694,7 +7704,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1691.51,
+            "start": 1691.52,
             "end": 1707.01
           },
           "opp_data": {
@@ -7727,7 +7737,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1687.19,
-            "end": 1706.54
+            "end": 1706.55
           },
           "opp_data": {
             "id": "1a6vw3it",
@@ -7742,7 +7752,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1706.54,
+            "start": 1706.55,
             "end": 1728.53
           },
           "opp_data": {
@@ -7905,7 +7915,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1702.17,
-            "end": 1687.83
+            "end": 1687.84
           },
           "opp_data": {
             "id": "14bbh8fs",
@@ -7916,13 +7926,13 @@
       ],
       "gplil12": [
         {
-          "match_id": 920791,
+          "match_id": 925982,
           "round": "A2",
           "table": 25,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1687.83,
+            "start": 1687.84,
             "end": 1702.74
           },
           "opp_data": {
@@ -7932,7 +7942,7 @@
           }
         },
         {
-          "match_id": 921401,
+          "match_id": 926592,
           "round": "A3",
           "table": 69,
           "format": "standard",
@@ -7948,14 +7958,14 @@
           }
         },
         {
-          "match_id": 922151,
+          "match_id": 927342,
           "round": "A4",
           "table": 190,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1682.82,
-            "end": 1660.9
+            "end": 1660.91
           },
           "opp_data": {
             "id": "o3r2h83t",
@@ -7964,13 +7974,13 @@
           }
         },
         {
-          "match_id": 922967,
+          "match_id": 928158,
           "round": "A5",
           "table": 277,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1660.9,
+            "start": 1660.91,
             "end": 1675.49
           },
           "opp_data": {
@@ -7980,7 +7990,7 @@
           }
         },
         {
-          "match_id": 923591,
+          "match_id": 928782,
           "round": "A6",
           "table": 196,
           "format": "standard",
@@ -7996,7 +8006,7 @@
           }
         },
         {
-          "match_id": 924204,
+          "match_id": 929395,
           "round": "A7",
           "table": 147,
           "format": "standard",
@@ -8012,7 +8022,7 @@
           }
         },
         {
-          "match_id": 924738,
+          "match_id": 929929,
           "round": "A8",
           "table": 72,
           "format": "standard",
@@ -8028,7 +8038,7 @@
           }
         },
         {
-          "match_id": 925330,
+          "match_id": 930521,
           "round": "A9",
           "table": 125,
           "format": "standard",
@@ -8040,7 +8050,7 @@
           "opp_data": {
             "id": "t1521ba2",
             "opp": "Wels, Tobias",
-            "start": 1549.51
+            "start": 1549.52
           }
         }
       ],
@@ -8186,7 +8196,7 @@
           "opp_data": {
             "id": "5jscrjp6",
             "opp": "Svensson, Johan",
-            "start": 1681.26
+            "start": 1681.25
           }
         },
         {
@@ -8218,7 +8228,7 @@
           "opp_data": {
             "id": "r8yycxhw",
             "opp": "Bjornerud, Sveinung",
-            "start": 1885.83
+            "start": 1885.84
           }
         },
         {
@@ -8300,7 +8310,7 @@
           "opp_data": {
             "id": "iixzt3fu",
             "opp": "Mindresunde, Dag Arne",
-            "start": 1482.07
+            "start": 1482.08
           }
         },
         {
@@ -8311,7 +8321,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1697.32,
-            "end": 1676.48
+            "end": 1676.49
           },
           "opp_data": {
             "id": "4w2pr17r",
@@ -8328,13 +8338,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1676.48,
+            "start": 1676.49,
             "end": 1700.66
           },
           "opp_data": {
             "id": "12p06h4s",
             "opp": "Yasooka, Shota",
-            "start": 2029
+            "start": 2029.02
           }
         },
         {
@@ -8361,12 +8371,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1719.83,
-            "end": 1741.47
+            "end": 1741.48
           },
           "opp_data": {
             "id": "l7a9gddq",
             "opp": "Wen, Bernie",
-            "start": 1922.61
+            "start": 1922.6
           }
         },
         {
@@ -8376,7 +8386,7 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1741.47,
+            "start": 1741.48,
             "end": 1726.83
           },
           "opp_data": {
@@ -8425,12 +8435,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1724.52,
-            "end": 1745.24
+            "end": 1745.25
           },
           "opp_data": {
             "id": "jab7xqzs",
             "opp": "Muller, Andre",
-            "start": 1874.89
+            "start": 1874.91
           }
         },
         {
@@ -8440,13 +8450,13 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1745.24,
+            "start": 1745.25,
             "end": 1768.75
           },
           "opp_data": {
             "id": "9nsl7lnf",
             "opp": "Nezin, Alec",
-            "start": 2056.84
+            "start": 2056.85
           }
         },
         {
@@ -8489,12 +8499,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1805.05,
-            "end": 1829.07
+            "end": 1829.08
           },
           "opp_data": {
             "id": "zfs6gtsp",
             "opp": "Froehlich, Eric",
-            "start": 2148.36
+            "start": 2148.38
           }
         },
         {
@@ -8504,13 +8514,13 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1829.07,
+            "start": 1829.08,
             "end": 1808.84
           },
           "opp_data": {
             "id": "lfnyybli",
             "opp": "Swift, Orrin",
-            "start": 1705.89
+            "start": 1705.9
           }
         },
         {
@@ -8521,12 +8531,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1808.84,
-            "end": 1830.38
+            "end": 1830.39
           },
           "opp_data": {
             "id": "exwav16j",
             "opp": "Yukuhiro, Ken",
-            "start": 2005.83
+            "start": 2005.84
           }
         },
         {
@@ -8536,7 +8546,7 @@
           "format": "block",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1830.38,
+            "start": 1830.39,
             "end": 1846.72
           },
           "opp_data": {
@@ -8553,7 +8563,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1846.72,
-            "end": 1866.76
+            "end": 1866.77
           },
           "opp_data": {
             "id": "bfkrcvqi",
@@ -8568,13 +8578,13 @@
           "format": "block",
           "result": "ID",
           "own_elo": {
-            "start": 1866.76,
-            "end": 1866.76
+            "start": 1866.77,
+            "end": 1866.77
           },
           "opp_data": {
             "id": "2eefgein",
             "opp": "Utter-Leyton, Josh",
-            "start": 2211.25
+            "start": 2211.24
           }
         },
         {
@@ -8584,13 +8594,13 @@
           "format": "block",
           "result": "Lost 2-3",
           "own_elo": {
-            "start": 1866.76,
+            "start": 1866.77,
             "end": 1853.92
           },
           "opp_data": {
             "id": "pxctyjlk",
             "opp": "Mihara, Makihito",
-            "start": 2157.43
+            "start": 2157.52
           }
         }
       ],
@@ -8603,7 +8613,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1853.92,
-            "end": 1866.26
+            "end": 1866.27
           },
           "opp_data": {
             "id": "33m1ln0u",
@@ -8618,8 +8628,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1866.26,
-            "end": 1882.28
+            "start": 1866.27,
+            "end": 1882.29
           },
           "opp_data": {
             "id": "fkocg8jm",
@@ -8634,8 +8644,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1882.28,
-            "end": 1895.23
+            "start": 1882.29,
+            "end": 1895.24
           },
           "opp_data": {
             "id": "l96jq3uz",
@@ -8650,8 +8660,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1895.23,
-            "end": 1911.5
+            "start": 1895.24,
+            "end": 1911.51
           },
           "opp_data": {
             "id": "ltflkdzr",
@@ -8666,7 +8676,7 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1911.5,
+            "start": 1911.51,
             "end": 1888.25
           },
           "opp_data": {
@@ -8683,12 +8693,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1888.25,
-            "end": 1867.5
+            "end": 1867.51
           },
           "opp_data": {
             "id": "h7odpm5a",
             "opp": "Engleitner, Herbert",
-            "start": 1736.64
+            "start": 1736.65
           }
         },
         {
@@ -8698,8 +8708,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1867.5,
-            "end": 1880.15
+            "start": 1867.51,
+            "end": 1880.16
           },
           "opp_data": {
             "id": "s4c50p32",
@@ -8714,13 +8724,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1880.15,
+            "start": 1880.16,
             "end": 1866.02
           },
           "opp_data": {
             "id": "eyummsmt",
             "opp": "Dezani, Jeremy",
-            "start": 2095.2
+            "start": 2095.19
           }
         },
         {
@@ -8752,7 +8762,7 @@
           "opp_data": {
             "id": "ug033anw",
             "opp": "Schneider, Michael",
-            "start": 1618.03
+            "start": 1618.05
           }
         },
         {
@@ -8763,7 +8773,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1861.05,
-            "end": 1873.88
+            "end": 1873.89
           },
           "opp_data": {
             "id": "0e3nn7tw",
@@ -8778,7 +8788,7 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1873.88,
+            "start": 1873.89,
             "end": 1849.04
           },
           "opp_data": {
@@ -8797,12 +8807,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1849.04,
-            "end": 1834.33
+            "end": 1834.34
           },
           "opp_data": {
             "id": "pzh3fcim",
             "opp": "Levy, Raphael",
-            "start": 2031.59
+            "start": 2031.6
           }
         },
         {
@@ -8812,13 +8822,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1834.33,
-            "end": 1855.1
+            "start": 1834.34,
+            "end": 1855.09
           },
           "opp_data": {
             "id": "3m2v9pq5",
             "opp": "Nakamura, Shuhei",
-            "start": 1986.88
+            "start": 1986.37
           }
         },
         {
@@ -8828,8 +8838,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1855.1,
-            "end": 1871.34
+            "start": 1855.09,
+            "end": 1871.33
           },
           "opp_data": {
             "id": "5pul7var",
@@ -8844,8 +8854,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1871.34,
-            "end": 1886.44
+            "start": 1871.33,
+            "end": 1886.43
           },
           "opp_data": {
             "id": "bzn7gd16",
@@ -8860,8 +8870,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1886.44,
-            "end": 1896.59
+            "start": 1886.43,
+            "end": 1896.58
           },
           "opp_data": {
             "id": "lww05i8m",
@@ -8876,13 +8886,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1896.59,
-            "end": 1913.77
+            "start": 1896.58,
+            "end": 1913.76
           },
           "opp_data": {
             "id": "x18asegf",
             "opp": "Silva, Jose Francisco",
-            "start": 1851.33
+            "start": 1851.3
           }
         },
         {
@@ -8892,8 +8902,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1913.77,
-            "end": 1928.52
+            "start": 1913.76,
+            "end": 1928.51
           },
           "opp_data": {
             "id": "sj1mmye0",
@@ -8908,7 +8918,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1928.52,
+            "start": 1928.51,
             "end": 1946.44
           },
           "opp_data": {
@@ -8930,7 +8940,7 @@
           "opp_data": {
             "id": "syndfp2o",
             "opp": "Dagen, Pierre",
-            "start": 1901.27
+            "start": 1901.28
           }
         },
         {
@@ -8978,7 +8988,7 @@
           "opp_data": {
             "id": "mef1asf6",
             "opp": "Bohny, Nico",
-            "start": 2006.04
+            "start": 2006.03
           }
         },
         {
@@ -8994,7 +9004,7 @@
           "opp_data": {
             "id": "syndfp2o",
             "opp": "Dagen, Pierre",
-            "start": 1933.58
+            "start": 1933.59
           }
         },
         {
@@ -9010,7 +9020,7 @@
           "opp_data": {
             "id": "7mgxpbdh",
             "opp": "Black, Samuel",
-            "start": 1990.94
+            "start": 1990.95
           }
         },
         {
@@ -9055,7 +9065,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1954.97,
-            "end": 1965.78
+            "end": 1965.77
           },
           "opp_data": {
             "id": "6b2m9r8u",
@@ -9070,7 +9080,7 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1965.78,
+            "start": 1965.77,
             "end": 1939.71
           },
           "opp_data": {
@@ -9119,7 +9129,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1966.75,
-            "end": 1979.36
+            "end": 1979.35
           },
           "opp_data": {
             "id": "bmwob50z",
@@ -9134,8 +9144,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1979.36,
-            "end": 1989.9
+            "start": 1979.35,
+            "end": 1989.89
           },
           "opp_data": {
             "id": "zlbf6rkz",
@@ -9150,13 +9160,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1989.9,
+            "start": 1989.89,
             "end": 1974.34
           },
           "opp_data": {
             "id": "9qem6fk0",
             "opp": "Mackl, Valentin",
-            "start": 2124.87
+            "start": 2124.88
           }
         },
         {
@@ -9167,12 +9177,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1974.34,
-            "end": 1986.16
+            "end": 1986.15
           },
           "opp_data": {
             "id": "35oxkpu5",
             "opp": "Vanek, Jiri",
-            "start": 1620.72
+            "start": 1620.73
           }
         },
         {
@@ -9182,7 +9192,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1986.16,
+            "start": 1986.15,
             "end": 2000.95
           },
           "opp_data": {
@@ -9199,7 +9209,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 2000.95,
-            "end": 1976.46
+            "end": 1976.45
           },
           "opp_data": {
             "id": "mh169q3s",
@@ -9214,8 +9224,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1976.46,
-            "end": 1990.19
+            "start": 1976.45,
+            "end": 1990.18
           },
           "opp_data": {
             "id": "7dbfjvv3",
@@ -9230,8 +9240,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1990.19,
-            "end": 1966.88
+            "start": 1990.18,
+            "end": 1966.87
           },
           "opp_data": {
             "id": "bmxh5o3h",
@@ -9246,7 +9256,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1966.88,
+            "start": 1966.87,
             "end": 1981.42
           },
           "opp_data": {
@@ -9265,7 +9275,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1981.42,
-            "end": 1993.24
+            "end": 1993.23
           },
           "opp_data": {
             "id": "a5547nsz",
@@ -9280,7 +9290,7 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1993.24,
+            "start": 1993.23,
             "end": 1974.48
           },
           "opp_data": {
@@ -9297,7 +9307,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1974.48,
-            "end": 1984.78
+            "end": 1984.77
           },
           "opp_data": {
             "id": "s1u0orq6",
@@ -9312,8 +9322,8 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1984.78,
-            "end": 1997.36
+            "start": 1984.77,
+            "end": 1997.35
           },
           "opp_data": {
             "id": "nzjof13a",
@@ -9328,7 +9338,7 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1997.36,
+            "start": 1997.35,
             "end": 2008.35
           },
           "opp_data": {
@@ -9361,7 +9371,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1988.43,
-            "end": 2000.33
+            "end": 2000.32
           },
           "opp_data": {
             "id": "o1w0zh6p",
@@ -9376,13 +9386,13 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2000.33,
+            "start": 2000.32,
             "end": 2011.53
           },
           "opp_data": {
             "id": "3bhhg3os",
             "opp": "Luther, Rico",
-            "start": 1608.63
+            "start": 1608.64
           }
         },
         {
@@ -9446,7 +9456,7 @@
           "opp_data": {
             "id": "zea0u7n4",
             "opp": "Moral, Carlos",
-            "start": 1879.02
+            "start": 1879.03
           }
         },
         {
@@ -9462,7 +9472,7 @@
           "opp_data": {
             "id": "8ardg2rq",
             "opp": "Chiche, Kevin",
-            "start": 1873.39
+            "start": 1873.4
           }
         }
       ],
@@ -9528,7 +9538,7 @@
           "opp_data": {
             "id": "v33plinm",
             "opp": "Bjorklund, Rasmus",
-            "start": 1973.93
+            "start": 1973.92
           }
         },
         {
@@ -9555,12 +9565,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 2081.92,
-            "end": 2095.34
+            "end": 2095.33
           },
           "opp_data": {
             "id": "eu498v5q",
             "opp": "Baylock, Deshaun",
-            "start": 1825.17
+            "start": 1825.16
           }
         },
         {
@@ -9570,7 +9580,7 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 2095.34,
+            "start": 2095.33,
             "end": 2109.02
           },
           "opp_data": {
@@ -9640,7 +9650,7 @@
           "opp_data": {
             "id": "k5uaxj5u",
             "opp": "Fulk, David",
-            "start": 1924.97
+            "start": 1924.98
           }
         },
         {
@@ -9651,7 +9661,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2089.14,
-            "end": 2070.13
+            "end": 2070.12
           },
           "opp_data": {
             "id": "fvsvzz1n",
@@ -9666,7 +9676,7 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2070.13,
+            "start": 2070.12,
             "end": 2083.46
           },
           "opp_data": {
@@ -9726,14 +9736,14 @@
       ],
       "gpvie14": [
         {
-          "match_id": 1538961,
+          "match_id": 1530357,
           "round": "3",
           "table": 245,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2110.87,
-            "end": 2083.13
+            "end": 2083.12
           },
           "opp_data": {
             "id": "wmzvcmr3",
@@ -9742,23 +9752,23 @@
           }
         },
         {
-          "match_id": 1539539,
+          "match_id": 1530935,
           "round": "4",
           "table": 248,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2083.13,
+            "start": 2083.12,
             "end": 2094.26
           },
           "opp_data": {
             "id": "lfe72le9",
             "opp": "Danek, Petr",
-            "start": 1686.77
+            "start": 1686.76
           }
         },
         {
-          "match_id": 1539952,
+          "match_id": 1531348,
           "round": "5",
           "table": 91,
           "format": "sealed",
@@ -9770,18 +9780,18 @@
           "opp_data": {
             "id": "wfior9r4",
             "opp": "Maroti, Andras",
-            "start": 1573.25
+            "start": 1573.24
           }
         },
         {
-          "match_id": 1540477,
+          "match_id": 1531873,
           "round": "6",
           "table": 92,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
             "start": 2103.55,
-            "end": 2075.75
+            "end": 2075.74
           },
           "opp_data": {
             "id": "8kof0p7d",
@@ -9790,13 +9800,13 @@
           }
         },
         {
-          "match_id": 1541087,
+          "match_id": 1532483,
           "round": "7",
           "table": 228,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2075.75,
+            "start": 2075.74,
             "end": 2051.45
           },
           "opp_data": {
@@ -9815,7 +9825,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 2051.45,
-            "end": 2065.87
+            "end": 2065.86
           },
           "opp_data": {
             "id": "vve0i3ib",
@@ -9830,13 +9840,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2065.87,
+            "start": 2065.86,
             "end": 2046.26
           },
           "opp_data": {
             "id": "6cp2vhkz",
             "opp": "Watanabe, Yuuya",
-            "start": 1977.62
+            "start": 1977.61
           }
         },
         {
@@ -9863,12 +9873,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2059.45,
-            "end": 2038.89
+            "end": 2038.88
           },
           "opp_data": {
             "id": "exwav16j",
             "opp": "Yukuhiro, Ken",
-            "start": 1917.79
+            "start": 1917.8
           }
         },
         {
@@ -9878,7 +9888,7 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2038.89,
+            "start": 2038.88,
             "end": 2049.2
           },
           "opp_data": {
@@ -9895,12 +9905,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 2049.2,
-            "end": 2059.13
+            "end": 2059.12
           },
           "opp_data": {
             "id": "v70p3oza",
             "opp": "Onizuka, Makoto",
-            "start": 1572.75
+            "start": 1572.76
           }
         },
         {
@@ -9910,13 +9920,13 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2059.13,
+            "start": 2059.12,
             "end": 2076.64
           },
           "opp_data": {
             "id": "3js3uilp",
             "opp": "Berni, Roberto",
-            "start": 2032.65
+            "start": 2032.58
           }
         },
         {
@@ -9943,7 +9953,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2051.76,
-            "end": 2033.83
+            "end": 2033.82
           },
           "opp_data": {
             "id": "dsphgnb2",
@@ -9958,13 +9968,13 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 2033.83,
-            "end": 2051.39
+            "start": 2033.82,
+            "end": 2051.38
           },
           "opp_data": {
             "id": "3js3uilp",
             "opp": "Berni, Roberto",
-            "start": 2009.6
+            "start": 2009.53
           }
         },
         {
@@ -9974,13 +9984,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2051.39,
-            "end": 2063.41
+            "start": 2051.38,
+            "end": 2063.4
           },
           "opp_data": {
             "id": "204i85mn",
             "opp": "McCamish, Ryan",
-            "start": 1710.95
+            "start": 1710.94
           }
         },
         {
@@ -9990,7 +10000,7 @@
           "format": "block",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 2063.41,
+            "start": 2063.4,
             "end": 2046.03
           },
           "opp_data": {
@@ -10007,12 +10017,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 2046.03,
-            "end": 2058.73
+            "end": 2058.72
           },
           "opp_data": {
             "id": "ign9ocxn",
             "opp": "Maubert, Noham",
-            "start": 1746.56
+            "start": 1746.57
           }
         },
         {
@@ -10022,8 +10032,8 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2058.73,
-            "end": 2035.19
+            "start": 2058.72,
+            "end": 2035.18
           },
           "opp_data": {
             "id": "c5nba5l7",
@@ -10038,13 +10048,13 @@
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2035.19,
-            "end": 2018.08
+            "start": 2035.18,
+            "end": 2018.07
           },
           "opp_data": {
             "id": "oz33n7wy",
             "opp": "Stark, Ben S",
-            "start": 2083.99
+            "start": 2084
           }
         },
         {
@@ -10054,8 +10064,8 @@
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2018.08,
-            "end": 2032.45
+            "start": 2018.07,
+            "end": 2032.44
           },
           "opp_data": {
             "id": "6n99lvml",
@@ -10072,7 +10082,7 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2032.45,
+            "start": 2032.44,
             "end": 2042.38
           },
           "opp_data": {
@@ -10132,7 +10142,7 @@
       ],
       "gpman14": [
         {
-          "match_id": 1609992,
+          "match_id": 1607941,
           "round": "4",
           "table": 413,
           "format": "block",
@@ -10144,11 +10154,11 @@
           "opp_data": {
             "id": "sq4p9yn2",
             "opp": "Warnock, Alan",
-            "start": 1723.97
+            "start": 1723.98
           }
         },
         {
-          "match_id": 1610367,
+          "match_id": 1608316,
           "round": "5",
           "table": 122,
           "format": "block",
@@ -10164,7 +10174,7 @@
           }
         },
         {
-          "match_id": 1611330,
+          "match_id": 1609279,
           "round": "6",
           "table": 470,
           "format": "block",
@@ -10176,18 +10186,18 @@
           "opp_data": {
             "id": "zoqbsiso",
             "opp": "Tobiasch, Marc",
-            "start": 1743.36
+            "start": 1743.37
           }
         },
         {
-          "match_id": 1611409,
+          "match_id": 1609358,
           "round": "7",
           "table": 14,
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
             "start": 2011.11,
-            "end": 1987.13
+            "end": 1987.12
           },
           "opp_data": {
             "id": "s2mi6c66",
@@ -10196,14 +10206,14 @@
           }
         },
         {
-          "match_id": 1611864,
+          "match_id": 1609813,
           "round": "8",
           "table": 14,
           "format": "block",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1987.13,
-            "end": 1997.63
+            "start": 1987.12,
+            "end": 1997.62
           },
           "opp_data": {
             "id": "t2uf5i6f",
@@ -10212,13 +10222,13 @@
           }
         },
         {
-          "match_id": 1612234,
+          "match_id": 1610183,
           "round": "9",
           "table": 27,
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1997.63,
+            "start": 1997.62,
             "end": 1978.31
           },
           "opp_data": {
@@ -10228,7 +10238,7 @@
           }
         },
         {
-          "match_id": 1612533,
+          "match_id": 1610482,
           "round": "10",
           "table": 37,
           "format": "block",
@@ -10244,7 +10254,7 @@
           }
         },
         {
-          "match_id": 1612610,
+          "match_id": 1610559,
           "round": "11",
           "table": 39,
           "format": "block",
@@ -10256,11 +10266,11 @@
           "opp_data": {
             "id": "nil3llpq",
             "opp": "Nagy, Tamas",
-            "start": 1922
+            "start": 1922.01
           }
         },
         {
-          "match_id": 1612696,
+          "match_id": 1610645,
           "round": "12",
           "table": 50,
           "format": "block",
@@ -10276,30 +10286,30 @@
           }
         },
         {
-          "match_id": 1612763,
+          "match_id": 1610712,
           "round": "13",
           "table": 43,
           "format": "block",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1982.42,
-            "end": 1996.56
+            "end": 1996.55
           },
           "opp_data": {
             "id": "s9nifuuk",
             "opp": "Yao, Shimeng",
-            "start": 1767.1
+            "start": 1767.11
           }
         },
         {
-          "match_id": 1612809,
+          "match_id": 1610758,
           "round": "14",
           "table": 15,
           "format": "block",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1996.56,
-            "end": 1975.11
+            "start": 1996.55,
+            "end": 1975.1
           },
           "opp_data": {
             "id": "vbkwy39s",
@@ -10308,13 +10318,13 @@
           }
         },
         {
-          "match_id": 1612889,
+          "match_id": 1610838,
           "round": "15",
           "table": 24,
           "format": "block",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1975.11,
+            "start": 1975.1,
             "end": 1991.12
           },
           "opp_data": {
@@ -10326,7 +10336,7 @@
       ],
       "gpmil14": [
         {
-          "match_id": 1637356,
+          "match_id": 1640429,
           "round": "4",
           "table": 10,
           "format": "sealed",
@@ -10342,7 +10352,7 @@
           }
         },
         {
-          "match_id": 1638074,
+          "match_id": 1641147,
           "round": "5",
           "table": 183,
           "format": "sealed",
@@ -10358,7 +10368,7 @@
           }
         },
         {
-          "match_id": 1638556,
+          "match_id": 1641629,
           "round": "6",
           "table": 151,
           "format": "sealed",
@@ -10370,11 +10380,11 @@
           "opp_data": {
             "id": "7tr02htr",
             "opp": "Glied, Tamas",
-            "start": 1997.51
+            "start": 1997.52
           }
         },
         {
-          "match_id": 1638995,
+          "match_id": 1642068,
           "round": "7",
           "table": 134,
           "format": "sealed",
@@ -10386,13 +10396,13 @@
           "opp_data": {
             "id": "v22uddoi",
             "opp": "Volakis, Georgios",
-            "start": 1502.01
+            "start": 1502.02
           }
         }
       ],
       "gpbos14": [
         {
-          "match_id": 1655411,
+          "match_id": 1660702,
           "round": "B4",
           "table": 129,
           "format": "modern",
@@ -10404,11 +10414,11 @@
           "opp_data": {
             "id": "vqgze140",
             "opp": "Fortier, Remi",
-            "start": 1714.48
+            "start": 1714.49
           }
         },
         {
-          "match_id": 1656483,
+          "match_id": 1661774,
           "round": "B5",
           "table": 141,
           "format": "modern",
@@ -10424,7 +10434,7 @@
           }
         },
         {
-          "match_id": 1657332,
+          "match_id": 1662623,
           "round": "B6",
           "table": 60,
           "format": "modern",
@@ -10440,7 +10450,7 @@
           }
         },
         {
-          "match_id": 1658075,
+          "match_id": 1663366,
           "round": "B7",
           "table": 39,
           "format": "modern",
@@ -10456,14 +10466,14 @@
           }
         },
         {
-          "match_id": 1658648,
+          "match_id": 1663939,
           "round": "B8",
           "table": 18,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1952.73,
-            "end": 1964.72
+            "end": 1964.71
           },
           "opp_data": {
             "id": "8pwcujt7",
@@ -10472,13 +10482,13 @@
           }
         },
         {
-          "match_id": 1659117,
+          "match_id": 1664408,
           "round": "B9",
           "table": 18,
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1964.72,
+            "start": 1964.71,
             "end": 1941.25
           },
           "opp_data": {
@@ -10488,7 +10498,7 @@
           }
         },
         {
-          "match_id": 1659435,
+          "match_id": 1664726,
           "round": "10",
           "table": 123,
           "format": "modern",
@@ -10504,14 +10514,14 @@
           }
         },
         {
-          "match_id": 1659581,
+          "match_id": 1664872,
           "round": "11",
           "table": 130,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1919.07,
-            "end": 1933.11
+            "end": 1933.1
           },
           "opp_data": {
             "id": "r27bd4ik",
@@ -10520,23 +10530,23 @@
           }
         },
         {
-          "match_id": 1659668,
+          "match_id": 1664959,
           "round": "12",
           "table": 79,
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1933.11,
+            "start": 1933.1,
             "end": 1910.09
           },
           "opp_data": {
             "id": "dtgzdk68",
             "opp": "Galasinao, Nicholas",
-            "start": 1650.59
+            "start": 1650.61
           }
         },
         {
-          "match_id": 1659816,
+          "match_id": 1665107,
           "round": "13",
           "table": 93,
           "format": "modern",
@@ -10548,11 +10558,11 @@
           "opp_data": {
             "id": "psu6ad83",
             "opp": "Higginbottom, James",
-            "start": 1736.95
+            "start": 1736.96
           }
         },
         {
-          "match_id": 1659950,
+          "match_id": 1665241,
           "round": "14",
           "table": 98,
           "format": "modern",
@@ -10564,11 +10574,11 @@
           "opp_data": {
             "id": "utjfk693",
             "opp": "Cyr, Shawn",
-            "start": 1740.41
+            "start": 1740.39
           }
         },
         {
-          "match_id": 1660046,
+          "match_id": 1665337,
           "round": "15",
           "table": 71,
           "format": "modern",
@@ -10580,7 +10590,7 @@
           "opp_data": {
             "id": "usnzrswv",
             "opp": "Hacker, Ian",
-            "start": 1626.94
+            "start": 1626.95
           }
         }
       ],
@@ -10609,7 +10619,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1921.37,
-            "end": 1896.39
+            "end": 1896.38
           },
           "opp_data": {
             "id": "gxg0j0mp",
@@ -10624,7 +10634,7 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1896.39,
+            "start": 1896.38,
             "end": 1877.47
           },
           "opp_data": {
@@ -10646,7 +10656,7 @@
           "opp_data": {
             "id": "xqogf5dc",
             "opp": "Costa, Matthew",
-            "start": 1875.25
+            "start": 1875.24
           }
         },
         {
@@ -10662,13 +10672,13 @@
           "opp_data": {
             "id": "gu7sj9op",
             "opp": "Lynch, Jeffrey",
-            "start": 1509.63
+            "start": 1509.64
           }
         }
       ],
       "gporl14": [
         {
-          "match_id": 1717244,
+          "match_id": 1721699,
           "round": "4",
           "table": 21,
           "format": "sealed",
@@ -10684,7 +10694,7 @@
           }
         },
         {
-          "match_id": 1718147,
+          "match_id": 1722602,
           "round": "5",
           "table": 40,
           "format": "sealed",
@@ -10700,7 +10710,7 @@
           }
         },
         {
-          "match_id": 1718857,
+          "match_id": 1723312,
           "round": "6",
           "table": 22,
           "format": "sealed",
@@ -10712,11 +10722,11 @@
           "opp_data": {
             "id": "qll3mq3n",
             "opp": "Kohrs, Brandon",
-            "start": 1757.98
+            "start": 1757.97
           }
         },
         {
-          "match_id": 1719416,
+          "match_id": 1723871,
           "round": "7",
           "table": 12,
           "format": "sealed",
@@ -10732,7 +10742,7 @@
           }
         },
         {
-          "match_id": 1719838,
+          "match_id": 1724293,
           "round": "8",
           "table": 14,
           "format": "sealed",
@@ -10744,11 +10754,11 @@
           "opp_data": {
             "id": "4usep0uj",
             "opp": "Pennington, Allen",
-            "start": 1873.22
+            "start": 1873.21
           }
         },
         {
-          "match_id": 1720177,
+          "match_id": 1724632,
           "round": "9",
           "table": 33,
           "format": "sealed",
@@ -10764,7 +10774,7 @@
           }
         },
         {
-          "match_id": 1720331,
+          "match_id": 1724786,
           "round": "10",
           "table": 52,
           "format": "draft",
@@ -10780,7 +10790,7 @@
           }
         },
         {
-          "match_id": 1720492,
+          "match_id": 1724947,
           "round": "11",
           "table": 97,
           "format": "draft",
@@ -10792,11 +10802,11 @@
           "opp_data": {
             "id": "kvyiurb4",
             "opp": "Boling, Cannon",
-            "start": 1562.93
+            "start": 1562.91
           }
         },
         {
-          "match_id": 1720579,
+          "match_id": 1725034,
           "round": "12",
           "table": 68,
           "format": "draft",
@@ -10812,7 +10822,7 @@
           }
         },
         {
-          "match_id": 1720669,
+          "match_id": 1725124,
           "round": "13",
           "table": 43,
           "format": "draft",
@@ -10828,7 +10838,7 @@
           }
         },
         {
-          "match_id": 1720786,
+          "match_id": 1725241,
           "round": "14",
           "table": 51,
           "format": "draft",
@@ -10844,7 +10854,7 @@
           }
         },
         {
-          "match_id": 1720917,
+          "match_id": 1725372,
           "round": "15",
           "table": 81,
           "format": "draft",
@@ -10856,7 +10866,7 @@
           "opp_data": {
             "id": "q9d2sc4l",
             "opp": "Freel, Dan",
-            "start": 1564.14
+            "start": 1564.12
           }
         }
       ],
@@ -10874,7 +10884,7 @@
           "opp_data": {
             "id": "kltvxqit",
             "opp": "Carleton-Barnes, Gabriel",
-            "start": 1867.98
+            "start": 1867.97
           }
         },
         {
@@ -10917,12 +10927,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1858.56,
-            "end": 1879.76
+            "end": 1879.75
           },
           "opp_data": {
             "id": "tesls8ev",
             "opp": "Blum, Tyler",
-            "start": 2035.61
+            "start": 2035.6
           }
         },
         {
@@ -10932,13 +10942,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1879.76,
-            "end": 1860.26
+            "start": 1879.75,
+            "end": 1860.25
           },
           "opp_data": {
             "id": "g60lij3m",
             "opp": "Fogle, Jack",
-            "start": 1797.46
+            "start": 1797.45
           }
         },
         {
@@ -10948,13 +10958,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1860.26,
+            "start": 1860.25,
             "end": 1839.97
           },
           "opp_data": {
             "id": "tn8txrpf",
             "opp": "Milliken, Joshua",
-            "start": 1734.37
+            "start": 1734.32
           }
         },
         {
@@ -10981,7 +10991,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1819.23,
-            "end": 1832.05
+            "end": 1832.04
           },
           "opp_data": {
             "id": "qb6r37mx",
@@ -10996,7 +11006,7 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1832.05,
+            "start": 1832.04,
             "end": 1812.77
           },
           "opp_data": {
@@ -11077,7 +11087,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1838.31,
-            "end": 1819.46
+            "end": 1819.45
           },
           "opp_data": {
             "id": "bv88n97z",
@@ -11094,8 +11104,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1819.46,
-            "end": 1832.28
+            "start": 1819.45,
+            "end": 1832.27
           },
           "opp_data": {
             "id": "ki5tscu5",
@@ -11110,7 +11120,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1832.28,
+            "start": 1832.27,
             "end": 1845.83
           },
           "opp_data": {
@@ -11132,7 +11142,7 @@
           "opp_data": {
             "id": "uy0b4uqh",
             "opp": "Schwarz, Sascha",
-            "start": 1718.6
+            "start": 1718.61
           }
         },
         {
@@ -11148,7 +11158,7 @@
           "opp_data": {
             "id": "6p26nq70",
             "opp": "Londos, Ludvig",
-            "start": 1922.17
+            "start": 1922.16
           }
         },
         {
@@ -11159,7 +11169,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1880.63,
-            "end": 1858.63
+            "end": 1858.62
           },
           "opp_data": {
             "id": "2cplnbna",
@@ -11174,8 +11184,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1858.63,
-            "end": 1878.59
+            "start": 1858.62,
+            "end": 1878.58
           },
           "opp_data": {
             "id": "wb31y4ks",
@@ -11190,7 +11200,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1878.59,
+            "start": 1878.58,
             "end": 1894.66
           },
           "opp_data": {
@@ -11223,7 +11233,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1874,
-            "end": 1890.32
+            "end": 1890.31
           },
           "opp_data": {
             "id": "yn1iop2p",
@@ -11238,7 +11248,7 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1890.32,
+            "start": 1890.31,
             "end": 1904.59
           },
           "opp_data": {
@@ -11260,7 +11270,7 @@
           "opp_data": {
             "id": "ig0gtduw",
             "opp": "Sjoblom, Max",
-            "start": 2002.24
+            "start": 2002.25
           }
         },
         {
@@ -11287,12 +11297,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1924.36,
-            "end": 1942
+            "end": 1941.99
           },
           "opp_data": {
             "id": "ap8l7glg",
             "opp": "Cirigliano, Matteo",
-            "start": 1904.22
+            "start": 1904.24
           }
         },
         {
@@ -11302,7 +11312,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1942,
+            "start": 1941.99,
             "end": 1957.82
           },
           "opp_data": {
@@ -11330,7 +11340,7 @@
       ],
       "gpmad14": [
         {
-          "match_id": 1769890,
+          "match_id": 1756122,
           "round": "4",
           "table": 13,
           "format": "modern",
@@ -11346,7 +11356,7 @@
           }
         },
         {
-          "match_id": 1770840,
+          "match_id": 1757072,
           "round": "5",
           "table": 32,
           "format": "modern",
@@ -11362,7 +11372,7 @@
           }
         },
         {
-          "match_id": 1771719,
+          "match_id": 1757951,
           "round": "6",
           "table": 22,
           "format": "modern",
@@ -11374,11 +11384,11 @@
           "opp_data": {
             "id": "zoqbsiso",
             "opp": "Tobiasch, Marc",
-            "start": 1886.1
+            "start": 1886.09
           }
         },
         {
-          "match_id": 1772525,
+          "match_id": 1758757,
           "round": "7",
           "table": 20,
           "format": "modern",
@@ -11394,7 +11404,7 @@
           }
         },
         {
-          "match_id": 1773248,
+          "match_id": 1759480,
           "round": "8",
           "table": 46,
           "format": "modern",
@@ -11410,7 +11420,7 @@
           }
         },
         {
-          "match_id": 1773910,
+          "match_id": 1760142,
           "round": "9",
           "table": 130,
           "format": "modern",
@@ -11426,7 +11436,7 @@
           }
         },
         {
-          "match_id": 1774336,
+          "match_id": 1760568,
           "round": "10",
           "table": 67,
           "format": "modern",
@@ -11442,7 +11452,7 @@
           }
         },
         {
-          "match_id": 1774402,
+          "match_id": 1760634,
           "round": "11",
           "table": 23,
           "format": "modern",
@@ -11458,7 +11468,7 @@
           }
         },
         {
-          "match_id": 1774514,
+          "match_id": 1760746,
           "round": "12",
           "table": 25,
           "format": "modern",
@@ -11474,7 +11484,7 @@
           }
         },
         {
-          "match_id": 1774631,
+          "match_id": 1760863,
           "round": "13",
           "table": 32,
           "format": "modern",
@@ -11490,7 +11500,7 @@
           }
         },
         {
-          "match_id": 1774762,
+          "match_id": 1760994,
           "round": "14",
           "table": 59,
           "format": "modern",
@@ -11506,14 +11516,14 @@
           }
         },
         {
-          "match_id": 1774868,
+          "match_id": 1761100,
           "round": "15",
           "table": 66,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
             "start": 1922.51,
-            "end": 1932.45
+            "end": 1932.44
           },
           "opp_data": {
             "id": "gvgdqghz",
@@ -11530,13 +11540,13 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1932.45,
-            "end": 1946.93
+            "start": 1932.44,
+            "end": 1946.92
           },
           "opp_data": {
             "id": "hkuxdlht",
             "opp": "Surkamp, Florian",
-            "start": 1736.97
+            "start": 1736.96
           }
         },
         {
@@ -11546,7 +11556,7 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1946.93,
+            "start": 1946.92,
             "end": 1961.65
           },
           "opp_data": {
@@ -11584,7 +11594,7 @@
           "opp_data": {
             "id": "kxvviyzb",
             "opp": "Telarov, Aleksa",
-            "start": 1830.1
+            "start": 1830.11
           }
         },
         {
@@ -11632,7 +11642,7 @@
           "opp_data": {
             "id": "v2oop29y",
             "opp": "Trauer, Pierre",
-            "start": 1532.99
+            "start": 1533
           }
         },
         {
@@ -11659,7 +11669,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1965.38,
-            "end": 1978.08
+            "end": 1978.07
           },
           "opp_data": {
             "id": "dpvdfg6s",
@@ -11674,7 +11684,7 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1978.08,
+            "start": 1978.07,
             "end": 1992.76
           },
           "opp_data": {
@@ -11789,7 +11799,7 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1998.1,
-            "end": 1980.32
+            "end": 1980.31
           },
           "opp_data": {
             "id": "djs8s946",
@@ -11804,7 +11814,7 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1980.32,
+            "start": 1980.31,
             "end": 1997.51
           },
           "opp_data": {
@@ -11853,12 +11863,12 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1993.45,
-            "end": 2009.83
+            "end": 2009.82
           },
           "opp_data": {
             "id": "wzele902",
             "opp": "Phan, Lam",
-            "start": 1904.08
+            "start": 1903.97
           }
         },
         {
@@ -11868,8 +11878,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2009.83,
-            "end": 1988.92
+            "start": 2009.82,
+            "end": 1988.91
           },
           "opp_data": {
             "id": "a1c67pe6",
@@ -11884,7 +11894,7 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1988.92,
+            "start": 1988.91,
             "end": 2006.18
           },
           "opp_data": {
@@ -11949,12 +11959,12 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1980,
-            "end": 1995.98
+            "end": 1995.97
           },
           "opp_data": {
             "id": "s75wj7wj",
             "opp": "Falcis, Carlo",
-            "start": 1868.54
+            "start": 1868.53
           }
         }
       ],
@@ -11966,8 +11976,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1995.98,
-            "end": 1974.14
+            "start": 1995.97,
+            "end": 1974.13
           },
           "opp_data": {
             "id": "i0q42jt1",
@@ -11982,13 +11992,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1974.14,
-            "end": 1991.37
+            "start": 1974.13,
+            "end": 1991.36
           },
           "opp_data": {
             "id": "6pxk1ge4",
             "opp": "Marcotti, Emanuele",
-            "start": 1931.86
+            "start": 1931.87
           }
         },
         {
@@ -11998,13 +12008,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1991.37,
-            "end": 2008.37
+            "start": 1991.36,
+            "end": 2008.36
           },
           "opp_data": {
             "id": "spos48qw",
             "opp": "Karsten, Frank",
-            "start": 1936.5
+            "start": 1936.51
           }
         },
         {
@@ -12014,7 +12024,7 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 2008.37,
+            "start": 2008.36,
             "end": 1989.05
           },
           "opp_data": {
@@ -12063,7 +12073,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1975.13,
-            "end": 1991.14
+            "end": 1991.13
           },
           "opp_data": {
             "id": "rbfnurpp",
@@ -12078,7 +12088,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1991.14,
+            "start": 1991.13,
             "end": 2002.62
           },
           "opp_data": {
@@ -12116,7 +12126,7 @@
           "opp_data": {
             "id": "7hwhfn90",
             "opp": "Kuo, Tzu-Ching",
-            "start": 1981.89
+            "start": 1981.88
           }
         },
         {
@@ -12132,7 +12142,7 @@
           "opp_data": {
             "id": "iuw859gm",
             "opp": "Sperling, Matthew",
-            "start": 2024.11
+            "start": 2024.1
           }
         },
         {
@@ -12143,7 +12153,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 2013.89,
-            "end": 2025.44
+            "end": 2025.43
           },
           "opp_data": {
             "id": "491lltml",
@@ -12158,8 +12168,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2025.44,
-            "end": 2040.56
+            "start": 2025.43,
+            "end": 2040.55
           },
           "opp_data": {
             "id": "ibpv0qya",
@@ -12174,13 +12184,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 2040.56,
+            "start": 2040.55,
             "end": 2057.6
           },
           "opp_data": {
             "id": "7pqllyaq",
             "opp": "Lehner, Bernhard",
-            "start": 1988.34
+            "start": 1988.33
           }
         },
         {
@@ -12212,7 +12222,7 @@
           "opp_data": {
             "id": "zrdnlw3o",
             "opp": "Damo da Rosa, Paulo Vitor",
-            "start": 1978.08
+            "start": 1978.07
           }
         }
       ],
@@ -12225,7 +12235,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 2050.74,
-            "end": 2061.84
+            "end": 2061.83
           },
           "opp_data": {
             "id": "6jdazg7g",
@@ -12240,13 +12250,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2061.84,
+            "start": 2061.83,
             "end": 2071.39
           },
           "opp_data": {
             "id": "hlo24rph",
             "opp": "Szymiec, Wiktor",
-            "start": 1559.76
+            "start": 1559.77
           }
         },
         {
@@ -12257,12 +12267,12 @@
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2071.39,
-            "end": 2046.69
+            "end": 2046.68
           },
           "opp_data": {
             "id": "efc2yra1",
             "opp": "Schulhof, Leo",
-            "start": 1685.37
+            "start": 1685.36
           }
         },
         {
@@ -12272,7 +12282,7 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 2046.69,
+            "start": 2046.68,
             "end": 2058.22
           },
           "opp_data": {
@@ -12337,7 +12347,7 @@
           "result": "Lost 1-2",
           "own_elo": {
             "start": 2061.44,
-            "end": 2041.06
+            "end": 2041.05
           },
           "opp_data": {
             "id": "5zla7e1i",
@@ -12352,13 +12362,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 2041.06,
+            "start": 2041.05,
             "end": 2054.87
           },
           "opp_data": {
             "id": "jcjbklnk",
             "opp": "Wall, Oskar",
-            "start": 1807.29
+            "start": 1807.3
           }
         },
         {
@@ -12390,7 +12400,7 @@
           "opp_data": {
             "id": "ympa2ttn",
             "opp": "Detecnik, Davor",
-            "start": 1896.66
+            "start": 1896.67
           }
         },
         {
@@ -12406,13 +12416,13 @@
           "opp_data": {
             "id": "tqxd8zvg",
             "opp": "Vuillot, Samuel",
-            "start": 1859.56
+            "start": 1859.61
           }
         }
       ],
       "gpdal15": [
         {
-          "match_id": 2038664,
+          "match_id": 2040188,
           "round": "4",
           "table": 92,
           "format": "sealed",
@@ -12428,7 +12438,7 @@
           }
         },
         {
-          "match_id": 2039653,
+          "match_id": 2041177,
           "round": "5",
           "table": 337,
           "format": "sealed",
@@ -12440,11 +12450,11 @@
           "opp_data": {
             "id": "8xe3zcj4",
             "opp": "Lowry, William",
-            "start": 1818.33
+            "start": 1818.32
           }
         },
         {
-          "match_id": 2040109,
+          "match_id": 2041633,
           "round": "6",
           "table": 132,
           "format": "sealed",
@@ -12460,7 +12470,7 @@
           }
         },
         {
-          "match_id": 2040695,
+          "match_id": 2042219,
           "round": "7",
           "table": 175,
           "format": "sealed",
@@ -12476,19 +12486,19 @@
           }
         },
         {
-          "match_id": 2041093,
+          "match_id": 2042617,
           "round": "8",
           "table": 140,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
             "start": 2049.3,
-            "end": 2022.06
+            "end": 2021.92
           },
           "opp_data": {
             "id": "l5bevqru",
             "opp": "Matthews, Steven",
-            "start": 1489.52
+            "start": 1479.07
           }
         }
       ],
@@ -12500,8 +12510,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2022.06,
-            "end": 2033.93
+            "start": 2021.92,
+            "end": 2033.79
           },
           "opp_data": {
             "id": "5n1jojgi",
@@ -12516,8 +12526,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2033.93,
-            "end": 2053.09
+            "start": 2033.79,
+            "end": 2052.96
           },
           "opp_data": {
             "id": "0ly2wta7",
@@ -12532,8 +12542,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2053.09,
-            "end": 2069.55
+            "start": 2052.96,
+            "end": 2069.42
           },
           "opp_data": {
             "id": "c33g1w8z",
@@ -12548,13 +12558,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2069.55,
-            "end": 2054.61
+            "start": 2069.42,
+            "end": 2054.48
           },
           "opp_data": {
             "id": "e9kksekk",
             "opp": "Sigrist, Mike",
-            "start": 2238.59
+            "start": 2238.57
           }
         },
         {
@@ -12564,8 +12574,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2054.61,
-            "end": 2035.23
+            "start": 2054.48,
+            "end": 2035.1
           },
           "opp_data": {
             "id": "yy64shhl",
@@ -12580,8 +12590,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2035.23,
-            "end": 2010.94
+            "start": 2035.1,
+            "end": 2010.81
           },
           "opp_data": {
             "id": "35wssvdy",
@@ -12596,8 +12606,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2010.94,
-            "end": 2025.54
+            "start": 2010.81,
+            "end": 2025.42
           },
           "opp_data": {
             "id": "swr2saku",
@@ -12612,13 +12622,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2025.54,
-            "end": 2002.5
+            "start": 2025.42,
+            "end": 2002.37
           },
           "opp_data": {
             "id": "ckbleldd",
             "opp": "Sanchez, Maximiliano",
-            "start": 1741.53
+            "start": 1741.52
           }
         },
         {
@@ -12628,13 +12638,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 2002.5,
-            "end": 2016.04
+            "start": 2002.37,
+            "end": 2015.92
           },
           "opp_data": {
             "id": "6nk2grmr",
             "opp": "Howland, Spencer",
-            "start": 1753.35
+            "start": 1753.07
           }
         },
         {
@@ -12644,8 +12654,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 2016.04,
-            "end": 1993.64
+            "start": 2015.92,
+            "end": 1993.52
           },
           "opp_data": {
             "id": "k9l8fjvu",
@@ -12660,8 +12670,8 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1993.64,
-            "end": 1973.35
+            "start": 1993.52,
+            "end": 1973.23
           },
           "opp_data": {
             "id": "v73l7fqt",
@@ -12676,13 +12686,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1973.35,
-            "end": 1952.98
+            "start": 1973.23,
+            "end": 1952.86
           },
           "opp_data": {
             "id": "x1lebg8w",
             "opp": "Kibler, Brian",
-            "start": 1842.5
+            "start": 1842.51
           }
         }
       ],
@@ -12694,8 +12704,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1952.98,
-            "end": 1964.05
+            "start": 1952.86,
+            "end": 1963.94
           },
           "opp_data": {
             "id": "98twptqc",
@@ -12710,8 +12720,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1964.05,
-            "end": 1973.71
+            "start": 1963.94,
+            "end": 1973.59
           },
           "opp_data": {
             "id": "hi9gj5zh",
@@ -12726,13 +12736,13 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1973.71,
-            "end": 1954.01
+            "start": 1973.59,
+            "end": 1953.89
           },
           "opp_data": {
             "id": "wdc24b2u",
             "opp": "Mondello, Jake",
-            "start": 1880.29
+            "start": 1880.3
           }
         },
         {
@@ -12742,8 +12752,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1954.01,
-            "end": 1965.48
+            "start": 1953.89,
+            "end": 1965.37
           },
           "opp_data": {
             "id": "1nj8b8ih",
@@ -12758,13 +12768,13 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1965.48,
-            "end": 1947.22
+            "start": 1965.37,
+            "end": 1947.12
           },
           "opp_data": {
             "id": "248q8nnq",
             "opp": "Smith, Robert RC",
-            "start": 1951.5
+            "start": 1951.48
           }
         },
         {
@@ -12774,8 +12784,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1947.22,
-            "end": 1930.85
+            "start": 1947.12,
+            "end": 1930.74
           },
           "opp_data": {
             "id": "zrdnlw3o",
@@ -12792,13 +12802,13 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1930.85,
-            "end": 1948.78
+            "start": 1930.74,
+            "end": 1948.68
           },
           "opp_data": {
             "id": "fg3pq0hx",
             "opp": "Severa, Matt",
-            "start": 1927.23
+            "start": 1927.22
           }
         },
         {
@@ -12808,8 +12818,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1948.78,
-            "end": 1963.13
+            "start": 1948.68,
+            "end": 1963.02
           },
           "opp_data": {
             "id": "guxbj2zs",
@@ -12824,8 +12834,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1963.13,
-            "end": 1976.54
+            "start": 1963.02,
+            "end": 1976.44
           },
           "opp_data": {
             "id": "q6v6idck",
@@ -12840,13 +12850,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1976.54,
-            "end": 1991.33
+            "start": 1976.44,
+            "end": 1991.22
           },
           "opp_data": {
             "id": "4oqgilcs",
             "opp": "Arcuni, Philip",
-            "start": 1798.66
+            "start": 1798.38
           }
         },
         {
@@ -12856,8 +12866,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1991.33,
-            "end": 1974.52
+            "start": 1991.22,
+            "end": 1974.42
           },
           "opp_data": {
             "id": "ho8e03qi",
@@ -12872,8 +12882,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1974.52,
-            "end": 1995.73
+            "start": 1974.42,
+            "end": 1995.63
           },
           "opp_data": {
             "id": "ql19wgbr",
@@ -12888,13 +12898,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1995.73,
-            "end": 2012.28
+            "start": 1995.63,
+            "end": 2012.18
           },
           "opp_data": {
             "id": "wygvozkt",
             "opp": "Brady, Hal",
-            "start": 1916.06
+            "start": 1916.07
           }
         },
         {
@@ -12904,13 +12914,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 2012.28,
-            "end": 1992.3
+            "start": 2012.18,
+            "end": 1992.2
           },
           "opp_data": {
             "id": "k9l8fjvu",
             "opp": "Tsumura, Kenji",
-            "start": 1903.28
+            "start": 1903.27
           }
         },
         {
@@ -12920,13 +12930,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1992.3,
-            "end": 2010.82
+            "start": 1992.2,
+            "end": 2010.73
           },
           "opp_data": {
             "id": "6nvvp5gi",
             "opp": "Polak-Rottmann, Oliver",
-            "start": 2020.98
+            "start": 2020.99
           }
         },
         {
@@ -12936,13 +12946,13 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 2010.82,
-            "end": 1991.1
+            "start": 2010.73,
+            "end": 1991.01
           },
           "opp_data": {
             "id": "33dvfp17",
             "opp": "Burton, Brandon",
-            "start": 1916.3
+            "start": 1916.28
           }
         },
         {
@@ -12952,13 +12962,13 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1991.1,
-            "end": 1974.97
+            "start": 1991.01,
+            "end": 1974.87
           },
           "opp_data": {
             "id": "pxctyjlk",
             "opp": "Mihara, Makihito",
-            "start": 2093.59
+            "start": 2093.58
           }
         },
         {
@@ -12968,13 +12978,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1974.97,
-            "end": 1959.06
+            "start": 1974.87,
+            "end": 1958.97
           },
           "opp_data": {
             "id": "z07zinsq",
             "opp": "Sochurek, Petr",
-            "start": 2090.3
+            "start": 2090.29
           }
         },
         {
@@ -12984,13 +12994,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1959.06,
-            "end": 1939.61
+            "start": 1958.97,
+            "end": 1939.52
           },
           "opp_data": {
             "id": "6puqf0rw",
             "opp": "Hendriks, Thomas",
-            "start": 1879.26
+            "start": 1879.51
           }
         },
         {
@@ -13000,13 +13010,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1939.61,
-            "end": 1918.67
+            "start": 1939.52,
+            "end": 1918.59
           },
           "opp_data": {
             "id": "1zmlyjxn",
             "opp": "Davis, Randy",
-            "start": 1777.15
+            "start": 1777.16
           }
         },
         {
@@ -13016,13 +13026,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1918.67,
-            "end": 1894.82
+            "start": 1918.59,
+            "end": 1894.74
           },
           "opp_data": {
             "id": "7blst52z",
             "opp": "Sokolov, Paul",
-            "start": 1585.96
+            "start": 1585.95
           }
         }
       ],
@@ -13034,8 +13044,8 @@
           "format": "standard",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1894.82,
-            "end": 1889.69
+            "start": 1894.74,
+            "end": 1889.61
           },
           "opp_data": {
             "id": "i29n8y91",
@@ -13050,8 +13060,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1889.69,
-            "end": 1901.81
+            "start": 1889.61,
+            "end": 1901.74
           },
           "opp_data": {
             "id": "t6mddnlx",
@@ -13066,8 +13076,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1901.81,
-            "end": 1879.42
+            "start": 1901.74,
+            "end": 1879.35
           },
           "opp_data": {
             "id": "si92r02b",
@@ -13082,8 +13092,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1879.42,
-            "end": 1854.42
+            "start": 1879.35,
+            "end": 1854.34
           },
           "opp_data": {
             "id": "mij43nsx",
@@ -13100,8 +13110,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1854.42,
-            "end": 1873.84
+            "start": 1854.34,
+            "end": 1873.76
           },
           "opp_data": {
             "id": "jbsipcha",
@@ -13116,8 +13126,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1873.84,
-            "end": 1891.63
+            "start": 1873.76,
+            "end": 1891.56
           },
           "opp_data": {
             "id": "g4qn525e",
@@ -13132,8 +13142,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1891.63,
-            "end": 1910.12
+            "start": 1891.56,
+            "end": 1910.05
           },
           "opp_data": {
             "id": "rdaciw31",
@@ -13148,8 +13158,8 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1910.12,
-            "end": 1929.86
+            "start": 1910.05,
+            "end": 1929.79
           },
           "opp_data": {
             "id": "12p06h4s",
@@ -13164,8 +13174,8 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1929.86,
-            "end": 1951.11
+            "start": 1929.79,
+            "end": 1951.04
           },
           "opp_data": {
             "id": "e9kksekk",
@@ -13180,13 +13190,13 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1951.11,
-            "end": 1966.66
+            "start": 1951.04,
+            "end": 1966.6
           },
           "opp_data": {
             "id": "5735a3jp",
             "opp": "Popitukgul, Sutipong",
-            "start": 1816.01
+            "start": 1816
           }
         },
         {
@@ -13196,13 +13206,13 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1966.66,
-            "end": 1950.01
+            "start": 1966.6,
+            "end": 1949.95
           },
           "opp_data": {
             "id": "eportnvn",
             "opp": "Tao, Jiachen",
-            "start": 2040.7
+            "start": 2040.71
           }
         },
         {
@@ -13212,8 +13222,8 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1950.01,
-            "end": 1931.83
+            "start": 1949.95,
+            "end": 1931.77
           },
           "opp_data": {
             "id": "jn5t2sh3",
@@ -13228,13 +13238,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1931.83,
-            "end": 1952.75
+            "start": 1931.77,
+            "end": 1952.68
           },
           "opp_data": {
             "id": "phzqfmrt",
             "opp": "Majlaton, Alex",
-            "start": 2092.92
+            "start": 2092.86
           }
         },
         {
@@ -13244,13 +13254,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1952.75,
-            "end": 1968.38
+            "start": 1952.68,
+            "end": 1968.31
           },
           "opp_data": {
             "id": "d2703oqg",
             "opp": "Castellani, Antonio",
-            "start": 1821.96
+            "start": 1821.97
           }
         },
         {
@@ -13260,13 +13270,13 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1968.38,
-            "end": 1986.95
+            "start": 1968.31,
+            "end": 1986.89
           },
           "opp_data": {
             "id": "jn5t2sh3",
             "opp": "Brown, Andrew",
-            "start": 1999.89
+            "start": 1999.87
           }
         },
         {
@@ -13276,13 +13286,13 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1986.95,
-            "end": 1971.43
+            "start": 1986.89,
+            "end": 1971.35
           },
           "opp_data": {
             "id": "pbvgo5b6",
             "opp": "Smith, Nathaniel",
-            "start": 2123.58
+            "start": 2122.88
           }
         },
         {
@@ -13292,13 +13302,13 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1971.43,
-            "end": 1954.12
+            "start": 1971.35,
+            "end": 1954.04
           },
           "opp_data": {
             "id": "dyw58uis",
             "opp": "Lewandowski, Bartlomiej",
-            "start": 2009.19
+            "start": 2009.14
           }
         },
         {
@@ -13308,13 +13318,13 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1954.12,
-            "end": 1939.19
+            "start": 1954.04,
+            "end": 1939.12
           },
           "opp_data": {
             "id": "syndfp2o",
             "opp": "Dagen, Pierre",
-            "start": 2124.23
+            "start": 2124.24
           }
         },
         {
@@ -13324,8 +13334,8 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1939.19,
-            "end": 1919.64
+            "start": 1939.12,
+            "end": 1919.57
           },
           "opp_data": {
             "id": "fg3pq0hx",
@@ -13340,8 +13350,8 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1919.64,
-            "end": 1903.79
+            "start": 1919.57,
+            "end": 1903.72
           },
           "opp_data": {
             "id": "spos48qw",
@@ -13358,13 +13368,13 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1903.79,
-            "end": 1885.38
+            "start": 1903.72,
+            "end": 1885.31
           },
           "opp_data": {
             "id": "v73l7fqt",
             "opp": "Stern, Jon",
-            "start": 1881.19
+            "start": 1881.18
           }
         },
         {
@@ -13374,8 +13384,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1885.38,
-            "end": 1896.53
+            "start": 1885.31,
+            "end": 1896.46
           },
           "opp_data": {
             "id": "xc2rtn2b",
@@ -13390,8 +13400,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1896.53,
-            "end": 1914.91
+            "start": 1896.46,
+            "end": 1914.85
           },
           "opp_data": {
             "id": "oir51x1d",
@@ -13406,13 +13416,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1914.91,
-            "end": 1899.53
+            "start": 1914.85,
+            "end": 1899.47
           },
           "opp_data": {
             "id": "cohb3dbm",
             "opp": "Cheon, Paul",
-            "start": 2059.46
+            "start": 2059.54
           }
         },
         {
@@ -13422,8 +13432,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1899.53,
-            "end": 1885.67
+            "start": 1899.47,
+            "end": 1885.61
           },
           "opp_data": {
             "id": "i8olnjut",
@@ -13438,13 +13448,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1885.67,
-            "end": 1898.61
+            "start": 1885.61,
+            "end": 1898.54
           },
           "opp_data": {
             "id": "ih9irazi",
             "opp": "Yamaoka, Nobuyuki",
-            "start": 1600.18
+            "start": 1600.19
           }
         },
         {
@@ -13454,8 +13464,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1898.61,
-            "end": 1882.16
+            "start": 1898.54,
+            "end": 1882.09
           },
           "opp_data": {
             "id": "k6xwho10",
@@ -13470,13 +13480,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1882.16,
-            "end": 1892.83
+            "start": 1882.09,
+            "end": 1892.77
           },
           "opp_data": {
             "id": "ruu1ndcf",
             "opp": "Tibbetts, Jason",
-            "start": 1455.9
+            "start": 1455.89
           }
         },
         {
@@ -13486,8 +13496,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1892.83,
-            "end": 1911.26
+            "start": 1892.77,
+            "end": 1911.2
           },
           "opp_data": {
             "id": "g3pamjbh",
@@ -13502,8 +13512,8 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1911.26,
-            "end": 1928.66
+            "start": 1911.2,
+            "end": 1928.61
           },
           "opp_data": {
             "id": "u9zedek0",
@@ -13518,8 +13528,8 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1928.66,
-            "end": 1910.01
+            "start": 1928.61,
+            "end": 1909.95
           },
           "opp_data": {
             "id": "a1c67pe6",
@@ -13534,13 +13544,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1910.01,
-            "end": 1891.5
+            "start": 1909.95,
+            "end": 1891.44
           },
           "opp_data": {
             "id": "k7gprjya",
             "opp": "Hampton, Jesse",
-            "start": 1882.11
+            "start": 1882.13
           }
         },
         {
@@ -13550,8 +13560,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1891.5,
-            "end": 1904.05
+            "start": 1891.44,
+            "end": 1903.99
           },
           "opp_data": {
             "id": "81ee91q9",
@@ -13566,8 +13576,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1904.05,
-            "end": 1889.18
+            "start": 1903.99,
+            "end": 1889.13
           },
           "opp_data": {
             "id": "87q9g9lf",
@@ -13582,8 +13592,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1889.18,
-            "end": 1903.69
+            "start": 1889.13,
+            "end": 1903.64
           },
           "opp_data": {
             "id": "811m3bvc",
@@ -13598,13 +13608,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1903.69,
-            "end": 1884.39
+            "start": 1903.64,
+            "end": 1884.34
           },
           "opp_data": {
             "id": "poei4ey0",
             "opp": "Ucuzal, Batuhan",
-            "start": 1832.66
+            "start": 1832.67
           }
         }
       ],
@@ -13616,8 +13626,8 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1884.39,
-            "end": 1866.21
+            "start": 1884.34,
+            "end": 1866.16
           },
           "opp_data": {
             "id": "d3w2k6om",
@@ -13632,8 +13642,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1866.21,
-            "end": 1877.65
+            "start": 1866.16,
+            "end": 1877.6
           },
           "opp_data": {
             "id": "0v8qwfwp",
@@ -13648,8 +13658,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1877.65,
-            "end": 1861.9
+            "start": 1877.6,
+            "end": 1861.85
           },
           "opp_data": {
             "id": "eyummsmt",
@@ -13664,13 +13674,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1861.9,
-            "end": 1881.7
+            "start": 1861.85,
+            "end": 1881.65
           },
           "opp_data": {
             "id": "wrr61zbv",
             "opp": "Larsen, Christoffer",
-            "start": 1960.84
+            "start": 1960.83
           }
         },
         {
@@ -13680,8 +13690,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1881.7,
-            "end": 1898.16
+            "start": 1881.65,
+            "end": 1898.11
           },
           "opp_data": {
             "id": "s2mi6c66",
@@ -13696,8 +13706,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1898.16,
-            "end": 1884.22
+            "start": 1898.11,
+            "end": 1884.18
           },
           "opp_data": {
             "id": "3m2v9pq5",
@@ -13712,13 +13722,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1884.22,
-            "end": 1901.17
+            "start": 1884.18,
+            "end": 1901.13
           },
           "opp_data": {
             "id": "04mxjpgs",
             "opp": "Goertzen, Dominik",
-            "start": 1826.71
+            "start": 1826.72
           }
         },
         {
@@ -13728,8 +13738,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1901.17,
-            "end": 1921.11
+            "start": 1901.13,
+            "end": 1921.06
           },
           "opp_data": {
             "id": "wwfyk28g",
@@ -13744,8 +13754,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1921.11,
-            "end": 1904.87
+            "start": 1921.06,
+            "end": 1904.83
           },
           "opp_data": {
             "id": "zfs6gtsp",
@@ -13760,13 +13770,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1904.87,
-            "end": 1892.33
+            "start": 1904.83,
+            "end": 1892.29
           },
           "opp_data": {
             "id": "xhgxuwgp",
             "opp": "Lipp, Scott",
-            "start": 2213.81
+            "start": 2213.82
           }
         },
         {
@@ -13776,13 +13786,13 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1892.33,
-            "end": 1880.57
+            "start": 1892.29,
+            "end": 1880.53
           },
           "opp_data": {
             "id": "apxvwg9g",
             "opp": "Manfield, Seth",
-            "start": 2249.03
+            "start": 2249.05
           }
         },
         {
@@ -13792,8 +13802,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1880.57,
-            "end": 1860.66
+            "start": 1880.53,
+            "end": 1860.62
           },
           "opp_data": {
             "id": "nv7k3ugx",
@@ -13808,13 +13818,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1860.66,
-            "end": 1845.69
+            "start": 1860.62,
+            "end": 1845.65
           },
           "opp_data": {
             "id": "12p06h4s",
             "opp": "Yasooka, Shota",
-            "start": 2028.53
+            "start": 2028.54
           }
         },
         {
@@ -13824,13 +13834,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1845.69,
-            "end": 1864.75
+            "start": 1845.65,
+            "end": 1864.71
           },
           "opp_data": {
             "id": "x1s81611",
             "opp": "Elenbogen, Andrew",
-            "start": 1903.74
+            "start": 1903.75
           }
         },
         {
@@ -13840,13 +13850,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1864.75,
-            "end": 1879.52
+            "start": 1864.71,
+            "end": 1879.48
           },
           "opp_data": {
             "id": "peqany5c",
             "opp": "Cousens, Christopher",
-            "start": 1685.6
+            "start": 1685.61
           }
         },
         {
@@ -13856,8 +13866,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1879.52,
-            "end": 1859.16
+            "start": 1879.48,
+            "end": 1859.12
           },
           "opp_data": {
             "id": "0sqdj383",
@@ -13868,14 +13878,14 @@
       ],
       "gpbol17": [
         {
-          "match_id": 2674517,
+          "match_id": 2672513,
           "round": "1",
           "table": 283,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1859.16,
-            "end": 1871.94
+            "start": 1859.12,
+            "end": 1871.9
           },
           "opp_data": {
             "id": "9qeqguff",
@@ -13884,14 +13894,14 @@
           }
         },
         {
-          "match_id": 2674692,
+          "match_id": 2672688,
           "round": "2",
           "table": 29,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1871.94,
-            "end": 1883.74
+            "start": 1871.9,
+            "end": 1883.71
           },
           "opp_data": {
             "id": "rsmrmucf",
@@ -13900,14 +13910,14 @@
           }
         },
         {
-          "match_id": 2675476,
+          "match_id": 2673472,
           "round": "3",
           "table": 237,
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1883.74,
-            "end": 1896.93
+            "start": 1883.71,
+            "end": 1896.89
           },
           "opp_data": {
             "id": "lbb5tzza",
@@ -13916,30 +13926,30 @@
           }
         },
         {
-          "match_id": 2676235,
+          "match_id": 2674231,
           "round": "4",
           "table": 179,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1896.93,
-            "end": 1872.12
+            "start": 1896.89,
+            "end": 1872.08
           },
           "opp_data": {
             "id": "3z14ytox",
             "opp": "So, Kenny",
-            "start": 1504.2
+            "start": 1504.21
           }
         },
         {
-          "match_id": 2677018,
+          "match_id": 2675014,
           "round": "5",
           "table": 157,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1872.12,
-            "end": 1888.05
+            "start": 1872.08,
+            "end": 1888.01
           },
           "opp_data": {
             "id": "manqdmri",
@@ -13948,14 +13958,14 @@
           }
         },
         {
-          "match_id": 2677848,
+          "match_id": 2675844,
           "round": "6",
           "table": 210,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1888.05,
-            "end": 1864.28
+            "start": 1888.01,
+            "end": 1864.25
           },
           "opp_data": {
             "id": "80d1i1rz",
@@ -13964,14 +13974,14 @@
           }
         },
         {
-          "match_id": 2678582,
+          "match_id": 2676578,
           "round": "7",
           "table": 204,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1864.28,
-            "end": 1841.9
+            "start": 1864.25,
+            "end": 1841.86
           },
           "opp_data": {
             "id": "es1m5l8e",
@@ -13980,30 +13990,30 @@
           }
         },
         {
-          "match_id": 2679336,
+          "match_id": 2677332,
           "round": "8",
           "table": 284,
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1841.9,
-            "end": 1856.06
+            "start": 1841.86,
+            "end": 1856.03
           },
           "opp_data": {
             "id": "479cilxj",
             "opp": "Picciafuochi, Riccardo",
-            "start": 1628.25
+            "start": 1628.26
           }
         },
         {
-          "match_id": 2679970,
+          "match_id": 2677966,
           "round": "9",
           "table": 323,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1856.06,
-            "end": 1834.72
+            "start": 1856.03,
+            "end": 1834.69
           },
           "opp_data": {
             "id": "9hu8t3oz",
@@ -14020,13 +14030,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1834.72,
-            "end": 1851.84
+            "start": 1834.69,
+            "end": 1851.81
           },
           "opp_data": {
             "id": "b53maycl",
             "opp": "Pottenger, Sean",
-            "start": 1786.6
+            "start": 1786.59
           }
         },
         {
@@ -14036,8 +14046,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1851.84,
-            "end": 1863.7
+            "start": 1851.81,
+            "end": 1863.66
           },
           "opp_data": {
             "id": "4t3ekbc5",
@@ -14052,13 +14062,13 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1863.7,
-            "end": 1882.72
+            "start": 1863.66,
+            "end": 1882.68
           },
           "opp_data": {
             "id": "cx0hhnww",
             "opp": "Baugh, Jacob",
-            "start": 1919.69
+            "start": 1919.6
           }
         },
         {
@@ -14068,8 +14078,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1882.72,
-            "end": 1897.32
+            "start": 1882.68,
+            "end": 1897.29
           },
           "opp_data": {
             "id": "euufioq1",
@@ -14084,8 +14094,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1897.32,
-            "end": 1908.92
+            "start": 1897.29,
+            "end": 1908.89
           },
           "opp_data": {
             "id": "cva61h1b",
@@ -14100,8 +14110,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1908.92,
-            "end": 1892.35
+            "start": 1908.89,
+            "end": 1892.32
           },
           "opp_data": {
             "id": "xd98dyts",
@@ -14116,8 +14126,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1892.35,
-            "end": 1911.67
+            "start": 1892.32,
+            "end": 1911.64
           },
           "opp_data": {
             "id": "qhpsk0oq",
@@ -14132,13 +14142,13 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1911.67,
-            "end": 1932.17
+            "start": 1911.64,
+            "end": 1932.14
           },
           "opp_data": {
             "id": "spi8ybx3",
             "opp": "Burkhart, Corey",
-            "start": 2049.68
+            "start": 2049.69
           }
         },
         {
@@ -14148,13 +14158,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1932.17,
-            "end": 1947.71
+            "start": 1932.14,
+            "end": 1947.68
           },
           "opp_data": {
             "id": "a5bq1o3a",
             "opp": "Woodward, Jonathan",
-            "start": 1796.07
+            "start": 1796.08
           }
         },
         {
@@ -14164,8 +14174,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1947.71,
-            "end": 1931.17
+            "start": 1947.68,
+            "end": 1931.14
           },
           "opp_data": {
             "id": "vf3058o5",
@@ -14180,8 +14190,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1931.17,
-            "end": 1945.51
+            "start": 1931.14,
+            "end": 1945.48
           },
           "opp_data": {
             "id": "3ifjd49q",
@@ -14196,8 +14206,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1945.51,
-            "end": 1961.03
+            "start": 1945.48,
+            "end": 1961
           },
           "opp_data": {
             "id": "kxalbmgf",
@@ -14212,8 +14222,8 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1961.03,
-            "end": 1977.87
+            "start": 1961,
+            "end": 1977.85
           },
           "opp_data": {
             "id": "u4i1kz19",
@@ -14228,13 +14238,13 @@
           "format": "draft",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1977.87,
-            "end": 1989.97
+            "start": 1977.85,
+            "end": 1989.95
           },
           "opp_data": {
             "id": "hjxhf0s0",
             "opp": "Martinez, Steven",
-            "start": 1642.15
+            "start": 1642.14
           }
         },
         {
@@ -14244,8 +14254,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1989.97,
-            "end": 1975.15
+            "start": 1989.95,
+            "end": 1975.13
           },
           "opp_data": {
             "id": "gln77x5p",
@@ -14262,8 +14272,8 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1975.15,
-            "end": 1951.48
+            "start": 1975.13,
+            "end": 1951.46
           },
           "opp_data": {
             "id": "2ch2zbwc",
@@ -14278,13 +14288,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1951.48,
-            "end": 1962.46
+            "start": 1951.46,
+            "end": 1962.43
           },
           "opp_data": {
             "id": "6rfj45b2",
             "opp": "Gomez Martinez, Enrique",
-            "start": 1544.88
+            "start": 1544.89
           }
         },
         {
@@ -14294,8 +14304,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1962.46,
-            "end": 1973.11
+            "start": 1962.43,
+            "end": 1973.08
           },
           "opp_data": {
             "id": "bowjc837",
@@ -14310,8 +14320,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1973.11,
-            "end": 1986.18
+            "start": 1973.08,
+            "end": 1986.15
           },
           "opp_data": {
             "id": "f32bznsg",
@@ -14326,13 +14336,13 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1986.18,
-            "end": 1964.82
+            "start": 1986.15,
+            "end": 1964.79
           },
           "opp_data": {
             "id": "8606rjw6",
             "opp": "Riabokon, Oleksii",
-            "start": 1799.78
+            "start": 1799.79
           }
         },
         {
@@ -14342,8 +14352,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1964.82,
-            "end": 1975.09
+            "start": 1964.79,
+            "end": 1975.07
           },
           "opp_data": {
             "id": "skklj1sr",
@@ -14358,8 +14368,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1975.09,
-            "end": 1953.39
+            "start": 1975.07,
+            "end": 1953.36
           },
           "opp_data": {
             "id": "0bebb36n",
@@ -14374,13 +14384,13 @@
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1953.39,
-            "end": 1970.16
+            "start": 1953.36,
+            "end": 1970.14
           },
           "opp_data": {
             "id": "n2fgzq8s",
             "opp": "Kaczmarczyk, Radek",
-            "start": 1886.2
+            "start": 1886.22
           }
         },
         {
@@ -14390,8 +14400,8 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1970.16,
-            "end": 1946.8
+            "start": 1970.14,
+            "end": 1946.78
           },
           "opp_data": {
             "id": "vfz05bo9",
@@ -14406,8 +14416,8 @@
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1946.8,
-            "end": 1922.63
+            "start": 1946.78,
+            "end": 1922.6
           },
           "opp_data": {
             "id": "2t0s4skz",
@@ -14422,8 +14432,8 @@
           "format": "draft",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1922.63,
-            "end": 1903.71
+            "start": 1922.6,
+            "end": 1903.69
           },
           "opp_data": {
             "id": "g46m0nq3",
@@ -14440,8 +14450,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1903.71,
-            "end": 1879.88
+            "start": 1903.69,
+            "end": 1879.86
           },
           "opp_data": {
             "id": "48tjunup",
@@ -14456,8 +14466,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1879.88,
-            "end": 1857.95
+            "start": 1879.86,
+            "end": 1857.93
           },
           "opp_data": {
             "id": "7hy8k3og",
@@ -14472,8 +14482,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1857.95,
-            "end": 1874.04
+            "start": 1857.93,
+            "end": 1874.02
           },
           "opp_data": {
             "id": "a94elqxm",
@@ -14488,13 +14498,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1874.04,
-            "end": 1887.52
+            "start": 1874.02,
+            "end": 1887.5
           },
           "opp_data": {
             "id": "yh5cwkrn",
             "opp": "Giroud, Pierre",
-            "start": 1620.75
+            "start": 1620.76
           }
         },
         {
@@ -14504,8 +14514,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1887.52,
-            "end": 1902.83
+            "start": 1887.5,
+            "end": 1902.81
           },
           "opp_data": {
             "id": "stdvcdze",
@@ -14520,8 +14530,8 @@
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1902.83,
-            "end": 1914.39
+            "start": 1902.81,
+            "end": 1914.37
           },
           "opp_data": {
             "id": "2oulou5e",
@@ -14536,8 +14546,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1914.39,
-            "end": 1890.13
+            "start": 1914.37,
+            "end": 1890.11
           },
           "opp_data": {
             "id": "saqzhjvr",
@@ -14552,8 +14562,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1890.13,
-            "end": 1866.06
+            "start": 1890.11,
+            "end": 1866.04
           },
           "opp_data": {
             "id": "re9iw25v",
@@ -14568,8 +14578,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1866.06,
-            "end": 1844.14
+            "start": 1866.04,
+            "end": 1844.13
           },
           "opp_data": {
             "id": "4gape9p2",
@@ -14584,8 +14594,8 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1844.14,
-            "end": 1854.82
+            "start": 1844.13,
+            "end": 1854.8
           },
           "opp_data": {
             "id": "2vx67ayb",
@@ -14600,13 +14610,13 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1854.82,
-            "end": 1871.9
+            "start": 1854.8,
+            "end": 1871.88
           },
           "opp_data": {
             "id": "w1c09fqi",
             "opp": "Cointe, Antoine",
-            "start": 1804.54
+            "start": 1804.62
           }
         },
         {
@@ -14616,8 +14626,8 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1871.9,
-            "end": 1846.37
+            "start": 1871.88,
+            "end": 1846.36
           },
           "opp_data": {
             "id": "j9newts9",
@@ -14632,8 +14642,8 @@
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1846.37,
-            "end": 1824.99
+            "start": 1846.36,
+            "end": 1824.98
           },
           "opp_data": {
             "id": "pfmm2t0r",
@@ -14650,8 +14660,8 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1824.99,
-            "end": 1841.91
+            "start": 1824.98,
+            "end": 1841.89
           },
           "opp_data": {
             "id": "796488fo",
@@ -14666,8 +14676,8 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1841.91,
-            "end": 1853.06
+            "start": 1841.89,
+            "end": 1853.04
           },
           "opp_data": {
             "id": "s49f9l9r",
@@ -14682,8 +14692,8 @@
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1853.06,
-            "end": 1865.5
+            "start": 1853.04,
+            "end": 1865.49
           },
           "opp_data": {
             "id": "oa7yhy30",
@@ -14698,8 +14708,8 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1865.5,
-            "end": 1845.98
+            "start": 1865.49,
+            "end": 1845.96
           },
           "opp_data": {
             "id": "19f21skr",
@@ -14714,8 +14724,8 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1845.98,
-            "end": 1823.5
+            "start": 1845.96,
+            "end": 1823.49
           },
           "opp_data": {
             "id": "6yf347qq",
@@ -14730,8 +14740,8 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1823.5,
-            "end": 1839.2
+            "start": 1823.49,
+            "end": 1839.18
           },
           "opp_data": {
             "id": "17n91w2u",
@@ -14746,8 +14756,8 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1839.2,
-            "end": 1815.33
+            "start": 1839.18,
+            "end": 1815.31
           },
           "opp_data": {
             "id": "n1x41x8a",
@@ -14762,8 +14772,8 @@
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1815.33,
-            "end": 1828.93
+            "start": 1815.31,
+            "end": 1828.92
           },
           "opp_data": {
             "id": "k56rf4a9",
@@ -14778,8 +14788,8 @@
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1828.93,
-            "end": 1807.07
+            "start": 1828.92,
+            "end": 1807.06
           },
           "opp_data": {
             "id": "st6mtohw",
@@ -14790,14 +14800,14 @@
       ],
       "rcnap24-cy6": [
         {
-          "match_id": 3741598,
+          "match_id": 3740690,
           "round": "1",
           "table": 21,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1807.07,
-            "end": 1783.1
+            "start": 1807.06,
+            "end": 1783.08
           },
           "opp_data": {
             "id": "shwhvu6h",
@@ -14806,30 +14816,30 @@
           }
         },
         {
-          "match_id": 3742258,
+          "match_id": 3741350,
           "round": "2",
           "table": 278,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1783.1,
-            "end": 1801.81
+            "start": 1783.08,
+            "end": 1801.79
           },
           "opp_data": {
             "id": "ekf10xmc",
             "opp": "Roman, Valentin",
-            "start": 1821.98
+            "start": 1822
           }
         },
         {
-          "match_id": 3742647,
+          "match_id": 3741739,
           "round": "3",
           "table": 276,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1801.81,
-            "end": 1816.43
+            "start": 1801.79,
+            "end": 1816.42
           },
           "opp_data": {
             "id": "kwbb2624",
@@ -14838,14 +14848,14 @@
           }
         },
         {
-          "match_id": 3742936,
+          "match_id": 3742028,
           "round": "4",
           "table": 174,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1816.43,
-            "end": 1796.57
+            "start": 1816.42,
+            "end": 1796.56
           },
           "opp_data": {
             "id": "ia57cql7",
@@ -14854,35 +14864,35 @@
           }
         },
         {
-          "match_id": 3743323,
+          "match_id": 3742415,
           "round": "5",
           "table": 177,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1796.57,
-            "end": 1778.51
+            "start": 1796.56,
+            "end": 1778.5
           },
           "opp_data": {
             "id": "g2v435zg",
             "opp": "Neves, Jose",
-            "start": 1793.09
+            "start": 1793.13
           }
         },
         {
-          "match_id": 3743801,
+          "match_id": 3742893,
           "round": "6",
           "table": 291,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1778.51,
-            "end": 1757.92
+            "start": 1778.5,
+            "end": 1757.91
           },
           "opp_data": {
             "id": "zea0u7n4",
             "opp": "Moral, Carlos",
-            "start": 1635.45
+            "start": 1635.47
           }
         }
       ],
@@ -14894,8 +14904,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1757.92,
-            "end": 1771.32
+            "start": 1757.91,
+            "end": 1771.31
           },
           "opp_data": {
             "id": "4zuj3gvp",
@@ -14910,8 +14920,8 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1771.32,
-            "end": 1747.79
+            "start": 1771.31,
+            "end": 1747.78
           },
           "opp_data": {
             "id": "kgsu9j58",
@@ -14926,13 +14936,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1747.79,
-            "end": 1764.24
+            "start": 1747.78,
+            "end": 1764.23
           },
           "opp_data": {
             "id": "hwcspgc5",
             "opp": "Birinci, Ozan Akif",
-            "start": 1662.52
+            "start": 1662.53
           }
         },
         {
@@ -14942,13 +14952,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1764.24,
-            "end": 1742.65
+            "start": 1764.23,
+            "end": 1742.64
           },
           "opp_data": {
             "id": "qd8lldw7",
             "opp": "Dominik, Jan",
-            "start": 1564.83
+            "start": 1564.84
           }
         },
         {
@@ -14958,8 +14968,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1742.65,
-            "end": 1726.98
+            "start": 1742.64,
+            "end": 1726.97
           },
           "opp_data": {
             "id": "yvw9nn4r",
@@ -14976,13 +14986,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1726.98,
-            "end": 1748.37
+            "start": 1726.97,
+            "end": 1748.36
           },
           "opp_data": {
             "id": "3hyjc7rx",
             "opp": "Godoy, Juan Ignacio",
-            "start": 1914.71
+            "start": 1914.74
           }
         },
         {
@@ -14992,8 +15002,8 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1748.37,
-            "end": 1725.36
+            "start": 1748.36,
+            "end": 1725.35
           },
           "opp_data": {
             "id": "siv2c1gm",
@@ -15008,8 +15018,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1725.36,
-            "end": 1738.64
+            "start": 1725.35,
+            "end": 1738.63
           },
           "opp_data": {
             "id": "8mdoafs5",
@@ -15024,13 +15034,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1738.64,
-            "end": 1715.95
+            "start": 1738.63,
+            "end": 1715.94
           },
           "opp_data": {
             "id": "u0axtwmc",
             "opp": "Malone, MTG",
-            "start": 1475.36
+            "start": 1475.37
           }
         },
         {
@@ -15040,8 +15050,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1715.95,
-            "end": 1731.53
+            "start": 1715.94,
+            "end": 1731.52
           },
           "opp_data": {
             "id": "2dkxrhs8",
@@ -15056,13 +15066,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1731.53,
-            "end": 1747.75
+            "start": 1731.52,
+            "end": 1747.74
           },
           "opp_data": {
             "id": "jdjwd9x0",
             "opp": "Oliveira, Andre Guilherme",
-            "start": 1633.54
+            "start": 1633.59
           }
         },
         {
@@ -15072,13 +15082,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1747.75,
-            "end": 1766.36
+            "start": 1747.74,
+            "end": 1766.35
           },
           "opp_data": {
             "id": "o250lucn",
             "opp": "Sanko, Ufuk",
-            "start": 1781.27
+            "start": 1781.32
           }
         },
         {
@@ -15088,58 +15098,58 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1766.36,
-            "end": 1782.96
+            "start": 1766.35,
+            "end": 1782.95
           },
           "opp_data": {
             "id": "mar7655v",
             "opp": "Kulczynski, Kamil",
-            "start": 1689.54
+            "start": 1689.55
           }
         }
       ],
       "ssliv25": [
         {
-          "match_id": 3924504,
+          "match_id": 3924635,
           "round": "1",
           "table": 178,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1782.96,
-            "end": 1762.41
+            "start": 1782.95,
+            "end": 1762.4
           },
           "opp_data": {
             "id": "px77vrg9",
             "opp": "Jungnitsch, Alexander",
-            "start": 1642.54
+            "start": 1641.92
           }
         },
         {
-          "match_id": 3924894,
+          "match_id": 3925025,
           "round": "2",
           "table": 276,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1762.41,
-            "end": 1775.85
+            "start": 1762.4,
+            "end": 1775.84
           },
           "opp_data": {
             "id": "xi3m2d7u",
             "opp": "Archer, Paul",
-            "start": 1506.85
+            "start": 1506.86
           }
         },
         {
-          "match_id": 3925023,
+          "match_id": 3925154,
           "round": "3",
           "table": 115,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1775.85,
-            "end": 1788.03
+            "start": 1775.84,
+            "end": 1788.01
           },
           "opp_data": {
             "id": "usrj264z",
@@ -15148,14 +15158,14 @@
           }
         },
         {
-          "match_id": 3925290,
+          "match_id": 3925421,
           "round": "4",
           "table": 92,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1788.03,
-            "end": 1800.35
+            "start": 1788.01,
+            "end": 1800.33
           },
           "opp_data": {
             "id": "9m47h7s5",
@@ -15164,30 +15174,30 @@
           }
         },
         {
-          "match_id": 3925531,
+          "match_id": 3925662,
           "round": "5",
           "table": 47,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1800.35,
-            "end": 1817.52
+            "start": 1800.33,
+            "end": 1817.51
           },
           "opp_data": {
             "id": "8ipf5go1",
             "opp": "Rognudottir, Aska",
-            "start": 1754.89
+            "start": 1754.91
           }
         },
         {
-          "match_id": 3925805,
+          "match_id": 3925936,
           "round": "6",
           "table": 49,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1817.52,
-            "end": 1794.6
+            "start": 1817.51,
+            "end": 1794.59
           },
           "opp_data": {
             "id": "9jbh4hda",
@@ -15196,14 +15206,14 @@
           }
         },
         {
-          "match_id": 3926086,
+          "match_id": 3926217,
           "round": "7",
           "table": 76,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1794.6,
-            "end": 1772.06
+            "start": 1794.59,
+            "end": 1772.04
           },
           "opp_data": {
             "id": "zlevm5iz",
@@ -15212,55 +15222,55 @@
           }
         },
         {
-          "match_id": 3926340,
+          "match_id": 3926471,
           "round": "8",
           "table": 108,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1772.06,
-            "end": 1785.13
+            "start": 1772.04,
+            "end": 1785.11
           },
           "opp_data": {
             "id": "6g85qg97",
             "opp": "Vazquez Lopez, Rafael",
-            "start": 1494.91
+            "start": 1494.92
           }
         },
         {
-          "match_id": 3926478,
+          "match_id": 3926609,
           "round": "9",
           "table": 52,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1785.13,
-            "end": 1800.5
+            "start": 1785.11,
+            "end": 1800.48
           },
           "opp_data": {
             "id": "afrwln9x",
             "opp": "Bacine, Noah",
-            "start": 1639.82
+            "start": 1639.83
           }
         },
         {
-          "match_id": 3926647,
+          "match_id": 3926778,
           "round": "10",
           "table": 53,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1800.5,
+            "start": 1800.48,
             "end": 1817.93
           },
           "opp_data": {
             "id": "g1km3af7",
             "opp": "Reling, Andreas",
-            "start": 1769.64
+            "start": 1770.5
           }
         },
         {
-          "match_id": 3926699,
+          "match_id": 3926830,
           "round": "11",
           "table": 35,
           "format": "standard",
@@ -15272,11 +15282,11 @@
           "opp_data": {
             "id": "seqoki70",
             "opp": "Stuart, George",
-            "start": 1539.36
+            "start": 1539.4
           }
         },
         {
-          "match_id": 3926762,
+          "match_id": 3926893,
           "round": "12",
           "table": 28,
           "format": "standard",
@@ -15288,43 +15298,43 @@
           "opp_data": {
             "id": "l0nqx8nx",
             "opp": "Jones, Ben",
-            "start": 2031.3
+            "start": 2031.36
           }
         },
         {
-          "match_id": 3926849,
+          "match_id": 3926980,
           "round": "13",
           "table": 45,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1816.59,
-            "end": 1833.94
+            "end": 1833.95
           },
           "opp_data": {
             "id": "w2jzbbix",
             "opp": "Campbell, Alex [ENG]",
-            "start": 1781.28
+            "start": 1781.29
           }
         },
         {
-          "match_id": 3926893,
+          "match_id": 3927024,
           "round": "14",
           "table": 19,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1833.94,
+            "start": 1833.95,
             "end": 1816.52
           },
           "opp_data": {
             "id": "dzzcx0g3",
             "opp": "Caetano Da Silva, Ricardo",
-            "start": 1865.57
+            "start": 1865.6
           }
         },
         {
-          "match_id": 3926985,
+          "match_id": 3927116,
           "round": "15",
           "table": 41,
           "format": "standard",
@@ -15337,6 +15347,120 @@
             "id": "21h57rq2",
             "opp": "Sorlien, Robin",
             "start": 1609.62
+          }
+        }
+      ],
+      "rctur26-cy11-lcq": [
+        {
+          "match_id": 3995688,
+          "round": "1",
+          "table": 13,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1794.8,
+            "end": 1810.04
+          },
+          "opp_data": {
+            "id": "bjgdtujk",
+            "opp": "Rodrigues de Miranda, Lars",
+            "start": 1642.03
+          }
+        },
+        {
+          "match_id": 3995955,
+          "round": "2",
+          "table": 62,
+          "format": "sealed",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1810.04,
+            "end": 1787.23
+          },
+          "opp_data": {
+            "id": "rsj2t5zn",
+            "opp": "Breitkopf, Jordi",
+            "start": 1540.12
+          }
+        },
+        {
+          "match_id": 3996252,
+          "round": "3",
+          "table": 142,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1787.23,
+            "end": 1805.72
+          },
+          "opp_data": {
+            "id": "hqoymk4x",
+            "opp": "Piemonti, Andrea",
+            "start": 1813.97
+          }
+        },
+        {
+          "match_id": 3996413,
+          "round": "4",
+          "table": 100,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1805.72,
+            "end": 1824.96
+          },
+          "opp_data": {
+            "id": "kw758isw",
+            "opp": "Noordzij, Wouter",
+            "start": 1873.91
+          }
+        },
+        {
+          "match_id": 3996541,
+          "round": "5",
+          "table": 40,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1824.96,
+            "end": 1800.86
+          },
+          "opp_data": {
+            "id": "v4cjxup2",
+            "opp": "Baptista, Ricardo",
+            "start": 1476.79
+          }
+        },
+        {
+          "match_id": 3996742,
+          "round": "6",
+          "table": 73,
+          "format": "sealed",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1800.86,
+            "end": 1813.93
+          },
+          "opp_data": {
+            "id": "t4wcmdom",
+            "opp": "Martin Vivar, Miguel",
+            "start": 1523.63
+          }
+        },
+        {
+          "match_id": 3996857,
+          "round": "7",
+          "table": 41,
+          "format": "sealed",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1813.93,
+            "end": 1791.23
+          },
+          "opp_data": {
+            "id": "wyx0ts9b",
+            "opp": "Canvalue",
+            "start": 1550.29
           }
         }
       ]

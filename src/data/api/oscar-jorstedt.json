@@ -1,10 +1,10 @@
 {
   "elo": {
     "profile": {
-      "current_rating": 1859.93,
+      "current_rating": 1772.14,
       "record": [
         379,
-        265,
+        269,
         40
       ],
       "pro_record": [
@@ -12,8 +12,8 @@
         116,
         14
       ],
-      "ranking": 1719,
-      "active_ranking": 988,
+      "ranking": 4492,
+      "active_ranking": 2199,
       "nakamura_number": 2,
       "best_event": "euro03"
     },
@@ -747,6 +747,16 @@
         "site": "https://melee.gg/Tournament/View/375305",
         "type": "ss",
         "format": "SPM standard"
+      },
+      {
+        "code": "rctur26-cy11",
+        "cut_before": "9.0",
+        "date": "2026-03-07",
+        "is_pro": false,
+        "name": "Regional Championship Turin 2026",
+        "site": "https://melee.gg/Tournament/View/392336",
+        "type": "rc",
+        "format": "TMN standard"
       }
     ],
     "matches": {
@@ -2450,7 +2460,7 @@
       ],
       "gpporto00": [
         {
-          "match_id": 41694,
+          "match_id": 42643,
           "round": "4",
           "table": 42,
           "format": "sealed",
@@ -2466,7 +2476,7 @@
           }
         },
         {
-          "match_id": 41953,
+          "match_id": 42902,
           "round": "5",
           "table": 8,
           "format": "sealed",
@@ -2482,7 +2492,7 @@
           }
         },
         {
-          "match_id": 42203,
+          "match_id": 43152,
           "round": "6",
           "table": 4,
           "format": "sealed",
@@ -2498,7 +2508,7 @@
           }
         },
         {
-          "match_id": 42422,
+          "match_id": 43371,
           "round": "7",
           "table": 16,
           "format": "sealed",
@@ -2514,7 +2524,7 @@
           }
         },
         {
-          "match_id": 42606,
+          "match_id": 43555,
           "round": "8",
           "table": 20,
           "format": "rochester",
@@ -2530,7 +2540,7 @@
           }
         },
         {
-          "match_id": 42643,
+          "match_id": 43592,
           "round": "9",
           "table": 26,
           "format": "rochester",
@@ -2546,7 +2556,7 @@
           }
         },
         {
-          "match_id": 42669,
+          "match_id": 43618,
           "round": "10",
           "table": 21,
           "format": "rochester",
@@ -2562,7 +2572,7 @@
           }
         },
         {
-          "match_id": 42693,
+          "match_id": 43642,
           "round": "11",
           "table": 14,
           "format": "rochester",
@@ -2578,7 +2588,7 @@
           }
         },
         {
-          "match_id": 42730,
+          "match_id": 43679,
           "round": "12",
           "table": 20,
           "format": "rochester",
@@ -2594,7 +2604,7 @@
           }
         },
         {
-          "match_id": 42751,
+          "match_id": 43700,
           "round": "13",
           "table": 10,
           "format": "rochester",
@@ -2758,7 +2768,7 @@
       ],
       "gphel00": [
         {
-          "match_id": 46035,
+          "match_id": 45065,
           "round": "4",
           "table": 11,
           "format": "sealed",
@@ -2774,7 +2784,7 @@
           }
         },
         {
-          "match_id": 46218,
+          "match_id": 45248,
           "round": "5",
           "table": 20,
           "format": "sealed",
@@ -2790,7 +2800,7 @@
           }
         },
         {
-          "match_id": 46363,
+          "match_id": 45393,
           "round": "6",
           "table": 1,
           "format": "sealed",
@@ -2806,7 +2816,7 @@
           }
         },
         {
-          "match_id": 46515,
+          "match_id": 45545,
           "round": "7",
           "table": 1,
           "format": "sealed",
@@ -2822,7 +2832,7 @@
           }
         },
         {
-          "match_id": 46665,
+          "match_id": 45695,
           "round": "8",
           "table": 9,
           "format": "rochester",
@@ -2838,7 +2848,7 @@
           }
         },
         {
-          "match_id": 46689,
+          "match_id": 45719,
           "round": "9",
           "table": 2,
           "format": "rochester",
@@ -2854,7 +2864,7 @@
           }
         },
         {
-          "match_id": 46719,
+          "match_id": 45749,
           "round": "10",
           "table": 1,
           "format": "rochester",
@@ -2870,7 +2880,7 @@
           }
         },
         {
-          "match_id": 46754,
+          "match_id": 45784,
           "round": "11",
           "table": 5,
           "format": "rochester",
@@ -2886,7 +2896,7 @@
           }
         },
         {
-          "match_id": 46787,
+          "match_id": 45817,
           "round": "12",
           "table": 7,
           "format": "rochester",
@@ -2902,7 +2912,7 @@
           }
         },
         {
-          "match_id": 46814,
+          "match_id": 45844,
           "round": "13",
           "table": 4,
           "format": "rochester",
@@ -4382,7 +4392,7 @@
       ],
       "euro01": [
         {
-          "match_id": 84223,
+          "match_id": 83508,
           "round": "1",
           "table": 31,
           "format": "standard",
@@ -4398,7 +4408,7 @@
           }
         },
         {
-          "match_id": 84342,
+          "match_id": 83627,
           "round": "2",
           "table": 15,
           "format": "standard",
@@ -4414,7 +4424,7 @@
           }
         },
         {
-          "match_id": 84531,
+          "match_id": 83816,
           "round": "3",
           "table": 69,
           "format": "standard",
@@ -4430,7 +4440,7 @@
           }
         },
         {
-          "match_id": 84712,
+          "match_id": 83997,
           "round": "4",
           "table": 115,
           "format": "standard",
@@ -4446,7 +4456,7 @@
           }
         },
         {
-          "match_id": 84836,
+          "match_id": 84121,
           "round": "5",
           "table": 104,
           "format": "standard",
@@ -4462,7 +4472,7 @@
           }
         },
         {
-          "match_id": 84989,
+          "match_id": 84274,
           "round": "6",
           "table": 123,
           "format": "standard",
@@ -4478,7 +4488,7 @@
           }
         },
         {
-          "match_id": 85092,
+          "match_id": 84377,
           "round": "7",
           "table": 94,
           "format": "standard",
@@ -4494,7 +4504,7 @@
           }
         },
         {
-          "match_id": 85229,
+          "match_id": 84514,
           "round": "8",
           "table": 100,
           "format": "rochester",
@@ -4510,7 +4520,7 @@
           }
         },
         {
-          "match_id": 85314,
+          "match_id": 84599,
           "round": "9",
           "table": 55,
           "format": "rochester",
@@ -4526,7 +4536,7 @@
           }
         },
         {
-          "match_id": 85513,
+          "match_id": 84798,
           "round": "10",
           "table": 126,
           "format": "rochester",
@@ -4542,7 +4552,7 @@
           }
         },
         {
-          "match_id": 85516,
+          "match_id": 84801,
           "round": "11",
           "table": 3,
           "format": "rochester",
@@ -4558,7 +4568,7 @@
           }
         },
         {
-          "match_id": 85707,
+          "match_id": 84992,
           "round": "12",
           "table": 71,
           "format": "rochester",
@@ -4574,7 +4584,7 @@
           }
         },
         {
-          "match_id": 85804,
+          "match_id": 85089,
           "round": "13",
           "table": 44,
           "format": "rochester",
@@ -4590,7 +4600,7 @@
           }
         },
         {
-          "match_id": 85928,
+          "match_id": 85213,
           "round": "14",
           "table": 59,
           "format": "rochester",
@@ -4850,7 +4860,7 @@
       ],
       "gplon01": [
         {
-          "match_id": 97690,
+          "match_id": 96712,
           "round": "3",
           "table": 81,
           "format": "block",
@@ -4866,7 +4876,7 @@
           }
         },
         {
-          "match_id": 97876,
+          "match_id": 96898,
           "round": "4",
           "table": 40,
           "format": "block",
@@ -4882,7 +4892,7 @@
           }
         },
         {
-          "match_id": 98118,
+          "match_id": 97140,
           "round": "5",
           "table": 74,
           "format": "block",
@@ -4898,7 +4908,7 @@
           }
         },
         {
-          "match_id": 98324,
+          "match_id": 97346,
           "round": "6",
           "table": 96,
           "format": "block",
@@ -4914,7 +4924,7 @@
           }
         },
         {
-          "match_id": 98482,
+          "match_id": 97504,
           "round": "7",
           "table": 94,
           "format": "block",
@@ -4930,7 +4940,7 @@
           }
         },
         {
-          "match_id": 98580,
+          "match_id": 97602,
           "round": "8",
           "table": 57,
           "format": "block",
@@ -6412,7 +6422,7 @@
       ],
       "gpcop02": [
         {
-          "match_id": 157111,
+          "match_id": 159257,
           "round": "3",
           "table": 59,
           "format": "sealed",
@@ -6428,7 +6438,7 @@
           }
         },
         {
-          "match_id": 157312,
+          "match_id": 159458,
           "round": "4",
           "table": 46,
           "format": "sealed",
@@ -6444,7 +6454,7 @@
           }
         },
         {
-          "match_id": 157500,
+          "match_id": 159646,
           "round": "5",
           "table": 6,
           "format": "sealed",
@@ -6460,7 +6470,7 @@
           }
         },
         {
-          "match_id": 157714,
+          "match_id": 159860,
           "round": "6",
           "table": 17,
           "format": "sealed",
@@ -6476,7 +6486,7 @@
           }
         },
         {
-          "match_id": 157877,
+          "match_id": 160023,
           "round": "7",
           "table": 8,
           "format": "sealed",
@@ -6492,7 +6502,7 @@
           }
         },
         {
-          "match_id": 158015,
+          "match_id": 160161,
           "round": "8",
           "table": 6,
           "format": "sealed",
@@ -6508,7 +6518,7 @@
           }
         },
         {
-          "match_id": 158143,
+          "match_id": 160289,
           "round": "9",
           "table": 14,
           "format": "rochester",
@@ -6524,7 +6534,7 @@
           }
         },
         {
-          "match_id": 158176,
+          "match_id": 160322,
           "round": "10",
           "table": 17,
           "format": "rochester",
@@ -6540,7 +6550,7 @@
           }
         },
         {
-          "match_id": 158193,
+          "match_id": 160339,
           "round": "11",
           "table": 4,
           "format": "rochester",
@@ -6556,7 +6566,7 @@
           }
         },
         {
-          "match_id": 158251,
+          "match_id": 160397,
           "round": "12",
           "table": 32,
           "format": "rochester",
@@ -6572,7 +6582,7 @@
           }
         },
         {
-          "match_id": 158279,
+          "match_id": 160425,
           "round": "13",
           "table": 28,
           "format": "rochester",
@@ -6588,7 +6598,7 @@
           }
         },
         {
-          "match_id": 158284,
+          "match_id": 160430,
           "round": "14",
           "table": 2,
           "format": "rochester",
@@ -9198,7 +9208,7 @@
       ],
       "gpbir04": [
         {
-          "match_id": 239679,
+          "match_id": 236821,
           "round": "4",
           "table": 5,
           "format": "sealed",
@@ -9214,7 +9224,7 @@
           }
         },
         {
-          "match_id": 239953,
+          "match_id": 237095,
           "round": "5",
           "table": 25,
           "format": "sealed",
@@ -9230,7 +9240,7 @@
           }
         },
         {
-          "match_id": 240162,
+          "match_id": 237304,
           "round": "6",
           "table": 6,
           "format": "sealed",
@@ -9246,7 +9256,7 @@
           }
         },
         {
-          "match_id": 240359,
+          "match_id": 237501,
           "round": "7",
           "table": 3,
           "format": "sealed",
@@ -9262,7 +9272,7 @@
           }
         },
         {
-          "match_id": 240525,
+          "match_id": 237667,
           "round": "8",
           "table": 2,
           "format": "sealed",
@@ -9278,7 +9288,7 @@
           }
         },
         {
-          "match_id": 240657,
+          "match_id": 237799,
           "round": "9",
           "table": 5,
           "format": "draft",
@@ -9294,7 +9304,7 @@
           }
         },
         {
-          "match_id": 240708,
+          "match_id": 237850,
           "round": "10",
           "table": 25,
           "format": "draft",
@@ -9310,7 +9320,7 @@
           }
         },
         {
-          "match_id": 240736,
+          "match_id": 237878,
           "round": "11",
           "table": 22,
           "format": "draft",
@@ -9326,7 +9336,7 @@
           }
         },
         {
-          "match_id": 240764,
+          "match_id": 237906,
           "round": "12",
           "table": 19,
           "format": "draft",
@@ -9342,7 +9352,7 @@
           }
         },
         {
-          "match_id": 240779,
+          "match_id": 237921,
           "round": "13",
           "table": 3,
           "format": "draft",
@@ -9358,7 +9368,7 @@
           }
         },
         {
-          "match_id": 240815,
+          "match_id": 237957,
           "round": "14",
           "table": 9,
           "format": "draft",
@@ -9374,7 +9384,7 @@
           }
         },
         {
-          "match_id": 240837,
+          "match_id": 237979,
           "round": "Q",
           "table": 1,
           "format": "draft",
@@ -9474,7 +9484,7 @@
       ],
       "gpzur04": [
         {
-          "match_id": 249208,
+          "match_id": 249877,
           "round": "4",
           "table": 48,
           "format": "block",
@@ -9490,7 +9500,7 @@
           }
         },
         {
-          "match_id": 249486,
+          "match_id": 250155,
           "round": "5",
           "table": 21,
           "format": "block",
@@ -9506,7 +9516,7 @@
           }
         },
         {
-          "match_id": 249753,
+          "match_id": 250422,
           "round": "6",
           "table": 8,
           "format": "block",
@@ -9522,7 +9532,7 @@
           }
         },
         {
-          "match_id": 250007,
+          "match_id": 250676,
           "round": "7",
           "table": 20,
           "format": "block",
@@ -9538,7 +9548,7 @@
           }
         },
         {
-          "match_id": 250227,
+          "match_id": 250896,
           "round": "8",
           "table": 35,
           "format": "block",
@@ -9554,7 +9564,7 @@
           }
         },
         {
-          "match_id": 250385,
+          "match_id": 251054,
           "round": "9",
           "table": 24,
           "format": "block",
@@ -9570,7 +9580,7 @@
           }
         },
         {
-          "match_id": 250410,
+          "match_id": 251079,
           "round": "10",
           "table": 17,
           "format": "block",
@@ -9586,7 +9596,7 @@
           }
         },
         {
-          "match_id": 250432,
+          "match_id": 251101,
           "round": "11",
           "table": 7,
           "format": "block",
@@ -9602,7 +9612,7 @@
           }
         },
         {
-          "match_id": 250472,
+          "match_id": 251141,
           "round": "12",
           "table": 15,
           "format": "block",
@@ -9618,7 +9628,7 @@
           }
         },
         {
-          "match_id": 250506,
+          "match_id": 251175,
           "round": "13",
           "table": 18,
           "format": "block",
@@ -9634,7 +9644,7 @@
           }
         },
         {
-          "match_id": 250527,
+          "match_id": 251196,
           "round": "14",
           "table": 9,
           "format": "block",
@@ -10478,7 +10488,7 @@
       ],
       "gpcop05": [
         {
-          "match_id": 327350,
+          "match_id": 327938,
           "round": "3",
           "table": 18,
           "format": "extended",
@@ -10494,7 +10504,7 @@
           }
         },
         {
-          "match_id": 327511,
+          "match_id": 328099,
           "round": "4",
           "table": 38,
           "format": "extended",
@@ -10510,7 +10520,7 @@
           }
         },
         {
-          "match_id": 327650,
+          "match_id": 328238,
           "round": "5",
           "table": 17,
           "format": "extended",
@@ -10526,7 +10536,7 @@
           }
         },
         {
-          "match_id": 327792,
+          "match_id": 328380,
           "round": "6",
           "table": 6,
           "format": "extended",
@@ -10542,7 +10552,7 @@
           }
         },
         {
-          "match_id": 327951,
+          "match_id": 328539,
           "round": "7",
           "table": 25,
           "format": "extended",
@@ -10558,7 +10568,7 @@
           }
         },
         {
-          "match_id": 328067,
+          "match_id": 328655,
           "round": "8",
           "table": 25,
           "format": "extended",
@@ -10570,7 +10580,7 @@
           "opp_data": {
             "id": "945h8rs8",
             "opp": "Homann, Sebastian",
-            "start": 1522.08
+            "start": 1522.31
           }
         }
       ],
@@ -10620,7 +10630,7 @@
           "opp_data": {
             "id": "36qqrzvn",
             "opp": "Douda, Ondrej",
-            "start": 1663.92
+            "start": 1663.93
           }
         },
         {
@@ -10668,7 +10678,7 @@
           "opp_data": {
             "id": "j8ew1pf4",
             "opp": "van den Oever, Roy",
-            "start": 1603.54
+            "start": 1603.55
           }
         },
         {
@@ -10679,7 +10689,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1806.82,
-            "end": 1820.43
+            "end": 1820.44
           },
           "opp_data": {
             "id": "1ztqhtxj",
@@ -10690,13 +10700,13 @@
       ],
       "gpmal06": [
         {
-          "match_id": 372679,
+          "match_id": 371279,
           "round": "2",
           "table": 105,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1820.43,
+            "start": 1820.44,
             "end": 1797.08
           },
           "opp_data": {
@@ -10706,7 +10716,7 @@
           }
         },
         {
-          "match_id": 372920,
+          "match_id": 371520,
           "round": "3",
           "table": 130,
           "format": "sealed",
@@ -10722,7 +10732,7 @@
           }
         },
         {
-          "match_id": 373151,
+          "match_id": 371751,
           "round": "4",
           "table": 140,
           "format": "sealed",
@@ -10738,14 +10748,14 @@
           }
         },
         {
-          "match_id": 373392,
+          "match_id": 371992,
           "round": "5",
           "table": 134,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
             "start": 1787.41,
-            "end": 1764.09
+            "end": 1764.1
           },
           "opp_data": {
             "id": "iezjjepe",
@@ -10762,7 +10772,7 @@
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1764.09,
+            "start": 1764.1,
             "end": 1776.5
           },
           "opp_data": {
@@ -10795,7 +10805,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1754.45,
-            "end": 1767.39
+            "end": 1767.4
           },
           "opp_data": {
             "id": "d6rz0gyh",
@@ -10810,13 +10820,13 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1767.39,
+            "start": 1767.4,
             "end": 1750.36
           },
           "opp_data": {
             "id": "wr1ssrjg",
             "opp": "Wigge, Mathias",
-            "start": 1820.21
+            "start": 1820.22
           }
         },
         {
@@ -10843,7 +10853,7 @@
           "result": "Won 2-1",
           "own_elo": {
             "start": 1763.85,
-            "end": 1777.47
+            "end": 1777.48
           },
           "opp_data": {
             "id": "qckbc5i0",
@@ -10858,7 +10868,7 @@
           "format": "sealed",
           "result": "Won 0-0",
           "own_elo": {
-            "start": 1777.47,
+            "start": 1777.48,
             "end": 1792.89
           },
           "opp_data": {
@@ -10898,7 +10908,7 @@
           "opp_data": {
             "id": "b7sgtmzt",
             "opp": "Andersen, Oyvind Wefald",
-            "start": 1838.47
+            "start": 1838.48
           }
         },
         {
@@ -10914,7 +10924,7 @@
           "opp_data": {
             "id": "duo2hwsy",
             "opp": "Leloup, Damien",
-            "start": 1519.02
+            "start": 1519.01
           }
         },
         {
@@ -10936,7 +10946,7 @@
       ],
       "gpgoth10": [
         {
-          "match_id": 676218,
+          "match_id": 676984,
           "round": "B2",
           "table": 19,
           "format": "sealed",
@@ -10948,11 +10958,11 @@
           "opp_data": {
             "id": "bbn8u46t",
             "opp": "Szegho, Dalibor",
-            "start": 1682.95
+            "start": 1682.96
           }
         },
         {
-          "match_id": 676652,
+          "match_id": 677418,
           "round": "B3",
           "table": 59,
           "format": "sealed",
@@ -10968,7 +10978,7 @@
           }
         },
         {
-          "match_id": 677052,
+          "match_id": 677818,
           "round": "B4",
           "table": 34,
           "format": "sealed",
@@ -10984,7 +10994,7 @@
           }
         },
         {
-          "match_id": 677537,
+          "match_id": 678303,
           "round": "B5",
           "table": 94,
           "format": "sealed",
@@ -11000,7 +11010,7 @@
           }
         },
         {
-          "match_id": 677934,
+          "match_id": 678700,
           "round": "B6",
           "table": 120,
           "format": "sealed",
@@ -11016,7 +11026,7 @@
           }
         },
         {
-          "match_id": 678186,
+          "match_id": 678952,
           "round": "B7",
           "table": 59,
           "format": "sealed",
@@ -11032,7 +11042,7 @@
           }
         },
         {
-          "match_id": 678410,
+          "match_id": 679176,
           "round": "B8",
           "table": 30,
           "format": "sealed",
@@ -11048,7 +11058,7 @@
           }
         },
         {
-          "match_id": 678632,
+          "match_id": 679398,
           "round": "B9",
           "table": 52,
           "format": "sealed",
@@ -11064,14 +11074,14 @@
           }
         },
         {
-          "match_id": 678676,
+          "match_id": 679442,
           "round": "10",
           "table": 8,
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1809.07,
-            "end": 1786.77
+            "end": 1786.78
           },
           "opp_data": {
             "id": "6evllce7",
@@ -11080,13 +11090,13 @@
           }
         },
         {
-          "match_id": 678769,
+          "match_id": 679535,
           "round": "11",
           "table": 36,
           "format": "draft",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1786.77,
+            "start": 1786.78,
             "end": 1767.22
           },
           "opp_data": {
@@ -11096,7 +11106,7 @@
           }
         },
         {
-          "match_id": 678856,
+          "match_id": 679622,
           "round": "12",
           "table": 59,
           "format": "draft",
@@ -11112,7 +11122,7 @@
           }
         },
         {
-          "match_id": 678916,
+          "match_id": 679682,
           "round": "13",
           "table": 55,
           "format": "draft",
@@ -11124,18 +11134,18 @@
           "opp_data": {
             "id": "cxkcxgfz",
             "opp": "Ahston, Kim",
-            "start": 1560.98
+            "start": 1560.99
           }
         },
         {
-          "match_id": 678941,
+          "match_id": 679707,
           "round": "14",
           "table": 12,
           "format": "draft",
           "result": "Draw 1-1",
           "own_elo": {
             "start": 1761.37,
-            "end": 1758.88
+            "end": 1758.89
           },
           "opp_data": {
             "id": "6if7fl5p",
@@ -11144,32 +11154,32 @@
           }
         },
         {
-          "match_id": 679041,
+          "match_id": 679807,
           "round": "15",
           "table": 49,
           "format": "draft",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1758.88,
-            "end": 1777.89
+            "start": 1758.89,
+            "end": 1777.9
           },
           "opp_data": {
             "id": "idugbkgc",
             "opp": "Giarola, Andrea",
-            "start": 1814.2
+            "start": 1814.19
           }
         }
       ],
       "gpgot13": [
         {
-          "match_id": 1260715,
+          "match_id": 1262512,
           "round": "1",
           "table": 164,
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1777.89,
-            "end": 1754.95
+            "start": 1777.9,
+            "end": 1754.96
           },
           "opp_data": {
             "id": "b33ytkal",
@@ -11178,14 +11188,14 @@
           }
         },
         {
-          "match_id": 1261291,
+          "match_id": 1263088,
           "round": "2",
           "table": 392,
           "format": "sealed",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1754.95,
-            "end": 1768.09
+            "start": 1754.96,
+            "end": 1768.1
           },
           "opp_data": {
             "id": "6rttrybf",
@@ -11194,13 +11204,13 @@
           }
         },
         {
-          "match_id": 1261633,
+          "match_id": 1263430,
           "round": "3",
           "table": 322,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1768.09,
+            "start": 1768.1,
             "end": 1781.3
           },
           "opp_data": {
@@ -11210,7 +11220,7 @@
           }
         },
         {
-          "match_id": 1262028,
+          "match_id": 1263825,
           "round": "4",
           "table": 276,
           "format": "sealed",
@@ -11222,11 +11232,11 @@
           "opp_data": {
             "id": "digvsfwg",
             "opp": "Brambilla, Davide",
-            "start": 1745.42
+            "start": 1745.43
           }
         },
         {
-          "match_id": 1262310,
+          "match_id": 1264107,
           "round": "5",
           "table": 97,
           "format": "sealed",
@@ -11242,14 +11252,14 @@
           }
         },
         {
-          "match_id": 1262816,
+          "match_id": 1264613,
           "round": "6",
           "table": 188,
           "format": "sealed",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1777.08,
-            "end": 1790.44
+            "end": 1790.45
           },
           "opp_data": {
             "id": "43x9oqmg",
@@ -11258,19 +11268,19 @@
           }
         },
         {
-          "match_id": 1263085,
+          "match_id": 1264882,
           "round": "7",
           "table": 96,
           "format": "sealed",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1790.44,
+            "start": 1790.45,
             "end": 1768.68
           },
           "opp_data": {
             "id": "hcrlv8u8",
             "opp": "Stok, Alex",
-            "start": 1580.94
+            "start": 1580.95
           }
         }
       ],
@@ -11299,7 +11309,7 @@
           "result": "Won 2-0",
           "own_elo": {
             "start": 1781.89,
-            "end": 1793.21
+            "end": 1793.22
           },
           "opp_data": {
             "id": "ufgkcx8z",
@@ -11314,7 +11324,7 @@
           "format": "sealed",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1793.21,
+            "start": 1793.22,
             "end": 1774.06
           },
           "opp_data": {
@@ -11358,7 +11368,7 @@
       ],
       "ssutr25": [
         {
-          "match_id": 3847703,
+          "match_id": 3846052,
           "round": "1",
           "table": 145,
           "format": "modern",
@@ -11370,11 +11380,11 @@
           "opp_data": {
             "id": "47ikokzl",
             "opp": "Guo, Cheng",
-            "start": 1841.8
+            "start": 1841.85
           }
         },
         {
-          "match_id": 3848385,
+          "match_id": 3846734,
           "round": "2",
           "table": 33,
           "format": "modern",
@@ -11390,7 +11400,7 @@
           }
         },
         {
-          "match_id": 3849150,
+          "match_id": 3847499,
           "round": "3",
           "table": 9,
           "format": "modern",
@@ -11406,7 +11416,7 @@
           }
         },
         {
-          "match_id": 3850191,
+          "match_id": 3848540,
           "round": "4",
           "table": 262,
           "format": "modern",
@@ -11422,7 +11432,7 @@
           }
         },
         {
-          "match_id": 3850971,
+          "match_id": 3849320,
           "round": "5",
           "table": 264,
           "format": "modern",
@@ -11438,7 +11448,7 @@
           }
         },
         {
-          "match_id": 3851839,
+          "match_id": 3850188,
           "round": "6",
           "table": 383,
           "format": "modern",
@@ -11454,14 +11464,14 @@
           }
         },
         {
-          "match_id": 3852398,
+          "match_id": 3850747,
           "round": "7",
           "table": 259,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1729.13,
-            "end": 1742.84
+            "end": 1742.85
           },
           "opp_data": {
             "id": "eaghlt2b",
@@ -11470,13 +11480,13 @@
           }
         },
         {
-          "match_id": 3852912,
+          "match_id": 3851261,
           "round": "8",
           "table": 172,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1742.84,
+            "start": 1742.85,
             "end": 1756.72
           },
           "opp_data": {
@@ -11486,7 +11496,7 @@
           }
         },
         {
-          "match_id": 3853357,
+          "match_id": 3851706,
           "round": "9",
           "table": 103,
           "format": "modern",
@@ -11498,11 +11508,11 @@
           "opp_data": {
             "id": "3m02l92r",
             "opp": "Murgey, Alexandre",
-            "start": 1800.59
+            "start": 1800.6
           }
         },
         {
-          "match_id": 3853744,
+          "match_id": 3852093,
           "round": "10",
           "table": 73,
           "format": "modern",
@@ -11514,43 +11524,43 @@
           "opp_data": {
             "id": "147o8pcq",
             "opp": "Hupkens, Tobie",
-            "start": 1667.11
+            "start": 1667.13
           }
         },
         {
-          "match_id": 3853890,
+          "match_id": 3852239,
           "round": "11",
           "table": 43,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1791.55,
-            "end": 1806.1
+            "end": 1806.11
           },
           "opp_data": {
             "id": "6l478i1t",
             "opp": "Verhulsdonk, Jan",
-            "start": 1600.41
+            "start": 1600.38
           }
         },
         {
-          "match_id": 3854046,
+          "match_id": 3852395,
           "round": "12",
           "table": 24,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1806.1,
+            "start": 1806.11,
             "end": 1825.04
           },
           "opp_data": {
             "id": "z28ph1ls",
             "opp": "Conza, Lorenzo",
-            "start": 1857.41
+            "start": 1857.42
           }
         },
         {
-          "match_id": 3854207,
+          "match_id": 3852556,
           "round": "13",
           "table": 13,
           "format": "modern",
@@ -11562,11 +11572,11 @@
           "opp_data": {
             "id": "so1wp2is",
             "opp": "Zhou, Eric",
-            "start": 1702.29
+            "start": 1702.31
           }
         },
         {
-          "match_id": 3854369,
+          "match_id": 3852718,
           "round": "14",
           "table": 10,
           "format": "modern",
@@ -11582,7 +11592,7 @@
           }
         },
         {
-          "match_id": 3854536,
+          "match_id": 3852885,
           "round": "15",
           "table": 24,
           "format": "modern",
@@ -11594,13 +11604,13 @@
           "opp_data": {
             "id": "97n3gw3f",
             "opp": "Vellguth, Andreas",
-            "start": 1683.73
+            "start": 1683.75
           }
         }
       ],
       "ssliv25": [
         {
-          "match_id": 3924485,
+          "match_id": 3924616,
           "round": "1",
           "table": 159,
           "format": "standard",
@@ -11616,29 +11626,29 @@
           }
         },
         {
-          "match_id": 3924879,
+          "match_id": 3925010,
           "round": "2",
           "table": 261,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
             "start": 1780.22,
-            "end": 1756.26
+            "end": 1756.27
           },
           "opp_data": {
             "id": "bbumxia2",
             "opp": "Griebel, Ben",
-            "start": 1440.96
+            "start": 1440.97
           }
         },
         {
-          "match_id": 3925130,
+          "match_id": 3925261,
           "round": "3",
           "table": 222,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1756.26,
+            "start": 1756.27,
             "end": 1730.4
           },
           "opp_data": {
@@ -11648,7 +11658,7 @@
           }
         },
         {
-          "match_id": 3925481,
+          "match_id": 3925612,
           "round": "4",
           "table": 283,
           "format": "standard",
@@ -11660,11 +11670,11 @@
           "opp_data": {
             "id": "tituo46w",
             "opp": "Molinas, Mario",
-            "start": 1454.93
+            "start": 1454.96
           }
         },
         {
-          "match_id": 3925711,
+          "match_id": 3925842,
           "round": "5",
           "table": 227,
           "format": "standard",
@@ -11680,14 +11690,14 @@
           }
         },
         {
-          "match_id": 3925950,
+          "match_id": 3926081,
           "round": "6",
           "table": 194,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
             "start": 1755.71,
-            "end": 1768.8
+            "end": 1768.81
           },
           "opp_data": {
             "id": "tp9lb2jj",
@@ -11696,55 +11706,55 @@
           }
         },
         {
-          "match_id": 3926146,
+          "match_id": 3926277,
           "round": "7",
           "table": 136,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1768.8,
-            "end": 1784.91
+            "start": 1768.81,
+            "end": 1784.92
           },
           "opp_data": {
             "id": "jpoffa9k",
             "opp": "Benito, Jaime",
-            "start": 1664.86
+            "start": 1664.87
           }
         },
         {
-          "match_id": 3926316,
+          "match_id": 3926447,
           "round": "8",
           "table": 84,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1784.91,
-            "end": 1799.38
+            "start": 1784.92,
+            "end": 1799.39
           },
           "opp_data": {
             "id": "hcrlv8u8",
             "opp": "Stok, Alex",
-            "start": 1588.98
+            "start": 1589
           }
         },
         {
-          "match_id": 3926474,
+          "match_id": 3926605,
           "round": "9",
           "table": 48,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1799.38,
+            "start": 1799.39,
             "end": 1811.89
           },
           "opp_data": {
             "id": "u3n5s573",
             "opp": "Altaparmakov, Niko",
-            "start": 1488.18
+            "start": 1488.22
           }
         },
         {
-          "match_id": 3926644,
+          "match_id": 3926775,
           "round": "10",
           "table": 50,
           "format": "standard",
@@ -11756,11 +11766,11 @@
           "opp_data": {
             "id": "u7ux1t6s",
             "opp": "Lambrev, Viktor",
-            "start": 1644.78
+            "start": 1644.77
           }
         },
         {
-          "match_id": 3926686,
+          "match_id": 3926817,
           "round": "11",
           "table": 22,
           "format": "standard",
@@ -11772,18 +11782,18 @@
           "opp_data": {
             "id": "ovvbajxe",
             "opp": "Simon Wilhelm Lumholtz, Victor",
-            "start": 1633.83
+            "start": 1633.86
           }
         },
         {
-          "match_id": 3926756,
+          "match_id": 3926887,
           "round": "12",
           "table": 22,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
             "start": 1841.39,
-            "end": 1855.48
+            "end": 1855.49
           },
           "opp_data": {
             "id": "rlvh8ztu",
@@ -11792,13 +11802,13 @@
           }
         },
         {
-          "match_id": 3926813,
+          "match_id": 3926944,
           "round": "13",
           "table": 9,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1855.48,
+            "start": 1855.49,
             "end": 1876.16
           },
           "opp_data": {
@@ -11808,7 +11818,7 @@
           }
         },
         {
-          "match_id": 3926881,
+          "match_id": 3927012,
           "round": "14",
           "table": 7,
           "format": "standard",
@@ -11820,11 +11830,11 @@
           "opp_data": {
             "id": "8wlktpdd",
             "opp": "Simonetti, Michael",
-            "start": 1973.33
+            "start": 1973.34
           }
         },
         {
-          "match_id": 3926966,
+          "match_id": 3927097,
           "round": "15",
           "table": 22,
           "format": "standard",
@@ -11837,6 +11847,72 @@
             "id": "smxbyopn",
             "opp": "Geffroy, Francois",
             "start": 1710.43
+          }
+        }
+      ],
+      "rctur26-cy11": [
+        {
+          "match_id": 3992253,
+          "round": "1",
+          "table": 133,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1859.93,
+            "end": 1840.03
+          },
+          "opp_data": {
+            "id": "afrwln9x",
+            "opp": "Bacine, Noah",
+            "start": 1755.53
+          }
+        },
+        {
+          "match_id": 3993050,
+          "round": "2",
+          "table": 417,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1840.03,
+            "end": 1819.57
+          },
+          "opp_data": {
+            "id": "ymix1xp6",
+            "opp": "Messina, Francesco",
+            "start": 1704.28
+          }
+        },
+        {
+          "match_id": 3993573,
+          "round": "3",
+          "table": 450,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1819.57,
+            "end": 1795.49
+          },
+          "opp_data": {
+            "id": "ar9iib70",
+            "opp": "Novakovic, Andrija",
+            "start": 1472.59
+          }
+        },
+        {
+          "match_id": 3994061,
+          "round": "4",
+          "table": 449,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1795.49,
+            "end": 1772.14
+          },
+          "opp_data": {
+            "id": "y168a6wp",
+            "opp": "Rizzi, Andrea",
+            "start": 1493.09
           }
         }
       ]

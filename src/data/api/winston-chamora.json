@@ -1,7 +1,7 @@
 {
   "elo": {
     "profile": {
-      "current_rating": 1894.02,
+      "current_rating": 1891.18,
       "record": [
         70,
         45,
@@ -12,8 +12,8 @@
         null,
         null
       ],
-      "ranking": 1119,
-      "active_ranking": 683,
+      "ranking": 1154,
+      "active_ranking": 700,
       "nakamura_number": 2,
       "best_event": "rcsin25-cy10"
     },
@@ -79,16 +79,6 @@
         "format": "modern"
       },
       {
-        "code": "rcban24-open",
-        "cut_before": "",
-        "date": "2024-03-09",
-        "is_pro": false,
-        "name": "MTG SEA Championships Thailand Open 2024",
-        "site": "https://melee.gg/Tournament/View/65229",
-        "type": "rc_side",
-        "format": "MKM standard"
-      },
-      {
         "code": "rcban24-cy5",
         "cut_before": "",
         "date": "2024-03-09",
@@ -97,6 +87,16 @@
         "site": "https://melee.gg/Tournament/View/65228",
         "type": "rc",
         "format": "modern"
+      },
+      {
+        "code": "rcban24-open",
+        "cut_before": "",
+        "date": "2024-03-09",
+        "is_pro": false,
+        "name": "MTG SEA Championships Thailand Open 2024",
+        "site": "https://melee.gg/Tournament/View/65229",
+        "type": "rc_side",
+        "format": "MKM standard"
       },
       {
         "code": "rcman24-cy6",
@@ -109,16 +109,6 @@
         "format": "OTJ standard"
       },
       {
-        "code": "rcsin24-cy7",
-        "cut_before": "",
-        "date": "2024-10-12",
-        "is_pro": false,
-        "name": "Regional Championship Singapore 2024",
-        "site": "https://melee.gg/Tournament/View/161645",
-        "type": "rc",
-        "format": "pioneer"
-      },
-      {
         "code": "rcsin24-open",
         "cut_before": "",
         "date": "2024-10-12",
@@ -129,14 +119,14 @@
         "format": "modern"
       },
       {
-        "code": "rcban25-cy8",
+        "code": "rcsin24-cy7",
         "cut_before": "",
-        "date": "2025-03-15",
+        "date": "2024-10-12",
         "is_pro": false,
-        "name": "Regional Championship Bangkok 2025",
-        "site": "https://melee.gg/Tournament/View/260264",
+        "name": "Regional Championship Singapore 2024",
+        "site": "https://melee.gg/Tournament/View/161645",
         "type": "rc",
-        "format": "modern"
+        "format": "pioneer"
       },
       {
         "code": "rcban25-open",
@@ -147,6 +137,16 @@
         "site": "https://melee.gg/Tournament/View/260267",
         "type": "rc_side",
         "format": "DFT standard"
+      },
+      {
+        "code": "rcban25-cy8",
+        "cut_before": "",
+        "date": "2025-03-15",
+        "is_pro": false,
+        "name": "Regional Championship Bangkok 2025",
+        "site": "https://melee.gg/Tournament/View/260264",
+        "type": "rc",
+        "format": "modern"
       },
       {
         "code": "rctok25-cup",
@@ -182,7 +182,7 @@
     "matches": {
       "gpsin13": [
         {
-          "match_id": 1143555,
+          "match_id": 1144801,
           "round": "1",
           "table": 37,
           "format": "sealed",
@@ -198,7 +198,7 @@
           }
         },
         {
-          "match_id": 1144137,
+          "match_id": 1145383,
           "round": "2",
           "table": 292,
           "format": "sealed",
@@ -214,7 +214,7 @@
           }
         },
         {
-          "match_id": 1144544,
+          "match_id": 1145790,
           "round": "3",
           "table": 339,
           "format": "sealed",
@@ -230,7 +230,7 @@
           }
         },
         {
-          "match_id": 1144957,
+          "match_id": 1146203,
           "round": "4",
           "table": 385,
           "format": "sealed",
@@ -246,7 +246,7 @@
           }
         },
         {
-          "match_id": 1145300,
+          "match_id": 1146546,
           "round": "5",
           "table": 335,
           "format": "sealed",
@@ -262,7 +262,7 @@
           }
         },
         {
-          "match_id": 1145634,
+          "match_id": 1146880,
           "round": "6",
           "table": 308,
           "format": "sealed",
@@ -278,7 +278,7 @@
           }
         },
         {
-          "match_id": 1145889,
+          "match_id": 1147135,
           "round": "7",
           "table": 252,
           "format": "sealed",
@@ -294,7 +294,7 @@
           }
         },
         {
-          "match_id": 1146119,
+          "match_id": 1147365,
           "round": "8",
           "table": 213,
           "format": "sealed",
@@ -310,7 +310,7 @@
           }
         },
         {
-          "match_id": 1146336,
+          "match_id": 1147582,
           "round": "9",
           "table": 190,
           "format": "sealed",
@@ -444,7 +444,7 @@
       ],
       "rcsin22-cy1": [
         {
-          "match_id": 3558347,
+          "match_id": 3561116,
           "round": "1",
           "table": 53,
           "format": "pioneer",
@@ -460,7 +460,7 @@
           }
         },
         {
-          "match_id": 3558396,
+          "match_id": 3561165,
           "round": "2",
           "table": 25,
           "format": "pioneer",
@@ -472,11 +472,11 @@
           "opp_data": {
             "id": "fz0v8zby",
             "opp": "Medvedev, Dmitry",
-            "start": 1715.01
+            "start": 1715.04
           }
         },
         {
-          "match_id": 3558476,
+          "match_id": 3561245,
           "round": "3",
           "table": 29,
           "format": "pioneer",
@@ -488,11 +488,11 @@
           "opp_data": {
             "id": "v5msxp41",
             "opp": "Sangudom, Sittinan",
-            "start": 1536.32
+            "start": 1536.35
           }
         },
         {
-          "match_id": 3558551,
+          "match_id": 3561320,
           "round": "4",
           "table": 28,
           "format": "pioneer",
@@ -504,34 +504,34 @@
           "opp_data": {
             "id": "9pfx31jc",
             "opp": "Lim, Zhong Yi",
-            "start": 1937.21
+            "start": 1937.2
           }
         },
         {
-          "match_id": 3558614,
+          "match_id": 3561383,
           "round": "5",
           "table": 20,
           "format": "pioneer",
           "result": "Won 2-1",
           "own_elo": {
             "start": 1557.93,
-            "end": 1575.62
+            "end": 1575.65
           },
           "opp_data": {
             "id": "86c2266z",
             "opp": "Maikhu, Suripat",
-            "start": 1541.2
+            "start": 1542.61
           }
         },
         {
-          "match_id": 3558670,
+          "match_id": 3561439,
           "round": "6",
           "table": 9,
           "format": "pioneer",
           "result": "Lost 0-1",
           "own_elo": {
-            "start": 1575.62,
-            "end": 1556.83
+            "start": 1575.65,
+            "end": 1556.86
           },
           "opp_data": {
             "id": "a8p7o7xe",
@@ -540,14 +540,14 @@
           }
         },
         {
-          "match_id": 3558743,
+          "match_id": 3561512,
           "round": "7",
           "table": 23,
           "format": "pioneer",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1556.83,
-            "end": 1578.52
+            "start": 1556.86,
+            "end": 1578.54
           },
           "opp_data": {
             "id": "awrwen4n",
@@ -556,14 +556,14 @@
           }
         },
         {
-          "match_id": 3558781,
+          "match_id": 3561550,
           "round": "8",
           "table": 9,
           "format": "pioneer",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1578.52,
-            "end": 1596.31
+            "start": 1578.54,
+            "end": 1596.34
           },
           "opp_data": {
             "id": "q6tq6wam",
@@ -574,14 +574,14 @@
       ],
       "rcsin23-cy4": [
         {
-          "match_id": 3665915,
+          "match_id": 3664393,
           "round": "1",
           "table": 15,
           "format": "pioneer",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1596.31,
-            "end": 1614.08
+            "start": 1596.34,
+            "end": 1614.1
           },
           "opp_data": {
             "id": "gt41hhcv",
@@ -590,78 +590,78 @@
           }
         },
         {
-          "match_id": 3666002,
+          "match_id": 3664480,
           "round": "2",
           "table": 19,
           "format": "pioneer",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1614.08,
-            "end": 1617.6
+            "start": 1614.1,
+            "end": 1617.63
           },
           "opp_data": {
             "id": "3l0vbst8",
             "opp": "Chaovarindr, Thirawat",
-            "start": 1809.83
+            "start": 1809.87
           }
         },
         {
-          "match_id": 3666089,
+          "match_id": 3664567,
           "round": "3",
           "table": 24,
           "format": "pioneer",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1617.6,
-            "end": 1634.88
+            "start": 1617.63,
+            "end": 1634.91
           },
           "opp_data": {
             "id": "a8p7o7xe",
             "opp": "Delmoro, Eton",
-            "start": 1578.03
+            "start": 1578.07
           }
         },
         {
-          "match_id": 3666159,
+          "match_id": 3664637,
           "round": "4",
           "table": 13,
           "format": "pioneer",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1634.88,
-            "end": 1616.08
+            "start": 1634.91,
+            "end": 1616.1
           },
           "opp_data": {
             "id": "0moe7u8r",
             "opp": "Abdollah, Azman",
-            "start": 1590.75
+            "start": 1590.78
           }
         },
         {
-          "match_id": 3666246,
+          "match_id": 3664724,
           "round": "5",
           "table": 25,
           "format": "pioneer",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1616.08,
-            "end": 1599.55
+            "start": 1616.1,
+            "end": 1599.57
           },
           "opp_data": {
             "id": "cziwrj6l",
             "opp": "Poh, Liang Choong",
-            "start": 1696.72
+            "start": 1696.73
           }
         },
         {
-          "match_id": 3666326,
+          "match_id": 3664804,
           "round": "6",
           "table": 40,
           "format": "pioneer",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1599.55,
-            "end": 1617.95
+            "start": 1599.57,
+            "end": 1617.97
           },
           "opp_data": {
             "id": "k77qk0xy",
@@ -670,35 +670,35 @@
           }
         },
         {
-          "match_id": 3666372,
+          "match_id": 3664850,
           "round": "7",
           "table": 30,
           "format": "pioneer",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1617.95,
-            "end": 1600.21
+            "start": 1617.97,
+            "end": 1600.24
           },
           "opp_data": {
             "id": "jrgawth4",
             "opp": "Fong, Fredrick",
-            "start": 1632.5
+            "start": 1632.55
           }
         },
         {
-          "match_id": 3666431,
+          "match_id": 3664909,
           "round": "8",
           "table": 36,
           "format": "pioneer",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1600.21,
-            "end": 1599.61
+            "start": 1600.24,
+            "end": 1599.63
           },
           "opp_data": {
             "id": "rpslyjy8",
             "opp": "Neo, Winsen",
-            "start": 1567.2
+            "start": 1567.22
           }
         }
       ],
@@ -710,8 +710,8 @@
           "format": "modern",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1599.61,
-            "end": 1597.8
+            "start": 1599.63,
+            "end": 1597.82
           },
           "opp_data": {
             "id": "rt81jksl",
@@ -726,13 +726,13 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1597.8,
-            "end": 1580.1
+            "start": 1597.82,
+            "end": 1580.12
           },
           "opp_data": {
             "id": "6r32xt0n",
             "opp": "Bolipata, Lance",
-            "start": 1614.37
+            "start": 1614.39
           }
         },
         {
@@ -742,8 +742,8 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1580.1,
-            "end": 1560.39
+            "start": 1580.12,
+            "end": 1560.41
           },
           "opp_data": {
             "id": "zqlibdwn",
@@ -758,172 +758,58 @@
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1560.39,
-            "end": 1541.1
+            "start": 1560.41,
+            "end": 1541.12
           },
           "opp_data": {
             "id": "cnh4jzjm",
             "opp": "Fong, Marcus",
-            "start": 1489.66
-          }
-        }
-      ],
-      "rcban24-open": [
-        {
-          "match_id": 3721208,
-          "round": "1",
-          "table": 12,
-          "format": "standard",
-          "result": "Lost 0-2",
-          "own_elo": {
-            "start": 1541.1,
-            "end": 1525.07
-          },
-          "opp_data": {
-            "id": "jrgawth4",
-            "opp": "Fong, Fredrick",
-            "start": 1649.45
-          }
-        },
-        {
-          "match_id": 3721283,
-          "round": "2",
-          "table": 38,
-          "format": "standard",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1525.07,
-            "end": 1541.62
-          },
-          "opp_data": {
-            "id": "y6rmgpy5",
-            "opp": "Jia Chuan, Tan",
-            "start": 1445.68
-          }
-        },
-        {
-          "match_id": 3721314,
-          "round": "3",
-          "table": 20,
-          "format": "standard",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1541.62,
-            "end": 1558.03
-          },
-          "opp_data": {
-            "id": "anc1ss17",
-            "opp": "Teoh, Calvin",
-            "start": 1454.05
-          }
-        },
-        {
-          "match_id": 3721356,
-          "round": "4",
-          "table": 13,
-          "format": "standard",
-          "result": "Lost 1-2",
-          "own_elo": {
-            "start": 1558.03,
-            "end": 1540.41
-          },
-          "opp_data": {
-            "id": "hscc6zkr",
-            "opp": "Tan, Austin",
-            "start": 1579.15
-          }
-        },
-        {
-          "match_id": 3721410,
-          "round": "5",
-          "table": 19,
-          "format": "standard",
-          "result": "Lost 0-2",
-          "own_elo": {
-            "start": 1540.41,
-            "end": 1521.75
-          },
-          "opp_data": {
-            "id": "eg0j0ev0",
-            "opp": "Corsieri Cano, Massimo",
-            "start": 1504.18
-          }
-        },
-        {
-          "match_id": 3721459,
-          "round": "6",
-          "table": 26,
-          "format": "standard",
-          "result": "Won 2-0",
-          "own_elo": {
-            "start": 1521.75,
-            "end": 1539.3
-          },
-          "opp_data": {
-            "id": "9jv18q7s",
-            "opp": "TirS",
-            "start": 1496.69
-          }
-        },
-        {
-          "match_id": 3721493,
-          "round": "7",
-          "table": 22,
-          "format": "standard",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1539.3,
-            "end": 1556.61
-          },
-          "opp_data": {
-            "id": "y0ggshcn",
-            "opp": "Mitchell, Andre",
-            "start": 1501.75
+            "start": 1489.68
           }
         }
       ],
       "rcban24-cy5": [
         {
-          "match_id": 3723224,
+          "match_id": 3721722,
           "round": "1",
           "table": 11,
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1556.61,
-            "end": 1540.82
+            "start": 1541.12,
+            "end": 1525.61
           },
           "opp_data": {
             "id": "y98sod8w",
             "opp": "Lim, Lucas",
-            "start": 1678.03
+            "start": 1678.09
           }
         },
         {
-          "match_id": 3723383,
+          "match_id": 3721881,
           "round": "2",
           "table": 81,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1540.82,
-            "end": 1558.11
+            "start": 1525.61,
+            "end": 1542.82
           },
           "opp_data": {
             "id": "k3m078d2",
             "opp": "Soh, Kah Hou",
-            "start": 1502.32
+            "start": 1482.51
           }
         },
         {
-          "match_id": 3723431,
+          "match_id": 3721929,
           "round": "3",
           "table": 41,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1558.11,
-            "end": 1575.94
+            "start": 1542.82,
+            "end": 1560.93
           },
           "opp_data": {
             "id": "2kpvixce",
@@ -932,112 +818,226 @@
           }
         },
         {
-          "match_id": 3723504,
+          "match_id": 3722002,
           "round": "4",
           "table": 26,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1575.94,
-            "end": 1597.22
+            "start": 1560.93,
+            "end": 1581.62
           },
           "opp_data": {
             "id": "fl3lnze5",
             "opp": "Lam, Daston",
-            "start": 1757.81
+            "start": 1709.85
           }
         },
         {
-          "match_id": 3723575,
+          "match_id": 3722073,
           "round": "5",
           "table": 16,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1597.22,
-            "end": 1615.48
+            "start": 1581.62,
+            "end": 1599.83
           },
           "opp_data": {
             "id": "2fyr19md",
             "opp": "Chutchev, Vova",
-            "start": 1611.39
+            "start": 1593.15
           }
         },
         {
-          "match_id": 3723638,
+          "match_id": 3722136,
           "round": "6",
           "table": 10,
           "format": "modern",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1615.48,
-            "end": 1621.41
+            "start": 1599.83,
+            "end": 1606.02
           },
           "opp_data": {
             "id": "awrwen4n",
             "opp": "Lee, Rick Hup Beng",
-            "start": 1952.92
+            "start": 1953.32
           }
         },
         {
-          "match_id": 3723698,
+          "match_id": 3722196,
           "round": "7",
           "table": 8,
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1621.41,
-            "end": 1602.91
+            "start": 1606.02,
+            "end": 1587.81
           },
           "opp_data": {
             "id": "3hsmc61n",
             "opp": "Techarattanakrai, Trichai",
-            "start": 1593.96
+            "start": 1594.39
           }
         },
         {
-          "match_id": 3723762,
+          "match_id": 3722260,
           "round": "8",
           "table": 18,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1602.91,
-            "end": 1621.28
+            "start": 1587.81,
+            "end": 1607
           },
           "opp_data": {
             "id": "mtn6b46j",
             "opp": "Yeh, Chao Lung",
-            "start": 1623.45
+            "start": 1653.4
+          }
+        }
+      ],
+      "rcban24-open": [
+        {
+          "match_id": 3725320,
+          "round": "1",
+          "table": 12,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1607,
+            "end": 1590.29
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1677.73
+          }
+        },
+        {
+          "match_id": 3725395,
+          "round": "2",
+          "table": 38,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1590.29,
+            "end": 1605.15
+          },
+          "opp_data": {
+            "id": "y6rmgpy5",
+            "opp": "Jia Chuan, Tan",
+            "start": 1416.6
+          }
+        },
+        {
+          "match_id": 3725426,
+          "round": "3",
+          "table": 20,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1605.15,
+            "end": 1621.17
+          },
+          "opp_data": {
+            "id": "anc1ss17",
+            "opp": "Teoh, Calvin",
+            "start": 1495.77
+          }
+        },
+        {
+          "match_id": 3725468,
+          "round": "4",
+          "table": 13,
+          "format": "standard",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1621.17,
+            "end": 1603.02
+          },
+          "opp_data": {
+            "id": "hscc6zkr",
+            "opp": "Tan, Austin",
+            "start": 1613.02
+          }
+        },
+        {
+          "match_id": 3725522,
+          "round": "5",
+          "table": 19,
+          "format": "standard",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1603.02,
+            "end": 1582.95
+          },
+          "opp_data": {
+            "id": "eg0j0ev0",
+            "opp": "Corsieri Cano, Massimo",
+            "start": 1489.1
+          }
+        },
+        {
+          "match_id": 3725571,
+          "round": "6",
+          "table": 26,
+          "format": "standard",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1582.95,
+            "end": 1599.39
+          },
+          "opp_data": {
+            "id": "9jv18q7s",
+            "opp": "TirS",
+            "start": 1497.51
+          }
+        },
+        {
+          "match_id": 3725605,
+          "round": "7",
+          "table": 22,
+          "format": "standard",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1599.39,
+            "end": 1614.73
+          },
+          "opp_data": {
+            "id": "y0ggshcn",
+            "opp": "Mitchell, Andre",
+            "start": 1452.45
           }
         }
       ],
       "rcman24-cy6": [
         {
-          "match_id": 3747413,
+          "match_id": 3746137,
           "round": "1",
           "table": 27,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1621.28,
-            "end": 1640.6
+            "start": 1614.73,
+            "end": 1634.16
           },
           "opp_data": {
             "id": "frdcmupj",
             "opp": "Garces, Craig Shaun",
-            "start": 1693.99
+            "start": 1693.22
           }
         },
         {
-          "match_id": 3747489,
+          "match_id": 3746213,
           "round": "2",
           "table": 31,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1640.6,
-            "end": 1657.01
+            "start": 1634.16,
+            "end": 1650.69
           },
           "opp_data": {
             "id": "ylr79u4n",
@@ -1046,616 +1046,616 @@
           }
         },
         {
-          "match_id": 3747537,
+          "match_id": 3746261,
           "round": "3",
           "table": 9,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1657.01,
-            "end": 1638.04
+            "start": 1650.69,
+            "end": 1631.83
           },
           "opp_data": {
             "id": "x5gnww0q",
             "opp": "Ong, Zhi",
-            "start": 1603.42
+            "start": 1603.48
           }
         },
         {
-          "match_id": 3747625,
+          "match_id": 3746349,
           "round": "4",
           "table": 28,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1638.04,
-            "end": 1658.05
+            "start": 1631.83,
+            "end": 1652
           },
           "opp_data": {
             "id": "8lk727ws",
             "opp": "Pascual, Alfred Ceazar",
-            "start": 1748.95
+            "start": 1751.56
           }
         },
         {
-          "match_id": 3747676,
+          "match_id": 3746400,
           "round": "5",
           "table": 15,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1658.05,
-            "end": 1637.85
+            "start": 1652,
+            "end": 1631.9
           },
           "opp_data": {
             "id": "6zk3agv5",
             "opp": "Chia, Bing Yang",
-            "start": 1536.72
+            "start": 1536.17
           }
         },
         {
-          "match_id": 3747747,
+          "match_id": 3746471,
           "round": "6",
           "table": 26,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1637.85,
-            "end": 1655.66
+            "start": 1631.9,
+            "end": 1649.88
           },
           "opp_data": {
             "id": "6ivx6enh",
             "opp": "Achacoso, Paulo",
-            "start": 1627.56
+            "start": 1631.25
           }
         },
         {
-          "match_id": 3747785,
+          "match_id": 3746509,
           "round": "7",
           "table": 12,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1655.66,
-            "end": 1638
+            "start": 1649.88,
+            "end": 1632.33
           },
           "opp_data": {
             "id": "vli4iyzn",
             "opp": "Lim, Victoriano",
-            "start": 1674.36
+            "start": 1674.32
           }
         },
         {
-          "match_id": 3747839,
+          "match_id": 3746563,
           "round": "8",
           "table": 19,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1638,
-            "end": 1618
+            "start": 1632.33,
+            "end": 1612.44
           },
           "opp_data": {
             "id": "espblnpu",
             "opp": "sontiporn, tithipan",
-            "start": 1527.97
-          }
-        }
-      ],
-      "rcsin24-cy7": [
-        {
-          "match_id": 3779521,
-          "round": "1",
-          "table": 24,
-          "format": "pioneer",
-          "result": "Won 2-0",
-          "own_elo": {
-            "start": 1618,
-            "end": 1639.85
-          },
-          "opp_data": {
-            "id": "z0jh21e6",
-            "opp": "Yang, Joshua",
-            "start": 1832.38
-          }
-        },
-        {
-          "match_id": 3779564,
-          "round": "2",
-          "table": 9,
-          "format": "pioneer",
-          "result": "Lost 1-2",
-          "own_elo": {
-            "start": 1639.85,
-            "end": 1619.73
-          },
-          "opp_data": {
-            "id": "n7acopgw",
-            "opp": "Player, Anonymous 20",
-            "start": 1522.7
-          }
-        },
-        {
-          "match_id": 3779638,
-          "round": "3",
-          "table": 26,
-          "format": "pioneer",
-          "result": "Won 2-0",
-          "own_elo": {
-            "start": 1619.73,
-            "end": 1634.9
-          },
-          "opp_data": {
-            "id": "mnbkhl0n",
-            "opp": "Yap, Zack",
-            "start": 1463.23
-          }
-        },
-        {
-          "match_id": 3779692,
-          "round": "4",
-          "table": 24,
-          "format": "pioneer",
-          "result": "Won 2-0",
-          "own_elo": {
-            "start": 1634.9,
-            "end": 1655.11
-          },
-          "opp_data": {
-            "id": "d1b9o8yn",
-            "opp": "Ong, Jeremy",
-            "start": 1756.9
-          }
-        },
-        {
-          "match_id": 3779726,
-          "round": "5",
-          "table": 6,
-          "format": "pioneer",
-          "result": "Lost 1-2",
-          "own_elo": {
-            "start": 1655.11,
-            "end": 1635.82
-          },
-          "opp_data": {
-            "id": "drsnz58c",
-            "opp": "Lip, Quinton",
-            "start": 1584.44
-          }
-        },
-        {
-          "match_id": 3779791,
-          "round": "6",
-          "table": 22,
-          "format": "pioneer",
-          "result": "Lost 1-2",
-          "own_elo": {
-            "start": 1635.82,
-            "end": 1620.5
-          },
-          "opp_data": {
-            "id": "fl3lnze5",
-            "opp": "Lam, Daston",
-            "start": 1783.72
-          }
-        },
-        {
-          "match_id": 3779835,
-          "round": "7",
-          "table": 23,
-          "format": "pioneer",
-          "result": "Won 2-0",
-          "own_elo": {
-            "start": 1620.5,
-            "end": 1640.82
-          },
-          "opp_data": {
-            "id": "jrgawth4",
-            "opp": "Fong, Fredrick",
-            "start": 1748.17
+            "start": 1528.46
           }
         }
       ],
       "rcsin24-open": [
         {
-          "match_id": 3780588,
+          "match_id": 3780338,
           "round": "1",
           "table": 34,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1640.82,
-            "end": 1661.68
+            "start": 1612.44,
+            "end": 1633.43
           },
           "opp_data": {
             "id": "fl3lnze5",
             "opp": "Lam, Daston",
-            "start": 1799.04
+            "start": 1777.58
           }
         },
         {
-          "match_id": 3780627,
+          "match_id": 3780377,
           "round": "2",
           "table": 5,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1661.68,
-            "end": 1677.05
+            "start": 1633.43,
+            "end": 1649.31
           },
           "opp_data": {
             "id": "rd7oz83y",
             "opp": "Xu, Jing Hong",
-            "start": 1516.39
+            "start": 1516.95
           }
         },
         {
-          "match_id": 3780694,
+          "match_id": 3780444,
           "round": "3",
           "table": 3,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1677.05,
-            "end": 1692.26
+            "start": 1649.31,
+            "end": 1665.03
           },
           "opp_data": {
             "id": "x9cvxxaj",
             "opp": "Gooi, Chong Yen",
-            "start": 1522.93
+            "start": 1523.66
           }
         },
         {
-          "match_id": 3780761,
+          "match_id": 3780511,
           "round": "4",
           "table": 2,
           "format": "modern",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1692.26,
-            "end": 1671.92
+            "start": 1665.03,
+            "end": 1644.81
           },
           "opp_data": {
             "id": "37aml2u5",
             "opp": "Zhen, Wei",
-            "start": 1563.45
+            "start": 1542.38
           }
         },
         {
-          "match_id": 3780836,
+          "match_id": 3780586,
           "round": "5",
           "table": 11,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1671.92,
-            "end": 1692.44
+            "start": 1644.81,
+            "end": 1665.34
           },
           "opp_data": {
             "id": "fty1tbzy",
             "opp": "Supapipat, Nattawin",
-            "start": 1810.6
+            "start": 1784.72
           }
         },
         {
-          "match_id": 3780891,
+          "match_id": 3780641,
           "round": "6",
           "table": 7,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1692.44,
-            "end": 1711.53
+            "start": 1665.34,
+            "end": 1686.2
           },
           "opp_data": {
             "id": "cyhzj8op",
             "opp": "See, Spencer",
-            "start": 1752.61
+            "start": 1823.39
           }
         },
         {
-          "match_id": 3780937,
+          "match_id": 3780687,
           "round": "7",
           "table": 3,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1711.53,
-            "end": 1730.98
+            "start": 1686.2,
+            "end": 1707.13
           },
           "opp_data": {
             "id": "jrgawth4",
             "opp": "Fong, Fredrick",
-            "start": 1790.99
+            "start": 1848
           }
         },
         {
-          "match_id": 3780982,
+          "match_id": 3780732,
           "round": "8",
           "table": 2,
           "format": "modern",
           "result": "ID",
           "own_elo": {
-            "start": 1730.98,
-            "end": 1730.98
+            "start": 1707.13,
+            "end": 1707.13
           },
           "opp_data": {
             "id": "jhu0s2t6",
             "opp": "Rivero, Roy Raymund",
-            "start": 1522.23
+            "start": 1563.32
           }
         },
         {
-          "match_id": 3781028,
+          "match_id": 3780778,
           "round": "Q",
           "table": 4,
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1730.98,
-            "end": 1713.39
+            "start": 1707.13,
+            "end": 1690.6
           },
           "opp_data": {
             "id": "ajh5fqtl",
             "opp": "Oca, Ramon Allan",
-            "start": 1753.34
+            "start": 1787.92
           }
         }
       ],
-      "rcban25-cy8": [
+      "rcsin24-cy7": [
         {
-          "match_id": 3845533,
+          "match_id": 3781498,
           "round": "1",
-          "table": 31,
-          "format": "modern",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1713.39,
-            "end": 1726.64
-          },
-          "opp_data": {
-            "id": "v5msxp41",
-            "opp": "Sangudom, Sittinan",
-            "start": 1446.75
-          }
-        },
-        {
-          "match_id": 3845612,
-          "round": "2",
-          "table": 30,
-          "format": "modern",
-          "result": "Lost 0-2",
-          "own_elo": {
-            "start": 1726.64,
-            "end": 1703.72
-          },
-          "opp_data": {
-            "id": "gt41hhcv",
-            "opp": "Mahendran, Nikhilesh",
-            "start": 1450.26
-          }
-        },
-        {
-          "match_id": 3845715,
-          "round": "3",
-          "table": 53,
-          "format": "modern",
+          "table": 24,
+          "format": "pioneer",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1703.72,
-            "end": 1718.59
+            "start": 1690.6,
+            "end": 1711.05
           },
           "opp_data": {
-            "id": "ui0gt5tg",
-            "opp": "Carbajo Lopez, Daniel",
-            "start": 1530.37
+            "id": "z0jh21e6",
+            "opp": "Yang, Joshua",
+            "start": 1825.89
           }
         },
         {
-          "match_id": 3845771,
+          "match_id": 3781541,
+          "round": "2",
+          "table": 9,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1711.05,
+            "end": 1689.65
+          },
+          "opp_data": {
+            "id": "n7acopgw",
+            "opp": "Player, Anonymous 20",
+            "start": 1522.65
+          }
+        },
+        {
+          "match_id": 3781615,
+          "round": "3",
+          "table": 26,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1689.65,
+            "end": 1703.08
+          },
+          "opp_data": {
+            "id": "mnbkhl0n",
+            "opp": "Yap, Zack",
+            "start": 1433.55
+          }
+        },
+        {
+          "match_id": 3781669,
           "round": "4",
-          "table": 30,
-          "format": "modern",
-          "result": "Lost 0-2",
-          "own_elo": {
-            "start": 1718.59,
-            "end": 1697
-          },
-          "opp_data": {
-            "id": "o9n5rlc7",
-            "opp": "Wen, Felix",
-            "start": 1518.86
-          }
-        },
-        {
-          "match_id": 3845858,
-          "round": "5",
-          "table": 40,
-          "format": "modern",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1697,
-            "end": 1714.59
-          },
-          "opp_data": {
-            "id": "5tcaiitb",
-            "opp": "Gan, Zhengxin",
-            "start": 1674.88
-          }
-        },
-        {
-          "match_id": 3845909,
-          "round": "6",
-          "table": 20,
-          "format": "modern",
-          "result": "Won 2-1",
-          "own_elo": {
-            "start": 1714.59,
-            "end": 1729.27
-          },
-          "opp_data": {
-            "id": "mycxvdz9",
-            "opp": "Sangco, Anthony Jacque",
-            "start": 1530.35
-          }
-        },
-        {
-          "match_id": 3845977,
-          "round": "7",
           "table": 24,
-          "format": "modern",
-          "result": "Lost 1-2",
+          "format": "pioneer",
+          "result": "Won 2-0",
           "own_elo": {
-            "start": 1729.27,
-            "end": 1706.05
+            "start": 1703.08,
+            "end": 1721.71
           },
           "opp_data": {
-            "id": "haxbvvez",
-            "opp": "Costales, Franz",
-            "start": 1434.62
+            "id": "d1b9o8yn",
+            "opp": "Ong, Jeremy",
+            "start": 1737.52
           }
         },
         {
-          "match_id": 3846038,
-          "round": "8",
-          "table": 30,
-          "format": "modern",
+          "match_id": 3781703,
+          "round": "5",
+          "table": 6,
+          "format": "pioneer",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1706.05,
-            "end": 1687.85
+            "start": 1721.71,
+            "end": 1701.58
           },
           "opp_data": {
-            "id": "37aml2u5",
-            "opp": "Zhen, Wei",
-            "start": 1695.08
+            "id": "drsnz58c",
+            "opp": "Lip, Quinton",
+            "start": 1604.47
+          }
+        },
+        {
+          "match_id": 3781768,
+          "round": "6",
+          "table": 22,
+          "format": "pioneer",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1701.58,
+            "end": 1684.63
+          },
+          "opp_data": {
+            "id": "fl3lnze5",
+            "opp": "Lam, Daston",
+            "start": 1759.11
+          }
+        },
+        {
+          "match_id": 3781812,
+          "round": "7",
+          "table": 23,
+          "format": "pioneer",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1684.63,
+            "end": 1704.5
+          },
+          "opp_data": {
+            "id": "jrgawth4",
+            "opp": "Fong, Fredrick",
+            "start": 1787.43
           }
         }
       ],
       "rcban25-open": [
         {
-          "match_id": 3847267,
+          "match_id": 3853036,
           "round": "1",
           "table": 27,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1687.85,
-            "end": 1667.81
+            "start": 1704.5,
+            "end": 1684.87
           },
           "opp_data": {
             "id": "w45el0rn",
             "opp": "choo, clement",
-            "start": 1575.43
+            "start": 1614.82
           }
         },
         {
-          "match_id": 3847326,
+          "match_id": 3853095,
           "round": "2",
           "table": 37,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1667.81,
-            "end": 1649.34
+            "start": 1684.87,
+            "end": 1666.08
           },
           "opp_data": {
             "id": "vsk6rh75",
             "opp": "Po, John Jerson",
-            "start": 1642.14
+            "start": 1641.64
           }
         },
         {
-          "match_id": 3847387,
+          "match_id": 3853156,
           "round": "3",
           "table": 49,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1649.34,
-            "end": 1665.74
+            "start": 1666.08,
+            "end": 1682.78
           },
           "opp_data": {
             "id": "vcawi5mo",
             "opp": "Serafica, Marco Philip",
-            "start": 1561.46
+            "start": 1594.84
           }
         },
         {
-          "match_id": 3847416,
+          "match_id": 3853185,
           "round": "4",
           "table": 29,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1665.74,
-            "end": 1682.12
+            "start": 1682.78,
+            "end": 1699.04
           },
           "opp_data": {
             "id": "ttvx0943",
             "opp": "Santos, Ricky John",
-            "start": 1576.93
+            "start": 1586.91
           }
         },
         {
-          "match_id": 3847455,
+          "match_id": 3853224,
           "round": "5",
           "table": 22,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1682.12,
-            "end": 1698.53
+            "start": 1699.04,
+            "end": 1713.66
           },
           "opp_data": {
             "id": "svz2ems7",
             "opp": "Rouilly, Maxime",
-            "start": 1594.62
+            "start": 1511.95
           }
         },
         {
-          "match_id": 3847501,
+          "match_id": 3853270,
           "round": "6",
           "table": 24,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1698.53,
-            "end": 1677.28
+            "start": 1713.66,
+            "end": 1692.18
           },
           "opp_data": {
             "id": "1ce5sh6f",
             "opp": "Abrazado, Nikko",
-            "start": 1518.35
+            "start": 1520.46
           }
         },
         {
-          "match_id": 3847544,
+          "match_id": 3853313,
           "round": "7",
           "table": 29,
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1677.28,
-            "end": 1658.33
+            "start": 1692.18,
+            "end": 1672.71
           },
           "opp_data": {
             "id": "mtn6b46j",
             "opp": "Yeh, Chao Lung",
-            "start": 1625.31
+            "start": 1611.1
+          }
+        }
+      ],
+      "rcban25-cy8": [
+        {
+          "match_id": 3854531,
+          "round": "1",
+          "table": 31,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1672.71,
+            "end": 1686.64
+          },
+          "opp_data": {
+            "id": "v5msxp41",
+            "opp": "Sangudom, Sittinan",
+            "start": 1445.76
+          }
+        },
+        {
+          "match_id": 3854610,
+          "round": "2",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1686.64,
+            "end": 1664.44
+          },
+          "opp_data": {
+            "id": "gt41hhcv",
+            "opp": "Mahendran, Nikhilesh",
+            "start": 1452.29
+          }
+        },
+        {
+          "match_id": 3854713,
+          "round": "3",
+          "table": 53,
+          "format": "modern",
+          "result": "Won 2-0",
+          "own_elo": {
+            "start": 1664.44,
+            "end": 1679.95
+          },
+          "opp_data": {
+            "id": "ui0gt5tg",
+            "opp": "Carbajo Lopez, Daniel",
+            "start": 1526.88
+          }
+        },
+        {
+          "match_id": 3854769,
+          "round": "4",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 0-2",
+          "own_elo": {
+            "start": 1679.95,
+            "end": 1659.03
+          },
+          "opp_data": {
+            "id": "o9n5rlc7",
+            "opp": "Wen, Felix",
+            "start": 1518.91
+          }
+        },
+        {
+          "match_id": 3854856,
+          "round": "5",
+          "table": 40,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1659.03,
+            "end": 1678.28
+          },
+          "opp_data": {
+            "id": "5tcaiitb",
+            "opp": "Gan, Zhengxin",
+            "start": 1727.19
+          }
+        },
+        {
+          "match_id": 3854907,
+          "round": "6",
+          "table": 20,
+          "format": "modern",
+          "result": "Won 2-1",
+          "own_elo": {
+            "start": 1678.28,
+            "end": 1693.99
+          },
+          "opp_data": {
+            "id": "mycxvdz9",
+            "opp": "Sangco, Anthony Jacque",
+            "start": 1552.17
+          }
+        },
+        {
+          "match_id": 3854975,
+          "round": "7",
+          "table": 24,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1693.99,
+            "end": 1671.15
+          },
+          "opp_data": {
+            "id": "haxbvvez",
+            "opp": "Costales, Franz",
+            "start": 1422.41
+          }
+        },
+        {
+          "match_id": 3855036,
+          "round": "8",
+          "table": 30,
+          "format": "modern",
+          "result": "Lost 1-2",
+          "own_elo": {
+            "start": 1671.15,
+            "end": 1653.88
+          },
+          "opp_data": {
+            "id": "37aml2u5",
+            "opp": "Zhen, Wei",
+            "start": 1710.7
           }
         }
       ],
       "rctok25-cup": [
         {
-          "match_id": 3876084,
+          "match_id": 3870241,
           "round": "1",
           "table": 239,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1658.33,
-            "end": 1636.66
+            "start": 1653.88,
+            "end": 1632.28
           },
           "opp_data": {
             "id": "34old637",
@@ -1664,62 +1664,62 @@
           }
         },
         {
-          "match_id": 3876311,
+          "match_id": 3870468,
           "round": "2",
           "table": 306,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1636.66,
-            "end": 1616.31
+            "start": 1632.28,
+            "end": 1612.01
           },
           "opp_data": {
             "id": "35kdk6s8",
             "opp": "Yamashita, Yutaro",
-            "start": 1507
+            "start": 1506.96
           }
         },
         {
-          "match_id": 3876511,
+          "match_id": 3870668,
           "round": "3",
           "table": 347,
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1616.31,
-            "end": 1631.64
+            "start": 1612.01,
+            "end": 1627.41
           },
           "opp_data": {
             "id": "f7tdgdvu",
             "opp": "TOKUNAGA, TAKAYUKI",
-            "start": 1468.94
+            "start": 1468.97
           }
         },
         {
-          "match_id": 3876650,
+          "match_id": 3870807,
           "round": "4",
           "table": 332,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1631.64,
-            "end": 1651.85
+            "start": 1627.41,
+            "end": 1647.7
           },
           "opp_data": {
             "id": "1q46f23u",
             "opp": "Sakano, Rei",
-            "start": 1753.68
+            "start": 1753.67
           }
         },
         {
-          "match_id": 3876739,
+          "match_id": 3870896,
           "round": "5",
           "table": 278,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1651.85,
-            "end": 1666.29
+            "start": 1647.7,
+            "end": 1662.21
           },
           "opp_data": {
             "id": "nc19wkux",
@@ -1728,35 +1728,35 @@
           }
         },
         {
-          "match_id": 3876857,
+          "match_id": 3871014,
           "round": "6",
           "table": 272,
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1666.29,
-            "end": 1646.89
+            "start": 1662.21,
+            "end": 1642.9
           },
           "opp_data": {
             "id": "ovd6ju3y",
             "opp": "Tamai, Yuno",
-            "start": 1589.64
+            "start": 1590.11
           }
         },
         {
-          "match_id": 3876951,
+          "match_id": 3871108,
           "round": "7",
           "table": 261,
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1646.89,
-            "end": 1665.1
+            "start": 1642.9,
+            "end": 1661.16
           },
           "opp_data": {
             "id": "cg80uumg",
             "opp": "Shimizu, Ryouta",
-            "start": 1658.02
+            "start": 1657.26
           }
         }
       ],
@@ -1768,8 +1768,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1665.1,
-            "end": 1680.11
+            "start": 1661.16,
+            "end": 1676.25
           },
           "opp_data": {
             "id": "ftq81zlh",
@@ -1784,13 +1784,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1680.11,
-            "end": 1695.79
+            "start": 1676.25,
+            "end": 1692
           },
           "opp_data": {
             "id": "bsjjrg75",
             "opp": "Itou, Masayoshi",
-            "start": 1552.19
+            "start": 1552.29
           }
         },
         {
@@ -1800,8 +1800,8 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1695.79,
-            "end": 1713.49
+            "start": 1692,
+            "end": 1709.77
           },
           "opp_data": {
             "id": "5szltnwa",
@@ -1816,13 +1816,13 @@
           "format": "standard",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1713.49,
-            "end": 1718.29
+            "start": 1709.77,
+            "end": 1714.64
           },
           "opp_data": {
             "id": "2zcb1h1n",
             "opp": "Chang, Cheng Yu",
-            "start": 1983.13
+            "start": 1983.29
           }
         },
         {
@@ -1832,13 +1832,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1718.29,
-            "end": 1733.62
+            "start": 1714.64,
+            "end": 1730.03
           },
           "opp_data": {
             "id": "ofzlzsdt",
             "opp": "Ooizumi, Shoma",
-            "start": 1570.63
+            "start": 1570.73
           }
         },
         {
@@ -1848,13 +1848,13 @@
           "format": "standard",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1733.62,
-            "end": 1712.73
+            "start": 1730.03,
+            "end": 1709.2
           },
           "opp_data": {
             "id": "g80twzxe",
             "opp": "Nakahira, Yoshiharu",
-            "start": 1573.83
+            "start": 1573.85
           }
         },
         {
@@ -1864,13 +1864,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1712.73,
-            "end": 1728.06
+            "start": 1709.2,
+            "end": 1724.6
           },
           "opp_data": {
             "id": "4nwc82i7",
             "opp": "Tsao, Wen-Hung",
-            "start": 1565.53
+            "start": 1565.64
           }
         },
         {
@@ -1880,13 +1880,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1728.06,
-            "end": 1713.28
+            "start": 1724.6,
+            "end": 1709.88
           },
           "opp_data": {
             "id": "vhsiasqx",
             "opp": "Chang, Samuel",
-            "start": 1906.38
+            "start": 1906.48
           }
         },
         {
@@ -1896,13 +1896,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1713.28,
-            "end": 1728.56
+            "start": 1709.88,
+            "end": 1725.23
           },
           "opp_data": {
             "id": "e558dl7x",
             "opp": "Sugiyama, Hiroaki",
-            "start": 1563.03
+            "start": 1563.05
           }
         },
         {
@@ -1912,13 +1912,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1728.56,
-            "end": 1748.07
+            "start": 1725.23,
+            "end": 1744.8
           },
           "opp_data": {
             "id": "bo5t0etz",
             "opp": "Yokokawa, Yuta",
-            "start": 1811.5
+            "start": 1811.96
           }
         },
         {
@@ -1928,13 +1928,13 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1748.07,
-            "end": 1765.97
+            "start": 1744.8,
+            "end": 1762.76
           },
           "opp_data": {
             "id": "x04uk53g",
             "opp": "Takahashi, Taro",
-            "start": 1742.65
+            "start": 1742.43
           }
         },
         {
@@ -1944,8 +1944,8 @@
           "format": "standard",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1765.97,
-            "end": 1781.47
+            "start": 1762.76,
+            "end": 1778.31
           },
           "opp_data": {
             "id": "t1oha8by",
@@ -1960,13 +1960,13 @@
           "format": "standard",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1781.47,
-            "end": 1798.11
+            "start": 1778.31,
+            "end": 1795.01
           },
           "opp_data": {
             "id": "iossrs0u",
             "opp": "Sierra Hermosa, Juan Miguel",
-            "start": 1706.8
+            "start": 1706.83
           }
         },
         {
@@ -1976,13 +1976,13 @@
           "format": "standard",
           "result": "Lost 0-2",
           "own_elo": {
-            "start": 1798.11,
-            "end": 1780.51
+            "start": 1795.01,
+            "end": 1777.44
           },
           "opp_data": {
             "id": "gd5utjp4",
             "opp": "Matsumoto, Keiichiro",
-            "start": 1820
+            "start": 1818.61
           }
         },
         {
@@ -1992,42 +1992,42 @@
           "format": "standard",
           "result": "ID",
           "own_elo": {
-            "start": 1780.51,
-            "end": 1780.51
+            "start": 1777.44,
+            "end": 1777.44
           },
           "opp_data": {
             "id": "opqtf5c9",
             "opp": "YAHATA, MASASHI",
-            "start": 1646.01
+            "start": 1646
           }
         }
       ],
       "rcsin25-cy10": [
         {
-          "match_id": 3928655,
+          "match_id": 3927854,
           "round": "1",
           "table": 3,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1780.51,
-            "end": 1792.25
+            "start": 1777.44,
+            "end": 1789.24
           },
           "opp_data": {
             "id": "qnt9adw9",
             "opp": "Le, Ryan",
-            "start": 1422.53
+            "start": 1422.85
           }
         },
         {
-          "match_id": 3928769,
+          "match_id": 3927968,
           "round": "2",
           "table": 30,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1792.25,
-            "end": 1808.01
+            "start": 1789.24,
+            "end": 1805.05
           },
           "opp_data": {
             "id": "frzhildf",
@@ -2036,147 +2036,147 @@
           }
         },
         {
-          "match_id": 3928826,
+          "match_id": 3928025,
           "round": "3",
           "table": 3,
           "format": "modern",
           "result": "Lost 1-2",
           "own_elo": {
-            "start": 1808.01,
-            "end": 1787.91
+            "start": 1805.05,
+            "end": 1784.96
           },
           "opp_data": {
             "id": "eaycep2s",
             "opp": "Pineda, Johnne Benedict",
-            "start": 1692.59
+            "start": 1689.63
           }
         },
         {
-          "match_id": 3928937,
+          "match_id": 3928136,
           "round": "4",
           "table": 32,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1787.91,
-            "end": 1800.19
+            "start": 1784.96,
+            "end": 1797.28
           },
           "opp_data": {
             "id": "lh26hj9o",
             "opp": "Wahid, Izad",
-            "start": 1463.12
+            "start": 1463.15
           }
         },
         {
-          "match_id": 3929001,
+          "match_id": 3928200,
           "round": "5",
           "table": 19,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1800.19,
-            "end": 1816.67
+            "start": 1797.28,
+            "end": 1813.76
           },
           "opp_data": {
             "id": "28hvdl3u",
             "opp": "Tan, Wei Siong",
-            "start": 1716.35
+            "start": 1713.63
           }
         },
         {
-          "match_id": 3929059,
+          "match_id": 3928258,
           "round": "6",
           "table": 6,
           "format": "modern",
           "result": "Draw 1-1",
           "own_elo": {
-            "start": 1816.67,
-            "end": 1815.93
+            "start": 1813.76,
+            "end": 1813.06
           },
           "opp_data": {
             "id": "frdz3lsw",
             "opp": "Wong, Eugene",
-            "start": 1776.19
+            "start": 1775.03
           }
         },
         {
-          "match_id": 3929123,
+          "match_id": 3928322,
           "round": "7",
           "table": 9,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1815.93,
-            "end": 1831.6
+            "start": 1813.06,
+            "end": 1828.79
           },
           "opp_data": {
             "id": "9l5rjfat",
             "opp": "Arepin, Artyom",
-            "start": 1687.31
+            "start": 1688.34
           }
         },
         {
-          "match_id": 3929173,
+          "match_id": 3928372,
           "round": "8",
           "table": 5,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1831.6,
-            "end": 1845.56
+            "start": 1828.79,
+            "end": 1842.78
           },
           "opp_data": {
             "id": "7p0qjh83",
             "opp": "B, Tanguy",
-            "start": 1606.61
+            "start": 1605.35
           }
         },
         {
-          "match_id": 3929219,
+          "match_id": 3928418,
           "round": "Q",
           "table": 1,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1845.56,
-            "end": 1860.44
+            "start": 1842.78,
+            "end": 1857.64
           },
           "opp_data": {
             "id": "x01hman0",
             "opp": "Padilla, Sergio",
-            "start": 1672.65
+            "start": 1668.59
           }
         },
         {
-          "match_id": 3929223,
+          "match_id": 3928422,
           "round": "S",
           "table": 1,
           "format": "modern",
           "result": "Won 2-1",
           "own_elo": {
-            "start": 1860.44,
-            "end": 1874.91
+            "start": 1857.64,
+            "end": 1872.09
           },
           "opp_data": {
             "id": "kbnqolg0",
             "opp": "Teo, Gavin",
-            "start": 1664.68
+            "start": 1660.82
           }
         },
         {
-          "match_id": 3929225,
+          "match_id": 3928424,
           "round": "F",
           "table": 1,
           "format": "modern",
           "result": "Won 2-0",
           "own_elo": {
-            "start": 1874.91,
-            "end": 1894.02
+            "start": 1872.09,
+            "end": 1891.18
           },
           "opp_data": {
             "id": "awrwen4n",
             "opp": "Lee, Rick Hup Beng",
-            "start": 1935.55
+            "start": 1931.6
           }
         }
       ]
